@@ -72,6 +72,62 @@ jobs:
           fi
           echo "UnlockTool collector exit: $status"
 
+      - name: Enable DroidWin WordPress fallback
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          path = Path('scripts/oracle_unlocktool_collect.py')
+          source = path.read_text('utf-8')
+          old = '''        finally:
+            await context.close()
+            await browser.close()
+
+    for image_url, title in list(dict.fromkeys(items)):
+'''
+          new = '''        finally:
+            await context.close()
+            await browser.close()
+
+    if not items:
+        slug = "how-to-access-edl-test-point-on-various-android-devices"
+        endpoints = [
+            f"https://droidwin.com/wp-json/wp/v2/posts?slug={slug}&per_page=1",
+            f"https://droidwin.com/?rest_route=/wp/v2/posts&slug={slug}&per_page=1",
+        ]
+        for endpoint in endpoints:
+            try:
+                response = fetch(endpoint)
+                payload = response.json()
+                if not isinstance(payload, list) or not payload:
+                    continue
+                rendered = payload[0].get("content", {}).get("rendered", "")
+                soup = BeautifulSoup(rendered, "html.parser")
+                current = "android-device"
+                for node in soup.find_all(["h2", "h3", "h4", "img"]):
+                    if node.name in {"h2", "h3", "h4"}:
+                        heading = node.get_text(" ", strip=True)
+                        if heading:
+                            current = heading
+                        continue
+                    raw = node.get("data-lazy-src") or node.get("data-src") or node.get("src")
+                    alt = node.get("alt") or current
+                    if not raw or re.search(r"logo|avatar|icon|banner|advert|driver|cable", f"{raw} {alt}", re.I):
+                        continue
+                    if re.search(r"test[ -]?point|edl", f"{alt} {current}", re.I):
+                        items.append((urljoin(url, raw), current if "test point" in current.lower() else alt))
+                if items:
+                    notes.append(f"wordpress-api recovered {len(items)} image references")
+                    break
+            except Exception as exc:
+                notes.append(f"wordpress-api: {type(exc).__name__}: {exc}")
+
+    for image_url, title in list(dict.fromkeys(items)):
+'''
+          if old not in source:
+              raise SystemExit('DroidWin fallback target not found')
+          path.write_text(source.replace(old, new), 'utf-8')
+          PY
+
       - name: Collect DroidWin through rendered browser
         env:
           SOURCE: droidwin
