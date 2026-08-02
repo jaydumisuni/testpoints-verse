@@ -34,6 +34,14 @@
         "P8 GRA-L09-1753709181: ValueError: image too small: 157x469",
         "discovered=169"
       ]
+    },
+    "unlocktool-edl": {
+      "status": "failed",
+      "saved": 0,
+      "failed": 1,
+      "notes": [
+        "RuntimeError: no UnlockTool post URLs found"
+      ]
     }
   }
 }
