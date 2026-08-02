@@ -9,10 +9,14 @@
       ]
     },
     "droidwin": {
-      "status": "blocked",
-      "saved": 0,
+      "status": "success",
+      "discovered": 20,
+      "saved": 20,
+      "skipped_existing": 0,
       "failed": 0,
-      "notes": []
+      "notes": [
+        "wordpress-api discovered 20 image references"
+      ]
     },
     "easy-jtag": {
       "status": "success",
