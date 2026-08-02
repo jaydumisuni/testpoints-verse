@@ -1,6 +1,6 @@
 {
-  "schema_version": 2,
-  "generated_at": "2026-08-02T21:20:36.398067+00:00",
+  "schema_version": 3,
+  "generated_at": "2026-08-02T21:26:00.543537+00:00",
   "layout": {
     "test_points": "test-points/<brand>/<model>-Test-Point[-tp-N].webp",
     "isp_pinouts": "isp-pinouts/<brand>/<protocol>/<model>-ISP[-isp-N].webp"
@@ -9,7 +9,7 @@
     "original_images": 1915,
     "unique_images": 1841,
     "duplicates_removed": 74,
-    "variant_model_groups_preserved": 3,
+    "variant_model_groups_preserved": 64,
     "brands": {
       "4good": 2,
       "acer": 24,
@@ -22,7 +22,7 @@
       "archos": 2,
       "artel": 5,
       "assistant": 2,
-      "asus": 130,
+      "asus": 132,
       "blu": 2,
       "bq": 4,
       "bravis": 2,
@@ -32,16 +32,14 @@
       "coolpad": 14,
       "crius": 2,
       "google": 4,
-      "honor": 99,
-      "huawei": 294,
+      "honor": 100,
+      "huawei": 293,
       "infinix": 12,
       "itel": 2,
       "jio": 1,
       "lenovo": 11,
       "lg": 123,
-      "link": 2,
       "luna": 2,
-      "me172v": 2,
       "megafon": 2,
       "meizu": 7,
       "micromax": 16,
@@ -51,6 +49,7 @@
       "nokia": 47,
       "oneplus": 3,
       "oppo": 59,
+      "other": 5,
       "realme": 20,
       "samsung": 233,
       "sigma": 2,
@@ -62,13 +61,13 @@
       "texet": 4,
       "tomtom": 2,
       "toshiba": 1,
+      "tp-link": 2,
       "veon": 2,
       "vivo": 155,
       "vsmart": 5,
-      "webp": 5,
       "wiko": 2,
       "xiaomi": 199,
-      "yureka": 1,
+      "yu": 1,
       "zopo": 4,
       "zte": 73
     },
@@ -76,16 +75,16 @@
       "isp-pinouts": 940,
       "test-points": 901
     },
-    "other_brand_images": 0
+    "other_brand_images": 5
   },
   "records": [
     {
-      "path": "isp-pinouts/4good/emmc/4Good-Other-LIGHT-AT300-2-ISP.webp",
+      "path": "isp-pinouts/4good/emmc/4GOOD-LIGHT-AT300-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "4good",
-      "model_key": "OTHERLIGHTAT3002",
-      "title": "4Good-Other-LIGHT-AT300-2-ISP",
+      "model_key": "4GOODLIGHTAT3002",
+      "title": "4GOOD-LIGHT-AT300-2-ISP",
       "sha256": "5f66ef53bfb1257cae363058cb1fd0ca05172f27c36c9fe5a208772264a385e5",
       "width": 1050,
       "height": 921,
@@ -100,12 +99,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/4good/emmc/4Good-Other-LIGHT-AT300-ISP.webp",
+      "path": "isp-pinouts/4good/emmc/4GOOD-LIGHT-AT300-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "4good",
-      "model_key": "OTHERLIGHTAT300",
-      "title": "4Good-Other-LIGHT-AT300-ISP",
+      "model_key": "4GOODLIGHTAT300",
+      "title": "4GOOD-LIGHT-AT300-ISP",
       "sha256": "30d95e8a7b081d13032be28c60f09345207f9e8aac53710aee67a31268f6b7fd",
       "width": 547,
       "height": 480,
@@ -120,12 +119,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/acer/emmc/Acer-Other-A1-810-MANGO-6L-2-ISP.webp",
+      "path": "isp-pinouts/acer/emmc/Acer-A1-810-MANGO-6L-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "acer",
-      "model_key": "OTHERA1810MANGO6L2",
-      "title": "Acer-Other-A1-810-MANGO-6L-2-ISP",
+      "model_key": "ACERA1810MANGO6L2",
+      "title": "Acer-A1-810-MANGO-6L-2-ISP",
       "sha256": "ddd8d57bb0c43dd61e7ec62d9303e45000d8060c6dc2e59d1af427a6ab0bd674",
       "width": 547,
       "height": 480,
@@ -140,12 +139,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/acer/emmc/Acer-Other-A1-810-MANGO-6L-ISP.webp",
+      "path": "isp-pinouts/acer/emmc/Acer-A1-810-MANGO-6L-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "acer",
-      "model_key": "OTHERA1810MANGO6L",
-      "title": "Acer-Other-A1-810-MANGO-6L-ISP",
+      "model_key": "ACERA1810MANGO6L",
+      "title": "Acer-A1-810-MANGO-6L-ISP",
       "sha256": "cd12ed7e5ef3ddeefa03dc8339fc902628e3f28d3faf89c94cc4a49c31e5d134",
       "width": 1050,
       "height": 921,
@@ -160,12 +159,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/acer/emmc/Acer-Other-A100-2-ISP.webp",
+      "path": "isp-pinouts/acer/emmc/Acer-A100-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "acer",
-      "model_key": "OTHERA1002",
-      "title": "Acer-Other-A100-2-ISP",
+      "model_key": "ACERA1002",
+      "title": "Acer-A100-2-ISP",
       "sha256": "cd4c6876e3c189dafaffc758c3bae22ce0b412b6a07d398c152a49941e031723",
       "width": 547,
       "height": 480,
@@ -180,12 +179,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/acer/emmc/Acer-Other-A100-ISP.webp",
+      "path": "isp-pinouts/acer/emmc/Acer-A100-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "acer",
-      "model_key": "OTHERA100",
-      "title": "Acer-Other-A100-ISP",
+      "model_key": "ACERA100",
+      "title": "Acer-A100-ISP",
       "sha256": "38482df2960e4b126103d011399c1d1d547bba3e670583f7eb1c2e946af25609",
       "width": 1050,
       "height": 921,
@@ -200,12 +199,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/acer/emmc/Acer-Other-A200-2-ISP.webp",
+      "path": "isp-pinouts/acer/emmc/Acer-A200-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "acer",
-      "model_key": "OTHERA2002",
-      "title": "Acer-Other-A200-2-ISP",
+      "model_key": "ACERA2002",
+      "title": "Acer-A200-2-ISP",
       "sha256": "0118212dc91cf836d42d40b6e32bca23c08859362d46e1c04674a5b5677af6c5",
       "width": 1050,
       "height": 921,
@@ -220,12 +219,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/acer/emmc/Acer-Other-A200-ISP.webp",
+      "path": "isp-pinouts/acer/emmc/Acer-A200-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "acer",
-      "model_key": "OTHERA200",
-      "title": "Acer-Other-A200-ISP",
+      "model_key": "ACERA200",
+      "title": "Acer-A200-ISP",
       "sha256": "4dbe1fcce380f3d03c65e5f3342249468e01cc5ff67d79ce7d9b168b69a9a6d5",
       "width": 547,
       "height": 480,
@@ -240,12 +239,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/acer/emmc/Acer-Other-A3-A11-2-ISP.webp",
+      "path": "isp-pinouts/acer/emmc/Acer-A3-A11-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "acer",
-      "model_key": "OTHERA3A112",
-      "title": "Acer-Other-A3-A11-2-ISP",
+      "model_key": "ACERA3A112",
+      "title": "Acer-A3-A11-2-ISP",
       "sha256": "f9d976d91981c055b979a92662155c49fcd7390d97622b58c4312b6fbe8ae9ac",
       "width": 547,
       "height": 480,
@@ -260,12 +259,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/acer/emmc/Acer-Other-A3-A11-ISP.webp",
+      "path": "isp-pinouts/acer/emmc/Acer-A3-A11-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "acer",
-      "model_key": "OTHERA3A11",
-      "title": "Acer-Other-A3-A11-ISP",
+      "model_key": "ACERA3A11",
+      "title": "Acer-A3-A11-ISP",
       "sha256": "74514ef6b83b56a762c478cd8e7584fef9ca801cc98644c3185d1b992be771ec",
       "width": 1050,
       "height": 921,
@@ -280,12 +279,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/acer/emmc/Acer-Other-A500-2-ISP.webp",
+      "path": "isp-pinouts/acer/emmc/Acer-A500-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "acer",
-      "model_key": "OTHERA5002",
-      "title": "Acer-Other-A500-2-ISP",
+      "model_key": "ACERA5002",
+      "title": "Acer-A500-2-ISP",
       "sha256": "12af2fe73cd6d18856acd9d7891d6ebe474acee463631e614d07de7ab4a3cc51",
       "width": 1050,
       "height": 921,
@@ -300,12 +299,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/acer/emmc/Acer-Other-A500-ISP.webp",
+      "path": "isp-pinouts/acer/emmc/Acer-A500-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "acer",
-      "model_key": "OTHERA500",
-      "title": "Acer-Other-A500-ISP",
+      "model_key": "ACERA500",
+      "title": "Acer-A500-ISP",
       "sha256": "295b74dec38162cb611fa24f3ff4df3d3fe7e1009ecede9b09203ef380043d37",
       "width": 547,
       "height": 480,
@@ -320,12 +319,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/acer/emmc/Acer-Other-A701-2-ISP.webp",
+      "path": "isp-pinouts/acer/emmc/Acer-A701-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "acer",
-      "model_key": "OTHERA7012",
-      "title": "Acer-Other-A701-2-ISP",
+      "model_key": "ACERA7012",
+      "title": "Acer-A701-2-ISP",
       "sha256": "1b618e51e96e2ec9c44b4ba2eb21bfe8f8679762ba38cc622e6a26a9c22d36ba",
       "width": 547,
       "height": 480,
@@ -340,12 +339,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/acer/emmc/Acer-Other-A701-ISP.webp",
+      "path": "isp-pinouts/acer/emmc/Acer-A701-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "acer",
-      "model_key": "OTHERA701",
-      "title": "Acer-Other-A701-ISP",
+      "model_key": "ACERA701",
+      "title": "Acer-A701-ISP",
       "sha256": "37f06eb52e108eb666702589dc7562fc11fbe5551b6f64e599c1a0eedb28994a",
       "width": 1050,
       "height": 921,
@@ -360,12 +359,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/acer/emmc/Acer-Other-B1-730HD-2-ISP.webp",
+      "path": "isp-pinouts/acer/emmc/Acer-B1-730HD-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "acer",
-      "model_key": "OTHERB1730HD2",
-      "title": "Acer-Other-B1-730HD-2-ISP",
+      "model_key": "ACERB1730HD2",
+      "title": "Acer-B1-730HD-2-ISP",
       "sha256": "5b7866fa19e8a6e03907818bc95cce9beb5eafd7edfc69ac903092f6bb24fdff",
       "width": 700,
       "height": 700,
@@ -380,12 +379,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/acer/emmc/Acer-Other-B1-730HD-ISP.webp",
+      "path": "isp-pinouts/acer/emmc/Acer-B1-730HD-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "acer",
-      "model_key": "OTHERB1730HD",
-      "title": "Acer-Other-B1-730HD-ISP",
+      "model_key": "ACERB1730HD",
+      "title": "Acer-B1-730HD-ISP",
       "sha256": "28456304e16d71a6a13b277db120d96b36dbdeb5a1eacedad09651746dcf40f7",
       "width": 480,
       "height": 480,
@@ -400,12 +399,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/acer/emmc/Acer-Other-B1-820-ICONIA-ONE-8-2-ISP.webp",
+      "path": "isp-pinouts/acer/emmc/Acer-B1-820-ICONIA-ONE-8-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "acer",
-      "model_key": "OTHERB1820ICONIAONE82",
-      "title": "Acer-Other-B1-820-ICONIA-ONE-8-2-ISP",
+      "model_key": "ACERB1820ICONIAONE82",
+      "title": "Acer-B1-820-ICONIA-ONE-8-2-ISP",
       "sha256": "ca1f020628652eacafd948204e74bf81cbe60db40baac524377486c81e16d8ec",
       "width": 547,
       "height": 480,
@@ -420,12 +419,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/acer/emmc/Acer-Other-B1-820-ICONIA-ONE-8-ISP.webp",
+      "path": "isp-pinouts/acer/emmc/Acer-B1-820-ICONIA-ONE-8-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "acer",
-      "model_key": "OTHERB1820ICONIAONE8",
-      "title": "Acer-Other-B1-820-ICONIA-ONE-8-ISP",
+      "model_key": "ACERB1820ICONIAONE8",
+      "title": "Acer-B1-820-ICONIA-ONE-8-ISP",
       "sha256": "bb2963ba08c22050e6a7c2b6a297b0a43cc948db87fd28924d252b4f70ffbd03",
       "width": 1050,
       "height": 921,
@@ -440,12 +439,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/acer/emmc/Acer-Other-ICONIA-TAB-A3-A10-2-ISP.webp",
+      "path": "isp-pinouts/acer/emmc/Acer-ICONIA-TAB-A3-A10-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "acer",
-      "model_key": "OTHERICONIATABA3A102",
-      "title": "Acer-Other-ICONIA-TAB-A3-A10-2-ISP",
+      "model_key": "ACERICONIATABA3A102",
+      "title": "Acer-ICONIA-TAB-A3-A10-2-ISP",
       "sha256": "879e590d0b728e2e565199c0b066e4f4822fae60543a6d655b362ac8c0fbaba2",
       "width": 700,
       "height": 700,
@@ -460,12 +459,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/acer/emmc/Acer-Other-ICONIA-TAB-A3-A10-ISP.webp",
+      "path": "isp-pinouts/acer/emmc/Acer-ICONIA-TAB-A3-A10-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "acer",
-      "model_key": "OTHERICONIATABA3A10",
-      "title": "Acer-Other-ICONIA-TAB-A3-A10-ISP",
+      "model_key": "ACERICONIATABA3A10",
+      "title": "Acer-ICONIA-TAB-A3-A10-ISP",
       "sha256": "d4dd287a8fee85623caa3ea0239de3e8becf43a855ae94c433109d0fb70230e9",
       "width": 480,
       "height": 480,
@@ -480,12 +479,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/acer/emmc/Acer-Other-S500-2-ISP.webp",
+      "path": "isp-pinouts/acer/emmc/Acer-S500-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "acer",
-      "model_key": "OTHERS5002",
-      "title": "Acer-Other-S500-2-ISP",
+      "model_key": "ACERS5002",
+      "title": "Acer-S500-2-ISP",
       "sha256": "b282098a6d5810dce4b4d9fab173be866cd09b621573b986eead5213553e461e",
       "width": 547,
       "height": 480,
@@ -500,12 +499,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/acer/emmc/Acer-Other-S500-ISP.webp",
+      "path": "isp-pinouts/acer/emmc/Acer-S500-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "acer",
-      "model_key": "OTHERS500",
-      "title": "Acer-Other-S500-ISP",
+      "model_key": "ACERS500",
+      "title": "Acer-S500-ISP",
       "sha256": "4aa2e6881fdf3b91042ccc36881d0985922f7089ef0194949d94e96d921f0bb6",
       "width": 1050,
       "height": 921,
@@ -520,12 +519,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/acer/emmc/Acer-Other-V370-2-ISP.webp",
+      "path": "isp-pinouts/acer/emmc/Acer-V370-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "acer",
-      "model_key": "OTHERV3702",
-      "title": "Acer-Other-V370-2-ISP",
+      "model_key": "ACERV3702",
+      "title": "Acer-V370-2-ISP",
       "sha256": "75fd2ebf61571f91623b6cca6928dc2f35df3675f9ec14d47b628070ab13bdf5",
       "width": 1050,
       "height": 921,
@@ -540,12 +539,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/acer/emmc/Acer-Other-V370-ISP.webp",
+      "path": "isp-pinouts/acer/emmc/Acer-V370-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "acer",
-      "model_key": "OTHERV370",
-      "title": "Acer-Other-V370-ISP",
+      "model_key": "ACERV370",
+      "title": "Acer-V370-ISP",
       "sha256": "c89fb6355a65f0d767ed5475fbd24f959f48a3f8de540345ce1b8f48dae9bab2",
       "width": 547,
       "height": 480,
@@ -560,12 +559,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/acer/emmc/Acer-Other-Z130-2-ISP.webp",
+      "path": "isp-pinouts/acer/emmc/Acer-Z130-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "acer",
-      "model_key": "OTHERZ1302",
-      "title": "Acer-Other-Z130-2-ISP",
+      "model_key": "ACERZ1302",
+      "title": "Acer-Z130-2-ISP",
       "sha256": "fabb83ed7a1a385448a9cd9810aab013e942092e901a7413c44ff41adbcf25d8",
       "width": 1050,
       "height": 921,
@@ -580,12 +579,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/acer/emmc/Acer-Other-Z130-ISP.webp",
+      "path": "isp-pinouts/acer/emmc/Acer-Z130-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "acer",
-      "model_key": "OTHERZ130",
-      "title": "Acer-Other-Z130-ISP",
+      "model_key": "ACERZ130",
+      "title": "Acer-Z130-ISP",
       "sha256": "d6a8274309dd175dbb377f4b1cb92f6320b645a7ac1bd288cf3c53fbe977c098",
       "width": 547,
       "height": 480,
@@ -600,12 +599,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/advan/emmc/Advan-Other-S5H-2-ISP.webp",
+      "path": "isp-pinouts/advan/emmc/Advan-S5H-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "advan",
-      "model_key": "OTHERS5H2",
-      "title": "Advan-Other-S5H-2-ISP",
+      "model_key": "ADVANS5H2",
+      "title": "Advan-S5H-2-ISP",
       "sha256": "6009ede8a5afb99287201aa8efffca74b6b241236ad5c642c18e9f278887e6dd",
       "width": 547,
       "height": 480,
@@ -620,12 +619,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/advan/emmc/Advan-Other-S5H-ISP.webp",
+      "path": "isp-pinouts/advan/emmc/Advan-S5H-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "advan",
-      "model_key": "OTHERS5H",
-      "title": "Advan-Other-S5H-ISP",
+      "model_key": "ADVANS5H",
+      "title": "Advan-S5H-ISP",
       "sha256": "6b8d9010fbd39c40cd9666cf5a37dcd33a733f06f5fcb7a252c8ba2c7e04c889",
       "width": 1049,
       "height": 920,
@@ -640,12 +639,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/advan/emmc/Advan-Other-S5J-2-ISP.webp",
+      "path": "isp-pinouts/advan/emmc/Advan-S5J-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "advan",
-      "model_key": "OTHERS5J2",
-      "title": "Advan-Other-S5J-2-ISP",
+      "model_key": "ADVANS5J2",
+      "title": "Advan-S5J-2-ISP",
       "sha256": "fdfbb1cd9bbc31839cfc9af0c7edf23279cda5cba591bc6fb93a86c95e685df2",
       "width": 547,
       "height": 480,
@@ -660,12 +659,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/advan/emmc/Advan-Other-S5J-ISP.webp",
+      "path": "isp-pinouts/advan/emmc/Advan-S5J-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "advan",
-      "model_key": "OTHERS5J",
-      "title": "Advan-Other-S5J-ISP",
+      "model_key": "ADVANS5J",
+      "title": "Advan-S5J-ISP",
       "sha256": "e276c10a85e5907eedbc7533197e09d2f62d4335f2d262a7c3a56f458648857d",
       "width": 1049,
       "height": 920,
@@ -680,12 +679,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/agm/emmc/Agm-Other-ROCK-V5-PLUS-2-ISP.webp",
+      "path": "isp-pinouts/agm/emmc/AGM-ROCK-V5-PLUS-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "agm",
-      "model_key": "OTHERROCKV5PLUS2",
-      "title": "Agm-Other-ROCK-V5-PLUS-2-ISP",
+      "model_key": "AGMROCKV5PLUS2",
+      "title": "AGM-ROCK-V5-PLUS-2-ISP",
       "sha256": "a10f03977e03a66b1cf1d828e46c571230c5fa57403e42c3961906ac4e014989",
       "width": 547,
       "height": 480,
@@ -700,12 +699,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/agm/emmc/Agm-Other-ROCK-V5-PLUS-ISP.webp",
+      "path": "isp-pinouts/agm/emmc/AGM-ROCK-V5-PLUS-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "agm",
-      "model_key": "OTHERROCKV5PLUS",
-      "title": "Agm-Other-ROCK-V5-PLUS-ISP",
+      "model_key": "AGMROCKV5PLUS",
+      "title": "AGM-ROCK-V5-PLUS-ISP",
       "sha256": "6c3bba1bccade4b4f7d66a88e19fa96960214af8df18d2978ffbd0b3f57fae43",
       "width": 1050,
       "height": 921,
@@ -720,12 +719,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/agm/emmc/Agm-Other-X1-2-ISP.webp",
+      "path": "isp-pinouts/agm/emmc/AGM-X1-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "agm",
-      "model_key": "OTHERX12",
-      "title": "Agm-Other-X1-2-ISP",
+      "model_key": "AGMX12",
+      "title": "AGM-X1-2-ISP",
       "sha256": "f27454af1fb005761b5a0f4f5e399b11839aeac172d31a109246a4c52de184f7",
       "width": 1050,
       "height": 921,
@@ -740,12 +739,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/agm/emmc/Agm-Other-X1-ISP.webp",
+      "path": "isp-pinouts/agm/emmc/AGM-X1-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "agm",
-      "model_key": "OTHERX1",
-      "title": "Agm-Other-X1-ISP",
+      "model_key": "AGMX1",
+      "title": "AGM-X1-ISP",
       "sha256": "234686a18f66f3a98798b3168a11300d636b3d17bb26f3760538cd096df9e9da",
       "width": 547,
       "height": 480,
@@ -760,12 +759,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/agm/unclassified/Agm-Other-X1-1-640x480-ISP.webp",
+      "path": "isp-pinouts/agm/unclassified/AGM-X1-1-640x480-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "unclassified",
       "brand": "agm",
-      "model_key": "OTHERX11640X480",
-      "title": "Agm-Other-X1-1-640x480-ISP",
+      "model_key": "AGMX11640X480",
+      "title": "AGM-X1-1-640x480-ISP",
       "sha256": "2b41b5a2571bf2be1654ce88f0f05c03e78ea46bd538a5c2fa6b5c25832fb8a7",
       "width": 480,
       "height": 480,
@@ -780,12 +779,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/agm/unclassified/Agm-Other-X1-1-ISP.webp",
+      "path": "isp-pinouts/agm/unclassified/AGM-X1-1-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "unclassified",
       "brand": "agm",
-      "model_key": "OTHERX11",
-      "title": "Agm-Other-X1-1-ISP",
+      "model_key": "AGMX11",
+      "title": "AGM-X1-1-ISP",
       "sha256": "1b37820f58659e19c34ec9a53023588440ff2a98edb82e1da1ce7c7ade94a90e",
       "width": 700,
       "height": 700,
@@ -2060,12 +2059,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/amg/emmc/Amg-Other-A8-2-ISP.webp",
+      "path": "isp-pinouts/amg/emmc/AMG-A8-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "amg",
-      "model_key": "OTHERA82",
-      "title": "Amg-Other-A8-2-ISP",
+      "model_key": "AMGA82",
+      "title": "AMG-A8-2-ISP",
       "sha256": "9e18639cc6d509d7a95212cdc3eed909e03128a650252e082e6bf4d6288a9f48",
       "width": 1050,
       "height": 921,
@@ -2080,12 +2079,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/amg/emmc/Amg-Other-A8-ISP.webp",
+      "path": "isp-pinouts/amg/emmc/AMG-A8-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "amg",
-      "model_key": "OTHERA8",
-      "title": "Amg-Other-A8-ISP",
+      "model_key": "AMGA8",
+      "title": "AMG-A8-ISP",
       "sha256": "ce1d2d6184f6f41c88689c0b47bafda739ebc0a464998b6b593752e31a7199db",
       "width": 547,
       "height": 480,
@@ -2100,12 +2099,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/andromax/emmc/Andromax-Other-C-2-ISP.webp",
+      "path": "isp-pinouts/andromax/emmc/Andromax-C-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "andromax",
-      "model_key": "OTHERC2",
-      "title": "Andromax-Other-C-2-ISP",
+      "model_key": "ANDROMAXC2",
+      "title": "Andromax-C-2-ISP",
       "sha256": "0ba3d9fe2fadc4f9b75af46201817ec5daf892fd93c0c59c84493712c044035d",
       "width": 1050,
       "height": 921,
@@ -2120,12 +2119,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/andromax/emmc/Andromax-Other-C-ISP.webp",
+      "path": "isp-pinouts/andromax/emmc/Andromax-C-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "andromax",
-      "model_key": "OTHERC",
-      "title": "Andromax-Other-C-ISP",
+      "model_key": "ANDROMAXC",
+      "title": "Andromax-C-ISP",
       "sha256": "498e605825f18d025264cb7e2c39390f26f01b685d99dc1de244e5b5931d8815",
       "width": 547,
       "height": 480,
@@ -2140,12 +2139,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/andromax/emmc/Andromax-Other-C2-AD688G-2-ISP.webp",
+      "path": "isp-pinouts/andromax/emmc/Andromax-C2-AD688G-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "andromax",
-      "model_key": "OTHERC2AD688G2",
-      "title": "Andromax-Other-C2-AD688G-2-ISP",
+      "model_key": "ANDROMAXC2AD688G2",
+      "title": "Andromax-C2-AD688G-2-ISP",
       "sha256": "8c8b0d153a3397fb27a5f9d1f8ebde92e4e1fae4b14da28edc337379078433a1",
       "width": 547,
       "height": 480,
@@ -2160,12 +2159,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/andromax/emmc/Andromax-Other-C2-AD688G-ISP.webp",
+      "path": "isp-pinouts/andromax/emmc/Andromax-C2-AD688G-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "andromax",
-      "model_key": "OTHERC2AD688G",
-      "title": "Andromax-Other-C2-AD688G-ISP",
+      "model_key": "ANDROMAXC2AD688G",
+      "title": "Andromax-C2-AD688G-ISP",
       "sha256": "e75fbdb7f188fb25b0a5695f870cd3d370715ed057305c79f3f9dbded929a01d",
       "width": 1050,
       "height": 921,
@@ -2180,12 +2179,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/andromax/emmc/Andromax-Other-C3-AD6B1H-2-ISP.webp",
+      "path": "isp-pinouts/andromax/emmc/Andromax-C3-AD6B1H-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "andromax",
-      "model_key": "OTHERC3AD6B1H2",
-      "title": "Andromax-Other-C3-AD6B1H-2-ISP",
+      "model_key": "ANDROMAXC3AD6B1H2",
+      "title": "Andromax-C3-AD6B1H-2-ISP",
       "sha256": "21c1c608260336528f0b519b18d768cc5df3c1c9cb8207b38ee3fba25383f47d",
       "width": 1050,
       "height": 921,
@@ -2200,12 +2199,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/andromax/emmc/Andromax-Other-C3-AD6B1H-ISP.webp",
+      "path": "isp-pinouts/andromax/emmc/Andromax-C3-AD6B1H-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "andromax",
-      "model_key": "OTHERC3AD6B1H",
-      "title": "Andromax-Other-C3-AD6B1H-ISP",
+      "model_key": "ANDROMAXC3AD6B1H",
+      "title": "Andromax-C3-AD6B1H-ISP",
       "sha256": "c1a4e9554af2dbc825030aea942ddb49adb66da1d8182719b578e808c1bc41a8",
       "width": 547,
       "height": 480,
@@ -2220,12 +2219,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/andromax/emmc/Andromax-Other-C3S-NC36B1H-2-ISP.webp",
+      "path": "isp-pinouts/andromax/emmc/Andromax-C3S-NC36B1H-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "andromax",
-      "model_key": "OTHERC3SNC36B1H2",
-      "title": "Andromax-Other-C3S-NC36B1H-2-ISP",
+      "model_key": "ANDROMAXC3SNC36B1H2",
+      "title": "Andromax-C3S-NC36B1H-2-ISP",
       "sha256": "9f9055b3580323a18034a57312cb19475c2da131f6497dce486f2f50c2059272",
       "width": 547,
       "height": 480,
@@ -2240,12 +2239,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/andromax/emmc/Andromax-Other-C3S-NC36B1H-ISP.webp",
+      "path": "isp-pinouts/andromax/emmc/Andromax-C3S-NC36B1H-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "andromax",
-      "model_key": "OTHERC3SNC36B1H",
-      "title": "Andromax-Other-C3S-NC36B1H-ISP",
+      "model_key": "ANDROMAXC3SNC36B1H",
+      "title": "Andromax-C3S-NC36B1H-ISP",
       "sha256": "57db2c77dd7dfe519b0e70a36a2e213accce7ae12df062124b3507c185c904e8",
       "width": 1050,
       "height": 921,
@@ -2260,12 +2259,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/andromax/emmc/Andromax-Other-G2-2-ISP.webp",
+      "path": "isp-pinouts/andromax/emmc/Andromax-G2-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "andromax",
-      "model_key": "OTHERG22",
-      "title": "Andromax-Other-G2-2-ISP",
+      "model_key": "ANDROMAXG22",
+      "title": "Andromax-G2-2-ISP",
       "sha256": "f46f3b874afc71115c2bd27a3383f056bef0c22809a34d6262bfd64a20898039",
       "width": 547,
       "height": 480,
@@ -2280,12 +2279,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/andromax/emmc/Andromax-Other-G2-ISP.webp",
+      "path": "isp-pinouts/andromax/emmc/Andromax-G2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "andromax",
-      "model_key": "OTHERG2",
-      "title": "Andromax-Other-G2-ISP",
+      "model_key": "ANDROMAXG2",
+      "title": "Andromax-G2-ISP",
       "sha256": "c5025ae3adfc409a287fd8013d5f79a8d33ec035c69b9cdc3b73c3ca3ba35939",
       "width": 1050,
       "height": 921,
@@ -2300,32 +2299,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/andromax/emmc/Andromax-Other-I-2-2-ISP-isp-2.webp",
+      "path": "isp-pinouts/andromax/emmc/Andromax-I2-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "andromax",
-      "model_key": "OTHERI22",
-      "title": "Andromax-Other-I-2-2-ISP-isp-2",
-      "sha256": "8e44aa6e572cbae84bf457301ab347d2a50981760a60c736aa2f19384e7dd4e0",
-      "width": 547,
-      "height": 480,
-      "sources": [
-        "legacy"
-      ],
-      "original_paths": [
-        "isp-pinouts/emmc/ANDROMAX-I-2.webp"
-      ],
-      "aliases": [
-        "ANDROMAX-I-2"
-      ]
-    },
-    {
-      "path": "isp-pinouts/andromax/emmc/Andromax-Other-I2-2-ISP.webp",
-      "kind": "isp-pinouts",
-      "protocol": "emmc",
-      "brand": "andromax",
-      "model_key": "OTHERI22",
-      "title": "Andromax-Other-I2-2-ISP",
+      "model_key": "ANDROMAXI22",
+      "title": "Andromax-I2-2-ISP",
       "sha256": "d601e3850da8d1fc194f9944f3a02b5fe0e3a5ea82517e50d40038278cf08b8c",
       "width": 547,
       "height": 480,
@@ -2340,12 +2319,32 @@
       ]
     },
     {
-      "path": "isp-pinouts/andromax/emmc/Andromax-Other-I2-ISP.webp",
+      "path": "isp-pinouts/andromax/emmc/Andromax-I2-ISP-isp-2.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "andromax",
-      "model_key": "OTHERI2",
-      "title": "Andromax-Other-I2-ISP",
+      "model_key": "ANDROMAXI2",
+      "title": "Andromax-I2-ISP-isp-2",
+      "sha256": "8e44aa6e572cbae84bf457301ab347d2a50981760a60c736aa2f19384e7dd4e0",
+      "width": 547,
+      "height": 480,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "isp-pinouts/emmc/ANDROMAX-I-2.webp"
+      ],
+      "aliases": [
+        "ANDROMAX-I-2"
+      ]
+    },
+    {
+      "path": "isp-pinouts/andromax/emmc/Andromax-I2-ISP.webp",
+      "kind": "isp-pinouts",
+      "protocol": "emmc",
+      "brand": "andromax",
+      "model_key": "ANDROMAXI2",
+      "title": "Andromax-I2-ISP",
       "sha256": "cccd0088e6c4bfef7c53607f6246bab28462ac47a5b891301a750e36f3d9170d",
       "width": 1050,
       "height": 921,
@@ -2360,34 +2359,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/andromax/emmc/Andromax-Other-T-INNOS-AD682-2-ISP.webp",
+      "path": "isp-pinouts/andromax/emmc/Andromax-T-INNOS-AD682-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "andromax",
-      "model_key": "OTHERTINNOSAD6822",
-      "title": "Andromax-Other-T-INNOS-AD682-2-ISP",
-      "sha256": "3abe9309ff86b60aed9e4b062bce62253010c11b1dfdd41be7120ec2f6d09a42",
-      "width": 547,
-      "height": 480,
-      "sources": [
-        "legacy"
-      ],
-      "original_paths": [
-        "isp-pinouts/emmc/ANDROMAX-T-INNOS-AD682-2.webp",
-        "isp-pinouts/emmc/ANDROMAX-T-INNOS-AD682J.webp"
-      ],
-      "aliases": [
-        "ANDROMAX-T-INNOS-AD682-2",
-        "ANDROMAX-T-INNOS-AD682J"
-      ]
-    },
-    {
-      "path": "isp-pinouts/andromax/emmc/Andromax-Other-T-INNOS-AD682J-2-ISP.webp",
-      "kind": "isp-pinouts",
-      "protocol": "emmc",
-      "brand": "andromax",
-      "model_key": "OTHERTINNOSAD682J2",
-      "title": "Andromax-Other-T-INNOS-AD682J-2-ISP",
+      "model_key": "ANDROMAXTINNOSAD682J2",
+      "title": "Andromax-T-INNOS-AD682-ISP",
       "sha256": "b5fde16319cec2d1eb5ad670567d2dbd4294973d3b5da968dd25044f82ab7811",
       "width": 1050,
       "height": 921,
@@ -2404,12 +2381,34 @@
       ]
     },
     {
-      "path": "isp-pinouts/andromax/emmc/Andromax-Other-U-I6C-2-ISP.webp",
+      "path": "isp-pinouts/andromax/emmc/Andromax-T-INNOS-AD682J-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "andromax",
-      "model_key": "OTHERUI6C2",
-      "title": "Andromax-Other-U-I6C-2-ISP",
+      "model_key": "ANDROMAXTINNOSAD6822",
+      "title": "Andromax-T-INNOS-AD682J-ISP",
+      "sha256": "3abe9309ff86b60aed9e4b062bce62253010c11b1dfdd41be7120ec2f6d09a42",
+      "width": 547,
+      "height": 480,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "isp-pinouts/emmc/ANDROMAX-T-INNOS-AD682-2.webp",
+        "isp-pinouts/emmc/ANDROMAX-T-INNOS-AD682J.webp"
+      ],
+      "aliases": [
+        "ANDROMAX-T-INNOS-AD682-2",
+        "ANDROMAX-T-INNOS-AD682J"
+      ]
+    },
+    {
+      "path": "isp-pinouts/andromax/emmc/Andromax-U-I6C-2-ISP.webp",
+      "kind": "isp-pinouts",
+      "protocol": "emmc",
+      "brand": "andromax",
+      "model_key": "ANDROMAXUI6C2",
+      "title": "Andromax-U-I6C-2-ISP",
       "sha256": "e02b339919c50d2a1b4b3f1b40e141dd06447367b278b046dc898ed515c123c6",
       "width": 1050,
       "height": 921,
@@ -2424,12 +2423,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/andromax/emmc/Andromax-Other-U-I6C-ISP.webp",
+      "path": "isp-pinouts/andromax/emmc/Andromax-U-I6C-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "andromax",
-      "model_key": "OTHERUI6C",
-      "title": "Andromax-Other-U-I6C-ISP",
+      "model_key": "ANDROMAXUI6C",
+      "title": "Andromax-U-I6C-ISP",
       "sha256": "4d77fd16ff6b00f4d61407ddd30b864b577fbd76294ebcfd9d73ddde62da7e50",
       "width": 547,
       "height": 480,
@@ -2444,12 +2443,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/andromax/emmc/Andromax-Other-U2-2-ISP.webp",
+      "path": "isp-pinouts/andromax/emmc/Andromax-U2-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "andromax",
-      "model_key": "OTHERU22",
-      "title": "Andromax-Other-U2-2-ISP",
+      "model_key": "ANDROMAXU22",
+      "title": "Andromax-U2-2-ISP",
       "sha256": "7498a4e4846720d52977237e0615d9bb3e2bd59a80f65fa4974dd905df7bca1b",
       "width": 1050,
       "height": 921,
@@ -2464,12 +2463,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/andromax/emmc/Andromax-Other-U2-ISP.webp",
+      "path": "isp-pinouts/andromax/emmc/Andromax-U2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "andromax",
-      "model_key": "OTHERU2",
-      "title": "Andromax-Other-U2-ISP",
+      "model_key": "ANDROMAXU2",
+      "title": "Andromax-U2-ISP",
       "sha256": "77070056065d3dfb72f4bd4e77fb850cc7ec19076d712529f60b00c7a88316a6",
       "width": 547,
       "height": 480,
@@ -2484,12 +2483,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/andromax/emmc/Andromax-Other-U3-I7C-2-ISP.webp",
+      "path": "isp-pinouts/andromax/emmc/Andromax-U3-I7C-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "andromax",
-      "model_key": "OTHERU3I7C2",
-      "title": "Andromax-Other-U3-I7C-2-ISP",
+      "model_key": "ANDROMAXU3I7C2",
+      "title": "Andromax-U3-I7C-2-ISP",
       "sha256": "92cf8a70444e67d6e389ef07f4f5bf043c77c1b8294f1d1bfc7f8d7176f478ab",
       "width": 1050,
       "height": 921,
@@ -2504,12 +2503,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/andromax/emmc/Andromax-Other-U3-I7C-ISP.webp",
+      "path": "isp-pinouts/andromax/emmc/Andromax-U3-I7C-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "andromax",
-      "model_key": "OTHERU3I7C",
-      "title": "Andromax-Other-U3-I7C-ISP",
+      "model_key": "ANDROMAXU3I7C",
+      "title": "Andromax-U3-I7C-ISP",
       "sha256": "90417c91c3723aa9ae680da48e7af74282e3cfc8f9f1778553a891f09c6fc7d6",
       "width": 547,
       "height": 480,
@@ -2564,12 +2563,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/artel/emmc/Artel-Other-AD-5-2-ISP.webp",
+      "path": "isp-pinouts/artel/emmc/Artel-AD-5-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "artel",
-      "model_key": "OTHERAD52",
-      "title": "Artel-Other-AD-5-2-ISP",
+      "model_key": "ARTELAD52",
+      "title": "Artel-AD-5-2-ISP",
       "sha256": "e666c975606b91d7a781f13db42bf7ff74ae712bf4c1d905591ee2e96e110d58",
       "width": 547,
       "height": 480,
@@ -2584,12 +2583,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/artel/emmc/Artel-Other-AD-5-ISP.webp",
+      "path": "isp-pinouts/artel/emmc/Artel-AD-5-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "artel",
-      "model_key": "OTHERAD5",
-      "title": "Artel-Other-AD-5-ISP",
+      "model_key": "ARTELAD5",
+      "title": "Artel-AD-5-ISP",
       "sha256": "4e49c9bf169657edf946a24a73236cfd383ab8929e2c8785a5ecec8ffd92d474",
       "width": 1050,
       "height": 921,
@@ -2604,12 +2603,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/artel/emmc/Artel-Other-NOVA-ISP.webp",
+      "path": "isp-pinouts/artel/emmc/Artel-NOVA-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "artel",
-      "model_key": "OTHERNOVA",
-      "title": "Artel-Other-NOVA-ISP",
+      "model_key": "ARTELNOVA",
+      "title": "Artel-NOVA-ISP",
       "sha256": "bce92222a6a24d6b6416771bd7ef6bf72590c5fa38713abc6f6f87f89699a226",
       "width": 480,
       "height": 480,
@@ -2624,12 +2623,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/artel/emmc/Artel-Other-STAR-2-ISP.webp",
+      "path": "isp-pinouts/artel/emmc/Artel-STAR-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "artel",
-      "model_key": "OTHERSTAR2",
-      "title": "Artel-Other-STAR-2-ISP",
+      "model_key": "ARTELSTAR2",
+      "title": "Artel-STAR-2-ISP",
       "sha256": "e5e70be8db4a1048368ac441a7c8fb135dd468ed77d0071db7463161c0e4d1b6",
       "width": 547,
       "height": 480,
@@ -2644,12 +2643,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/artel/emmc/Artel-Other-STAR-ISP.webp",
+      "path": "isp-pinouts/artel/emmc/Artel-STAR-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "artel",
-      "model_key": "OTHERSTAR",
-      "title": "Artel-Other-STAR-ISP",
+      "model_key": "ARTELSTAR",
+      "title": "Artel-STAR-ISP",
       "sha256": "d8979e9f4df201167fe5d0467b29e45ffbb28011ca3549fb38eec7a3bd851232",
       "width": 1050,
       "height": 921,
@@ -2664,12 +2663,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/assistant/emmc/Assistant-Other-AP-777G-2-ISP.webp",
+      "path": "isp-pinouts/assistant/emmc/Assistant-AP-777G-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "assistant",
-      "model_key": "OTHERAP777G2",
-      "title": "Assistant-Other-AP-777G-2-ISP",
+      "model_key": "ASSISTANTAP777G2",
+      "title": "Assistant-AP-777G-2-ISP",
       "sha256": "76cb4f4cc2e16c8e38a10dc8db1c0f5d2d7faa188e0b8ae322285051e4e99dad",
       "width": 1050,
       "height": 921,
@@ -2684,12 +2683,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/assistant/emmc/Assistant-Other-AP-777G-ISP.webp",
+      "path": "isp-pinouts/assistant/emmc/Assistant-AP-777G-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "assistant",
-      "model_key": "OTHERAP777G",
-      "title": "Assistant-Other-AP-777G-ISP",
+      "model_key": "ASSISTANTAP777G",
+      "title": "Assistant-AP-777G-ISP",
       "sha256": "2201797542f58717990aae031882270423f0f6b6760a9fc65ce175a6129ab595",
       "width": 547,
       "height": 480,
@@ -3164,12 +3163,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/asus/emmc/Asus-FONEPAD-ME170CG-K012-ISP.webp",
+      "path": "isp-pinouts/asus/emmc/Asus-FONEPAD-K012-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "asus",
       "model_key": "FONEPADME170CGK012",
-      "title": "Asus-FONEPAD-ME170CG-K012-ISP",
+      "title": "Asus-FONEPAD-K012-ISP",
       "sha256": "cec77f156e0c460051c533e624a2db77da514054d1f1df1cf76c8196d9bd5dd6",
       "width": 547,
       "height": 480,
@@ -3946,12 +3945,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/asus/emmc/Asus-TF103CG-2-ISP.webp",
+      "path": "isp-pinouts/asus/emmc/Asus-TF103C-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "asus",
       "model_key": "TF103CG2",
-      "title": "Asus-TF103CG-2-ISP",
+      "title": "Asus-TF103C-2-ISP",
       "sha256": "e3fed0bfa95bbe918f65a9de74e5c3925d3cd5fa8b078da6f554d123625080c6",
       "width": 1050,
       "height": 921,
@@ -3968,12 +3967,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/asus/emmc/Asus-TF103CG-ISP.webp",
+      "path": "isp-pinouts/asus/emmc/Asus-TF103C-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "asus",
       "model_key": "TF103CG",
-      "title": "Asus-TF103CG-ISP",
+      "title": "Asus-TF103C-ISP",
       "sha256": "e9a325256c25c38c84001d8c2a727405d649c009fef5c9f30e1faec53cca4a16",
       "width": 547,
       "height": 480,
@@ -4750,6 +4749,28 @@
       ]
     },
     {
+      "path": "isp-pinouts/asus/emmc/Asus-ZENFONE-4-2-ISP.webp",
+      "kind": "isp-pinouts",
+      "protocol": "emmc",
+      "brand": "asus",
+      "model_key": "ZENFONE4ST00Q",
+      "title": "Asus-ZENFONE-4-2-ISP",
+      "sha256": "c1e3b4b13fb1e7f0593a6256c4e058a398e56dde966aa03a13bb39310048dd39",
+      "width": 2050,
+      "height": 1798,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "isp-pinouts/emmc/ASUS-ZENFONE-4-2.webp",
+        "isp-pinouts/emmc/ASUS-ZENFONE-4S-T00Q.webp"
+      ],
+      "aliases": [
+        "ASUS-ZENFONE-4-2",
+        "ASUS-ZENFONE-4S-T00Q"
+      ]
+    },
+    {
       "path": "isp-pinouts/asus/emmc/Asus-ZENFONE-4-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
@@ -4807,28 +4828,6 @@
       ],
       "aliases": [
         "ASUS-ZENFONE-4-T00I"
-      ]
-    },
-    {
-      "path": "isp-pinouts/asus/emmc/Asus-ZENFONE-4S-T00Q-ISP.webp",
-      "kind": "isp-pinouts",
-      "protocol": "emmc",
-      "brand": "asus",
-      "model_key": "ZENFONE4ST00Q",
-      "title": "Asus-ZENFONE-4S-T00Q-ISP",
-      "sha256": "c1e3b4b13fb1e7f0593a6256c4e058a398e56dde966aa03a13bb39310048dd39",
-      "width": 2050,
-      "height": 1798,
-      "sources": [
-        "legacy"
-      ],
-      "original_paths": [
-        "isp-pinouts/emmc/ASUS-ZENFONE-4-2.webp",
-        "isp-pinouts/emmc/ASUS-ZENFONE-4S-T00Q.webp"
-      ],
-      "aliases": [
-        "ASUS-ZENFONE-4-2",
-        "ASUS-ZENFONE-4S-T00Q"
       ]
     },
     {
@@ -4912,12 +4911,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/asus/emmc/Asus-ZENFONE-5-T00P-A500KL-2-ISP.webp",
+      "path": "isp-pinouts/asus/emmc/Asus-ZENFONE-5-T00P-KL-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "asus",
       "model_key": "ZENFONE5T00PA500KL2",
-      "title": "Asus-ZENFONE-5-T00P-A500KL-2-ISP",
+      "title": "Asus-ZENFONE-5-T00P-KL-2-ISP",
       "sha256": "81725ea45d1014b3ca2e652ee5c00916c1541f2c29f1ddd90b5dd43b607406d8",
       "width": 547,
       "height": 480,
@@ -4934,12 +4933,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/asus/emmc/Asus-ZENFONE-5-T00P-A500KL-ISP.webp",
+      "path": "isp-pinouts/asus/emmc/Asus-ZENFONE-5-T00P-KL-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "asus",
       "model_key": "ZENFONE5T00PA500KL",
-      "title": "Asus-ZENFONE-5-T00P-A500KL-ISP",
+      "title": "Asus-ZENFONE-5-T00P-KL-ISP",
       "sha256": "6bdee286274ee3d9ecd2ff90b2bc8c5a6dc7254e247d4955b9f29ab8f0e607af",
       "width": 1050,
       "height": 921,
@@ -5116,6 +5115,46 @@
       ]
     },
     {
+      "path": "isp-pinouts/asus/unclassified/Asus-me172v-spi-1024x709-640x480-ISP.webp",
+      "kind": "isp-pinouts",
+      "protocol": "unclassified",
+      "brand": "asus",
+      "model_key": "ME172VSPI1024X709640X480",
+      "title": "Asus-me172v-spi-1024x709-640x480-ISP",
+      "sha256": "46cf7bbe0f88db491efd92f0cd72ec21cbdfc3788695a43d3bafe7c4f2dbfba3",
+      "width": 640,
+      "height": 443,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "isp-pinouts/unclassified/me172v-spi-pinout-1024x709-640x480.webp"
+      ],
+      "aliases": [
+        "me172v-spi-pinout-1024x709-640x480"
+      ]
+    },
+    {
+      "path": "isp-pinouts/asus/unclassified/Asus-me172v-spi-ISP.webp",
+      "kind": "isp-pinouts",
+      "protocol": "unclassified",
+      "brand": "asus",
+      "model_key": "ME172VSPI",
+      "title": "Asus-me172v-spi-ISP",
+      "sha256": "525e419b377ebca1f71daa67f340a8fbffeed801bbda9430316feae51b93cc93",
+      "width": 1050,
+      "height": 727,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "isp-pinouts/unclassified/me172v-spi-pinout.webp"
+      ],
+      "aliases": [
+        "me172v-spi-pinout"
+      ]
+    },
+    {
       "path": "isp-pinouts/asus/unclassified/Asus-Z380KL-1-640x480-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "unclassified",
@@ -5236,12 +5275,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/blu/emmc/Blu-Other-STUDIO-7-2-ISP.webp",
+      "path": "isp-pinouts/blu/emmc/BLU-STUDIO-7-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "blu",
-      "model_key": "OTHERSTUDIO72",
-      "title": "Blu-Other-STUDIO-7-2-ISP",
+      "model_key": "BLUSTUDIO72",
+      "title": "BLU-STUDIO-7-2-ISP",
       "sha256": "5531b0fb889bdd0519a9d43b5aa34834881fcfcda051a42d06043991e737350c",
       "width": 1050,
       "height": 921,
@@ -5256,12 +5295,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/blu/emmc/Blu-Other-STUDIO-7-ISP.webp",
+      "path": "isp-pinouts/blu/emmc/BLU-STUDIO-7-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "blu",
-      "model_key": "OTHERSTUDIO7",
-      "title": "Blu-Other-STUDIO-7-ISP",
+      "model_key": "BLUSTUDIO7",
+      "title": "BLU-STUDIO-7-ISP",
       "sha256": "d7b5ad2e42c5f4be577722e9ec713ba8fdc2d6de367404640929b66aa0192935",
       "width": 547,
       "height": 480,
@@ -5276,12 +5315,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/bq/emmc/Bq-Other-AQUARIS-V-2-ISP.webp",
+      "path": "isp-pinouts/bq/emmc/BQ-AQUARIS-V-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "bq",
-      "model_key": "OTHERAQUARISV2",
-      "title": "Bq-Other-AQUARIS-V-2-ISP",
+      "model_key": "BQAQUARISV2",
+      "title": "BQ-AQUARIS-V-2-ISP",
       "sha256": "ddb19daa3ee7e708bbe79da4d7467a3ab1f682f8d1fd2a3f0c8ef77400ec36dc",
       "width": 1050,
       "height": 921,
@@ -5296,12 +5335,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/bq/emmc/Bq-Other-AQUARIS-V-ISP.webp",
+      "path": "isp-pinouts/bq/emmc/BQ-AQUARIS-V-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "bq",
-      "model_key": "OTHERAQUARISV",
-      "title": "Bq-Other-AQUARIS-V-ISP",
+      "model_key": "BQAQUARISV",
+      "title": "BQ-AQUARIS-V-ISP",
       "sha256": "4c0dd49521ead218d83793bc5c32e9e6d6e6f57b246b115b170b857e65604f46",
       "width": 547,
       "height": 480,
@@ -5316,12 +5355,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/bq/emmc/Bq-Other-AQUARIS-X5-2-ISP.webp",
+      "path": "isp-pinouts/bq/emmc/BQ-AQUARIS-X5-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "bq",
-      "model_key": "OTHERAQUARISX52",
-      "title": "Bq-Other-AQUARIS-X5-2-ISP",
+      "model_key": "BQAQUARISX52",
+      "title": "BQ-AQUARIS-X5-2-ISP",
       "sha256": "de382a4d9714af11cd8e4ce4e9e97ce85062e3f87150ae4628681033b5e8f0d3",
       "width": 1050,
       "height": 921,
@@ -5336,12 +5375,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/bq/emmc/Bq-Other-AQUARIS-X5-ISP.webp",
+      "path": "isp-pinouts/bq/emmc/BQ-AQUARIS-X5-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "bq",
-      "model_key": "OTHERAQUARISX5",
-      "title": "Bq-Other-AQUARIS-X5-ISP",
+      "model_key": "BQAQUARISX5",
+      "title": "BQ-AQUARIS-X5-ISP",
       "sha256": "6001d1bfe01bb5c5f475e6cbdf3347681d6fa07861e0822fba8825cb4bbcda64",
       "width": 547,
       "height": 480,
@@ -5356,12 +5395,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/bravis/emmc/Bravis-Other-NP725-3G-2-ISP.webp",
+      "path": "isp-pinouts/bravis/emmc/Bravis-NP725-3G-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "bravis",
-      "model_key": "OTHERNP7253G2",
-      "title": "Bravis-Other-NP725-3G-2-ISP",
+      "model_key": "BRAVISNP7253G2",
+      "title": "Bravis-NP725-3G-2-ISP",
       "sha256": "16805b919023e0875edbe434ab5d0ad6cb4d01e7622ce5c4e95faefa6e0ca345",
       "width": 1050,
       "height": 921,
@@ -5376,12 +5415,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/bravis/emmc/Bravis-Other-NP725-3G-ISP.webp",
+      "path": "isp-pinouts/bravis/emmc/Bravis-NP725-3G-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "bravis",
-      "model_key": "OTHERNP7253G",
-      "title": "Bravis-Other-NP725-3G-ISP",
+      "model_key": "BRAVISNP7253G",
+      "title": "Bravis-NP725-3G-ISP",
       "sha256": "cac144a44d7f9aeba0a4f77259962b046ce2a4291563c2a0f2994c09943867b8",
       "width": 547,
       "height": 480,
@@ -5396,12 +5435,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/bush/emmc/Bush-Other-TABLET-AC101BU-2-ISP.webp",
+      "path": "isp-pinouts/bush/emmc/Bush-TABLET-AC101BU-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "bush",
-      "model_key": "OTHERTABLETAC101BU2",
-      "title": "Bush-Other-TABLET-AC101BU-2-ISP",
+      "model_key": "BUSHTABLETAC101BU2",
+      "title": "Bush-TABLET-AC101BU-2-ISP",
       "sha256": "a19aa5c2ae627128330123678c951141c1543bcf622e5c1eec1cbf5a0ef48621",
       "width": 700,
       "height": 700,
@@ -5416,12 +5455,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/bush/emmc/Bush-Other-TABLET-AC101BU-ISP.webp",
+      "path": "isp-pinouts/bush/emmc/Bush-TABLET-AC101BU-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "bush",
-      "model_key": "OTHERTABLETAC101BU",
-      "title": "Bush-Other-TABLET-AC101BU-ISP",
+      "model_key": "BUSHTABLETAC101BU",
+      "title": "Bush-TABLET-AC101BU-ISP",
       "sha256": "7951c1e84117f9258b3420a6e2f85f06e8e39fad27f9dd3a18f8bdfbe27a0d76",
       "width": 480,
       "height": 480,
@@ -5436,12 +5475,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/cat/emmc/Cat-Other-S50-2-ISP.webp",
+      "path": "isp-pinouts/cat/emmc/Cat-S50-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "cat",
-      "model_key": "OTHERS502",
-      "title": "Cat-Other-S50-2-ISP",
+      "model_key": "CATS502",
+      "title": "Cat-S50-2-ISP",
       "sha256": "9eebf594acc87827d20f08a186251492ea4ebe41e55ebab2a4df570500b66183",
       "width": 1050,
       "height": 921,
@@ -5456,12 +5495,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/cat/emmc/Cat-Other-S50-ISP.webp",
+      "path": "isp-pinouts/cat/emmc/Cat-S50-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "cat",
-      "model_key": "OTHERS50",
-      "title": "Cat-Other-S50-ISP",
+      "model_key": "CATS50",
+      "title": "Cat-S50-ISP",
       "sha256": "40507522ccc9ba604a9c4da67bf1c74af2511c677952bb82ceb72d0618e5c8f9",
       "width": 547,
       "height": 480,
@@ -5476,12 +5515,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/condor/emmc/Condor-Other-PGN-403-2-ISP.webp",
+      "path": "isp-pinouts/condor/emmc/Condor-PGN-403-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "condor",
-      "model_key": "OTHERPGN4032",
-      "title": "Condor-Other-PGN-403-2-ISP",
+      "model_key": "CONDORPGN4032",
+      "title": "Condor-PGN-403-2-ISP",
       "sha256": "981cd8ce507d97b6124f8c354f202ae608b4ff5a60cced4d49510e201ae6ff32",
       "width": 547,
       "height": 480,
@@ -5496,12 +5535,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/condor/emmc/Condor-Other-PGN-403-ISP.webp",
+      "path": "isp-pinouts/condor/emmc/Condor-PGN-403-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "condor",
-      "model_key": "OTHERPGN403",
-      "title": "Condor-Other-PGN-403-ISP",
+      "model_key": "CONDORPGN403",
+      "title": "Condor-PGN-403-ISP",
       "sha256": "70e87d011689d858eac81948158272989fa7c7bb9a0a921eb05455e5bbeeab22",
       "width": 1050,
       "height": 921,
@@ -5516,12 +5555,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/condor/emmc/Condor-Other-TAB785R-3G-2-ISP.webp",
+      "path": "isp-pinouts/condor/emmc/Condor-TAB785R-3G-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "condor",
-      "model_key": "OTHERTAB785R3G2",
-      "title": "Condor-Other-TAB785R-3G-2-ISP",
+      "model_key": "CONDORTAB785R3G2",
+      "title": "Condor-TAB785R-3G-2-ISP",
       "sha256": "fa42dad734b3404a4d6446df7927bdc3ecfd4506b26082f098fe42265ed49cfa",
       "width": 1050,
       "height": 921,
@@ -5536,12 +5575,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/condor/emmc/Condor-Other-TAB785R-3G-ISP.webp",
+      "path": "isp-pinouts/condor/emmc/Condor-TAB785R-3G-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "condor",
-      "model_key": "OTHERTAB785R3G",
-      "title": "Condor-Other-TAB785R-3G-ISP",
+      "model_key": "CONDORTAB785R3G",
+      "title": "Condor-TAB785R-3G-ISP",
       "sha256": "a897baf79fd6d895cc09a3c67a0a4f558cb1b2355d41ce96529fb61fb0579176",
       "width": 547,
       "height": 480,
@@ -5556,12 +5595,32 @@
       ]
     },
     {
-      "path": "isp-pinouts/condor/emmc/Condor-Other-TFX711G-2-ISP.webp",
+      "path": "isp-pinouts/condor/emmc/Condor-TFX711G-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "condor",
-      "model_key": "OTHERTFX711G2",
-      "title": "Condor-Other-TFX711G-2-ISP",
+      "model_key": "CONDORTFX711G",
+      "title": "Condor-TFX711G-ISP",
+      "sha256": "256b8084f72f9b5d1d30933193e135c937b7031b660821bdc58b12afd8cfb207",
+      "width": 547,
+      "height": 480,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "isp-pinouts/emmc/CONDOR-TFX711G.webp"
+      ],
+      "aliases": [
+        "CONDOR-TFX711G"
+      ]
+    },
+    {
+      "path": "isp-pinouts/condor/emmc/Condor-TFX712G-ISP.webp",
+      "kind": "isp-pinouts",
+      "protocol": "emmc",
+      "brand": "condor",
+      "model_key": "CONDORTFX711G2",
+      "title": "Condor-TFX712G-ISP",
       "sha256": "0218a8863328aa8b09bff02ff08f86ae6e4b7f81283dd83b91d6882e6288981d",
       "width": 1050,
       "height": 921,
@@ -5575,26 +5634,6 @@
       "aliases": [
         "CONDOR-TFX711G-2",
         "CONDOR-TFX712G"
-      ]
-    },
-    {
-      "path": "isp-pinouts/condor/emmc/Condor-Other-TFX711G-ISP.webp",
-      "kind": "isp-pinouts",
-      "protocol": "emmc",
-      "brand": "condor",
-      "model_key": "OTHERTFX711G",
-      "title": "Condor-Other-TFX711G-ISP",
-      "sha256": "256b8084f72f9b5d1d30933193e135c937b7031b660821bdc58b12afd8cfb207",
-      "width": 547,
-      "height": 480,
-      "sources": [
-        "legacy"
-      ],
-      "original_paths": [
-        "isp-pinouts/emmc/CONDOR-TFX711G.webp"
-      ],
-      "aliases": [
-        "CONDOR-TFX711G"
       ]
     },
     {
@@ -5878,12 +5917,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/crius/emmc/Crius-Other-Q7A-PLUS-2-ISP.webp",
+      "path": "isp-pinouts/crius/emmc/Crius-Q7A-PLUS-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "crius",
-      "model_key": "OTHERQ7APLUS2",
-      "title": "Crius-Other-Q7A-PLUS-2-ISP",
+      "model_key": "CRIUSQ7APLUS2",
+      "title": "Crius-Q7A-PLUS-2-ISP",
       "sha256": "df5609c837327fb13543cfe58f3eecf2032207ca810d5fe5e6aefadc6f8b831b",
       "width": 1050,
       "height": 921,
@@ -5898,12 +5937,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/crius/emmc/Crius-Other-Q7A-PLUS-ISP.webp",
+      "path": "isp-pinouts/crius/emmc/Crius-Q7A-PLUS-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "crius",
-      "model_key": "OTHERQ7APLUS",
-      "title": "Crius-Other-Q7A-PLUS-ISP",
+      "model_key": "CRIUSQ7APLUS",
+      "title": "Crius-Q7A-PLUS-ISP",
       "sha256": "fffccecebe5fa1912c31e1b24ba473e6b91164342268a2bad92d4e8d53521330",
       "width": 547,
       "height": 480,
@@ -7986,52 +8025,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/link/emmc/Link-Other-NEFFOS-Y5L-TP801A-2-ISP.webp",
-      "kind": "isp-pinouts",
-      "protocol": "emmc",
-      "brand": "link",
-      "model_key": "OTHERNEFFOSY5LTP801A2",
-      "title": "Link-Other-NEFFOS-Y5L-TP801A-2-ISP",
-      "sha256": "1d5c5598aff70b54f2baf87157a1653a222a45f00f89d50901b3f9534a72ab06",
-      "width": 1050,
-      "height": 921,
-      "sources": [
-        "legacy"
-      ],
-      "original_paths": [
-        "isp-pinouts/emmc/TP-LINK-NEFFOS-Y5L-TP801A-2.webp"
-      ],
-      "aliases": [
-        "TP-LINK-NEFFOS-Y5L-TP801A-2"
-      ]
-    },
-    {
-      "path": "isp-pinouts/link/emmc/Link-Other-NEFFOS-Y5L-TP801A-ISP.webp",
-      "kind": "isp-pinouts",
-      "protocol": "emmc",
-      "brand": "link",
-      "model_key": "OTHERNEFFOSY5LTP801A",
-      "title": "Link-Other-NEFFOS-Y5L-TP801A-ISP",
-      "sha256": "87ab614fec90400ae7a94c4707693f0019c1d6b0ab18bd65c298de8e99ac40b5",
-      "width": 547,
-      "height": 480,
-      "sources": [
-        "legacy"
-      ],
-      "original_paths": [
-        "isp-pinouts/emmc/TP-LINK-NEFFOS-Y5L-TP801A.webp"
-      ],
-      "aliases": [
-        "TP-LINK-NEFFOS-Y5L-TP801A"
-      ]
-    },
-    {
-      "path": "isp-pinouts/luna/emmc/Luna-Other-TG-L800S-2-ISP.webp",
+      "path": "isp-pinouts/luna/emmc/Luna-TG-L800S-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "luna",
-      "model_key": "OTHERTGL800S2",
-      "title": "Luna-Other-TG-L800S-2-ISP",
+      "model_key": "LUNATGL800S2",
+      "title": "Luna-TG-L800S-2-ISP",
       "sha256": "8bcee43f1698e8c2198d35069d600d07f8b92d85d21c99f66f67d4ee023b4b9c",
       "width": 1050,
       "height": 921,
@@ -8046,12 +8045,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/luna/emmc/Luna-Other-TG-L800S-ISP.webp",
+      "path": "isp-pinouts/luna/emmc/Luna-TG-L800S-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "luna",
-      "model_key": "OTHERTGL800S",
-      "title": "Luna-Other-TG-L800S-ISP",
+      "model_key": "LUNATGL800S",
+      "title": "Luna-TG-L800S-ISP",
       "sha256": "95b71ba620ec88dca525fc75dc65549633d54dd8dca8cdcd3a9ac2da56882305",
       "width": 547,
       "height": 480,
@@ -8066,52 +8065,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/me172v/unclassified/Me172V-Other-spi-1024x709-640x480-ISP.webp",
-      "kind": "isp-pinouts",
-      "protocol": "unclassified",
-      "brand": "me172v",
-      "model_key": "OTHERSPI1024X709640X480",
-      "title": "Me172V-Other-spi-1024x709-640x480-ISP",
-      "sha256": "46cf7bbe0f88db491efd92f0cd72ec21cbdfc3788695a43d3bafe7c4f2dbfba3",
-      "width": 640,
-      "height": 443,
-      "sources": [
-        "legacy"
-      ],
-      "original_paths": [
-        "isp-pinouts/unclassified/me172v-spi-pinout-1024x709-640x480.webp"
-      ],
-      "aliases": [
-        "me172v-spi-pinout-1024x709-640x480"
-      ]
-    },
-    {
-      "path": "isp-pinouts/me172v/unclassified/Me172V-Other-spi-ISP.webp",
-      "kind": "isp-pinouts",
-      "protocol": "unclassified",
-      "brand": "me172v",
-      "model_key": "OTHERSPI",
-      "title": "Me172V-Other-spi-ISP",
-      "sha256": "525e419b377ebca1f71daa67f340a8fbffeed801bbda9430316feae51b93cc93",
-      "width": 1050,
-      "height": 727,
-      "sources": [
-        "legacy"
-      ],
-      "original_paths": [
-        "isp-pinouts/unclassified/me172v-spi-pinout.webp"
-      ],
-      "aliases": [
-        "me172v-spi-pinout"
-      ]
-    },
-    {
-      "path": "isp-pinouts/megafon/emmc/Megafon-Other-LOGIN-3T-2-ISP.webp",
+      "path": "isp-pinouts/megafon/emmc/Megafon-LOGIN-3T-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "megafon",
-      "model_key": "OTHERLOGIN3T2",
-      "title": "Megafon-Other-LOGIN-3T-2-ISP",
+      "model_key": "MEGAFONLOGIN3T2",
+      "title": "Megafon-LOGIN-3T-2-ISP",
       "sha256": "8d98fdba96b648f50cf31950f402906fa17f910023b3c61c021267378f1d5fd9",
       "width": 547,
       "height": 480,
@@ -8126,12 +8085,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/megafon/emmc/Megafon-Other-LOGIN-3T-ISP.webp",
+      "path": "isp-pinouts/megafon/emmc/Megafon-LOGIN-3T-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "megafon",
-      "model_key": "OTHERLOGIN3T",
-      "title": "Megafon-Other-LOGIN-3T-ISP",
+      "model_key": "MEGAFONLOGIN3T",
+      "title": "Megafon-LOGIN-3T-ISP",
       "sha256": "8235ed90803e6b10b71a352bd210281c4cf28b64fcf2256225f5fa60148ff1b0",
       "width": 1050,
       "height": 921,
@@ -8586,12 +8545,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/microsoft/emmc/Microsoft-Other-LUMIA-650-RM-1152-ISP.webp",
+      "path": "isp-pinouts/microsoft/emmc/Microsoft-LUMIA-650-RM-1152-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "microsoft",
-      "model_key": "OTHERLUMIA650RM1152",
-      "title": "Microsoft-Other-LUMIA-650-RM-1152-ISP",
+      "model_key": "MICROSOFTLUMIA650RM1152",
+      "title": "Microsoft-LUMIA-650-RM-1152-ISP",
       "sha256": "878f68f6b8e06da38021ffb26cc4f86685cede3a36bc38fe790165551d9bd01f",
       "width": 1050,
       "height": 921,
@@ -9626,12 +9585,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/oppo/unclassified/Oppo-A9X-ISP.webp",
+      "path": "isp-pinouts/oppo/unclassified/Oppo-A9-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "unclassified",
       "brand": "oppo",
       "model_key": "A9X",
-      "title": "Oppo-A9X-ISP",
+      "title": "Oppo-A9-ISP",
       "sha256": "1d6aa4b9c594fd5665acf5e4e64bd57b3489cb913d779fae40845b3e45b65041",
       "width": 960,
       "height": 879,
@@ -10750,30 +10709,6 @@
       ]
     },
     {
-      "path": "isp-pinouts/samsung/emmc/Samsung-GT-P3100-2-ISP.webp",
-      "kind": "isp-pinouts",
-      "protocol": "emmc",
-      "brand": "samsung",
-      "model_key": "GTP31002",
-      "title": "Samsung-GT-P3100-2-ISP",
-      "sha256": "e9f5dcffc938f8d1bb5148ed842f0a9582389614723c287d2626f3e95adaeaa6",
-      "width": 1050,
-      "height": 921,
-      "sources": [
-        "legacy"
-      ],
-      "original_paths": [
-        "isp-pinouts/emmc/SAMSUNG-GT-P3100-2.webp",
-        "isp-pinouts/emmc/SAMSUNG-GT-P3110-2.webp",
-        "isp-pinouts/emmc/SAMSUNG-GT-P3113.webp"
-      ],
-      "aliases": [
-        "SAMSUNG-GT-P3100-2",
-        "SAMSUNG-GT-P3110-2",
-        "SAMSUNG-GT-P3113"
-      ]
-    },
-    {
       "path": "isp-pinouts/samsung/emmc/Samsung-GT-P3100-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
@@ -10793,6 +10728,30 @@
       "aliases": [
         "SAMSUNG-GT-P3100",
         "SAMSUNG-GT-P3110"
+      ]
+    },
+    {
+      "path": "isp-pinouts/samsung/emmc/Samsung-GT-P3113-ISP.webp",
+      "kind": "isp-pinouts",
+      "protocol": "emmc",
+      "brand": "samsung",
+      "model_key": "GTP31002",
+      "title": "Samsung-GT-P3113-ISP",
+      "sha256": "e9f5dcffc938f8d1bb5148ed842f0a9582389614723c287d2626f3e95adaeaa6",
+      "width": 1050,
+      "height": 921,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "isp-pinouts/emmc/SAMSUNG-GT-P3100-2.webp",
+        "isp-pinouts/emmc/SAMSUNG-GT-P3110-2.webp",
+        "isp-pinouts/emmc/SAMSUNG-GT-P3113.webp"
+      ],
+      "aliases": [
+        "SAMSUNG-GT-P3100-2",
+        "SAMSUNG-GT-P3110-2",
+        "SAMSUNG-GT-P3113"
       ]
     },
     {
@@ -10876,28 +10835,6 @@
       ]
     },
     {
-      "path": "isp-pinouts/samsung/emmc/Samsung-GT-P5200-2-ISP.webp",
-      "kind": "isp-pinouts",
-      "protocol": "emmc",
-      "brand": "samsung",
-      "model_key": "GTP52002",
-      "title": "Samsung-GT-P5200-2-ISP",
-      "sha256": "3b36f25c15738ab1ec062353d4c1b71683cb5416d1b0a386a04b9543bbba2395",
-      "width": 1050,
-      "height": 921,
-      "sources": [
-        "legacy"
-      ],
-      "original_paths": [
-        "isp-pinouts/emmc/SAMSUNG-GT-P5200-2.webp",
-        "isp-pinouts/emmc/SAMSUNG-GT-P5210.webp"
-      ],
-      "aliases": [
-        "SAMSUNG-GT-P5200-2",
-        "SAMSUNG-GT-P5210"
-      ]
-    },
-    {
       "path": "isp-pinouts/samsung/emmc/Samsung-GT-P5200-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
@@ -10915,6 +10852,28 @@
       ],
       "aliases": [
         "SAMSUNG-GT-P5200"
+      ]
+    },
+    {
+      "path": "isp-pinouts/samsung/emmc/Samsung-GT-P5210-ISP.webp",
+      "kind": "isp-pinouts",
+      "protocol": "emmc",
+      "brand": "samsung",
+      "model_key": "GTP52002",
+      "title": "Samsung-GT-P5210-ISP",
+      "sha256": "3b36f25c15738ab1ec062353d4c1b71683cb5416d1b0a386a04b9543bbba2395",
+      "width": 1050,
+      "height": 921,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "isp-pinouts/emmc/SAMSUNG-GT-P5200-2.webp",
+        "isp-pinouts/emmc/SAMSUNG-GT-P5210.webp"
+      ],
+      "aliases": [
+        "SAMSUNG-GT-P5200-2",
+        "SAMSUNG-GT-P5210"
       ]
     },
     {
@@ -10998,34 +10957,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/samsung/emmc/Samsung-GT-P7300-2-ISP.webp",
-      "kind": "isp-pinouts",
-      "protocol": "emmc",
-      "brand": "samsung",
-      "model_key": "GTP73002",
-      "title": "Samsung-GT-P7300-2-ISP",
-      "sha256": "b323f29455e6852c1b5196ea510899db45626e551db0f765c05d359119839d57",
-      "width": 1050,
-      "height": 921,
-      "sources": [
-        "legacy"
-      ],
-      "original_paths": [
-        "isp-pinouts/emmc/SAMSUNG-GT-P7300-2.webp",
-        "isp-pinouts/emmc/SAMSUNG-GT-P7310.webp"
-      ],
-      "aliases": [
-        "SAMSUNG-GT-P7300-2",
-        "SAMSUNG-GT-P7310"
-      ]
-    },
-    {
-      "path": "isp-pinouts/samsung/emmc/Samsung-GT-P7310-2-ISP.webp",
+      "path": "isp-pinouts/samsung/emmc/Samsung-GT-P7300-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "samsung",
       "model_key": "GTP73102",
-      "title": "Samsung-GT-P7310-2-ISP",
+      "title": "Samsung-GT-P7300-ISP",
       "sha256": "a3b61850cff1c8e5b3c2311cbc20c2666fc788758a33b66f14fd42d436aa975f",
       "width": 547,
       "height": 480,
@@ -11039,6 +10976,28 @@
       "aliases": [
         "SAMSUNG-GT-P7300",
         "SAMSUNG-GT-P7310-2"
+      ]
+    },
+    {
+      "path": "isp-pinouts/samsung/emmc/Samsung-GT-P7310-ISP.webp",
+      "kind": "isp-pinouts",
+      "protocol": "emmc",
+      "brand": "samsung",
+      "model_key": "GTP73002",
+      "title": "Samsung-GT-P7310-ISP",
+      "sha256": "b323f29455e6852c1b5196ea510899db45626e551db0f765c05d359119839d57",
+      "width": 1050,
+      "height": 921,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "isp-pinouts/emmc/SAMSUNG-GT-P7300-2.webp",
+        "isp-pinouts/emmc/SAMSUNG-GT-P7310.webp"
+      ],
+      "aliases": [
+        "SAMSUNG-GT-P7300-2",
+        "SAMSUNG-GT-P7310"
       ]
     },
     {
@@ -11942,12 +11901,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/samsung/ufs/Samsung-A920FN-ISP.webp",
+      "path": "isp-pinouts/samsung/ufs/Samsung-A920X-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "ufs",
       "brand": "samsung",
       "model_key": "A920FN",
-      "title": "Samsung-A920FN-ISP",
+      "title": "Samsung-A920X-ISP",
       "sha256": "eb5ab2a586f7237d178009f3c2414ea45341734f41af77382a86ab7ef4cf602c",
       "width": 480,
       "height": 480,
@@ -12084,28 +12043,6 @@
       ]
     },
     {
-      "path": "isp-pinouts/samsung/ufs/Samsung-G950F-2-ISP.webp",
-      "kind": "isp-pinouts",
-      "protocol": "ufs",
-      "brand": "samsung",
-      "model_key": "G950F2",
-      "title": "Samsung-G950F-2-ISP",
-      "sha256": "6c141837744b590cdba504622d5f38220d92e9492d601e5c975b781a75bffb09",
-      "width": 700,
-      "height": 700,
-      "sources": [
-        "legacy"
-      ],
-      "original_paths": [
-        "isp-pinouts/ufs/SAMSUNG-SM-G950F-2.webp",
-        "isp-pinouts/ufs/SAMSUNG-SM-G950N.webp"
-      ],
-      "aliases": [
-        "SAMSUNG-SM-G950F-2",
-        "SAMSUNG-SM-G950N"
-      ]
-    },
-    {
       "path": "isp-pinouts/samsung/ufs/Samsung-G950F-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "ufs",
@@ -12123,6 +12060,28 @@
       ],
       "aliases": [
         "SAMSUNG-SM-G950F"
+      ]
+    },
+    {
+      "path": "isp-pinouts/samsung/ufs/Samsung-G950N-ISP.webp",
+      "kind": "isp-pinouts",
+      "protocol": "ufs",
+      "brand": "samsung",
+      "model_key": "G950F2",
+      "title": "Samsung-G950N-ISP",
+      "sha256": "6c141837744b590cdba504622d5f38220d92e9492d601e5c975b781a75bffb09",
+      "width": 700,
+      "height": 700,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "isp-pinouts/ufs/SAMSUNG-SM-G950F-2.webp",
+        "isp-pinouts/ufs/SAMSUNG-SM-G950N.webp"
+      ],
+      "aliases": [
+        "SAMSUNG-SM-G950F-2",
+        "SAMSUNG-SM-G950N"
       ]
     },
     {
@@ -12206,28 +12165,6 @@
       ]
     },
     {
-      "path": "isp-pinouts/samsung/ufs/Samsung-G960U-2-ISP.webp",
-      "kind": "isp-pinouts",
-      "protocol": "ufs",
-      "brand": "samsung",
-      "model_key": "G960U2",
-      "title": "Samsung-G960U-2-ISP",
-      "sha256": "d1965affee77d78b7e1a0b17bc3dafa0080a8115f31f1a4b9ca3a6fb084a38c8",
-      "width": 700,
-      "height": 700,
-      "sources": [
-        "legacy"
-      ],
-      "original_paths": [
-        "isp-pinouts/ufs/SAMSUNG-SM-G960U-2.webp",
-        "isp-pinouts/ufs/SAMSUNG-SM-G9650.webp"
-      ],
-      "aliases": [
-        "SAMSUNG-SM-G960U-2",
-        "SAMSUNG-SM-G9650"
-      ]
-    },
-    {
       "path": "isp-pinouts/samsung/ufs/Samsung-G960U-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "ufs",
@@ -12245,6 +12182,28 @@
       ],
       "aliases": [
         "SAMSUNG-SM-G960U"
+      ]
+    },
+    {
+      "path": "isp-pinouts/samsung/ufs/Samsung-G9650-ISP.webp",
+      "kind": "isp-pinouts",
+      "protocol": "ufs",
+      "brand": "samsung",
+      "model_key": "G960U2",
+      "title": "Samsung-G9650-ISP",
+      "sha256": "d1965affee77d78b7e1a0b17bc3dafa0080a8115f31f1a4b9ca3a6fb084a38c8",
+      "width": 700,
+      "height": 700,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "isp-pinouts/ufs/SAMSUNG-SM-G960U-2.webp",
+        "isp-pinouts/ufs/SAMSUNG-SM-G9650.webp"
+      ],
+      "aliases": [
+        "SAMSUNG-SM-G960U-2",
+        "SAMSUNG-SM-G9650"
       ]
     },
     {
@@ -12288,28 +12247,6 @@
       ]
     },
     {
-      "path": "isp-pinouts/samsung/ufs/Samsung-G9700-2-ISP.webp",
-      "kind": "isp-pinouts",
-      "protocol": "ufs",
-      "brand": "samsung",
-      "model_key": "G97002",
-      "title": "Samsung-G9700-2-ISP",
-      "sha256": "125c6ebc055b29b66fab133e023394ef9b030746deb75f12db96e3435267273e",
-      "width": 700,
-      "height": 700,
-      "sources": [
-        "legacy"
-      ],
-      "original_paths": [
-        "isp-pinouts/ufs/SAMSUNG-SM-G9700-2.webp",
-        "isp-pinouts/ufs/SAMSUNG-SM-G9708.webp"
-      ],
-      "aliases": [
-        "SAMSUNG-SM-G9700-2",
-        "SAMSUNG-SM-G9708"
-      ]
-    },
-    {
       "path": "isp-pinouts/samsung/ufs/Samsung-G9700-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "ufs",
@@ -12327,6 +12264,28 @@
       ],
       "aliases": [
         "SAMSUNG-SM-G9700"
+      ]
+    },
+    {
+      "path": "isp-pinouts/samsung/ufs/Samsung-G9708-ISP.webp",
+      "kind": "isp-pinouts",
+      "protocol": "ufs",
+      "brand": "samsung",
+      "model_key": "G97002",
+      "title": "Samsung-G9708-ISP",
+      "sha256": "125c6ebc055b29b66fab133e023394ef9b030746deb75f12db96e3435267273e",
+      "width": 700,
+      "height": 700,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "isp-pinouts/ufs/SAMSUNG-SM-G9700-2.webp",
+        "isp-pinouts/ufs/SAMSUNG-SM-G9708.webp"
+      ],
+      "aliases": [
+        "SAMSUNG-SM-G9700-2",
+        "SAMSUNG-SM-G9708"
       ]
     },
     {
@@ -12450,12 +12409,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/samsung/ufs/Samsung-G975U-2-ISP.webp",
+      "path": "isp-pinouts/samsung/ufs/Samsung-G9750-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "ufs",
       "brand": "samsung",
       "model_key": "G975U2",
-      "title": "Samsung-G975U-2-ISP",
+      "title": "Samsung-G9750-ISP",
       "sha256": "1e05ae15d725079b7f3ed7399cc3eb284bafe1185570815edc18fdfdc50eb704",
       "width": 700,
       "height": 700,
@@ -12798,25 +12757,25 @@
       ]
     },
     {
-      "path": "isp-pinouts/samsung/ufs/Samsung-N975F-GALAXY-NOTE-10-PLUS-2-ISP.webp",
+      "path": "isp-pinouts/samsung/ufs/Samsung-N970F-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "ufs",
       "brand": "samsung",
-      "model_key": "N975FGALAXYNOTE10PLUS2",
-      "title": "Samsung-N975F-GALAXY-NOTE-10-PLUS-2-ISP",
-      "sha256": "8e33482871fea12606a2e94a76e540a440601c05ea5aafb5bc1104508ae7b0a4",
+      "model_key": "SMSUNGN970F",
+      "title": "Samsung-N970F-ISP",
+      "sha256": "f94076768aed2bc5a633541059b00ed474ad29c3f3b0eeae8211f4c8c27c4bed",
       "width": 700,
       "height": 700,
       "sources": [
         "legacy"
       ],
       "original_paths": [
-        "isp-pinouts/ufs/SAMSUNG-SM-N975F-GALAXY-NOTE-10-PLUS-2.webp",
-        "isp-pinouts/ufs/SAMSUNG-SM-N975F.webp"
+        "isp-pinouts/ufs/SAMSUNG-SM-N970F.webp",
+        "isp-pinouts/ufs/SMSUNG-SM-N970F.webp"
       ],
       "aliases": [
-        "SAMSUNG-SM-N975F",
-        "SAMSUNG-SM-N975F-GALAXY-NOTE-10-PLUS-2"
+        "SAMSUNG-SM-N970F",
+        "SMSUNG-SM-N970F"
       ]
     },
     {
@@ -12840,25 +12799,25 @@
       ]
     },
     {
-      "path": "isp-pinouts/samsung/ufs/Samsung-N975U-2-ISP.webp",
+      "path": "isp-pinouts/samsung/ufs/Samsung-N975F-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "ufs",
       "brand": "samsung",
-      "model_key": "N975U2",
-      "title": "Samsung-N975U-2-ISP",
-      "sha256": "c35fa63e3027b1d79fa0a085efa313f8f90ecb1719272f3cdf1967811ddef11a",
+      "model_key": "N975FGALAXYNOTE10PLUS2",
+      "title": "Samsung-N975F-ISP",
+      "sha256": "8e33482871fea12606a2e94a76e540a440601c05ea5aafb5bc1104508ae7b0a4",
       "width": 700,
       "height": 700,
       "sources": [
         "legacy"
       ],
       "original_paths": [
-        "isp-pinouts/ufs/SAMSUNG-SM-N975U-2.webp",
-        "isp-pinouts/ufs/SAMSUNG-SM-N976B.webp"
+        "isp-pinouts/ufs/SAMSUNG-SM-N975F-GALAXY-NOTE-10-PLUS-2.webp",
+        "isp-pinouts/ufs/SAMSUNG-SM-N975F.webp"
       ],
       "aliases": [
-        "SAMSUNG-SM-N975U-2",
-        "SAMSUNG-SM-N976B"
+        "SAMSUNG-SM-N975F",
+        "SAMSUNG-SM-N975F-GALAXY-NOTE-10-PLUS-2"
       ]
     },
     {
@@ -12879,6 +12838,28 @@
       ],
       "aliases": [
         "SAMSUNG-SM-N975U"
+      ]
+    },
+    {
+      "path": "isp-pinouts/samsung/ufs/Samsung-N976B-ISP.webp",
+      "kind": "isp-pinouts",
+      "protocol": "ufs",
+      "brand": "samsung",
+      "model_key": "N975U2",
+      "title": "Samsung-N976B-ISP",
+      "sha256": "c35fa63e3027b1d79fa0a085efa313f8f90ecb1719272f3cdf1967811ddef11a",
+      "width": 700,
+      "height": 700,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "isp-pinouts/ufs/SAMSUNG-SM-N975U-2.webp",
+        "isp-pinouts/ufs/SAMSUNG-SM-N976B.webp"
+      ],
+      "aliases": [
+        "SAMSUNG-SM-N975U-2",
+        "SAMSUNG-SM-N976B"
       ]
     },
     {
@@ -12919,28 +12900,6 @@
       ],
       "aliases": [
         "SAMSUNG-SM-N976N"
-      ]
-    },
-    {
-      "path": "isp-pinouts/samsung/ufs/Samsung-SMSUNG-N970F-ISP.webp",
-      "kind": "isp-pinouts",
-      "protocol": "ufs",
-      "brand": "samsung",
-      "model_key": "SMSUNGN970F",
-      "title": "Samsung-SMSUNG-N970F-ISP",
-      "sha256": "f94076768aed2bc5a633541059b00ed474ad29c3f3b0eeae8211f4c8c27c4bed",
-      "width": 700,
-      "height": 700,
-      "sources": [
-        "legacy"
-      ],
-      "original_paths": [
-        "isp-pinouts/ufs/SAMSUNG-SM-N970F.webp",
-        "isp-pinouts/ufs/SMSUNG-SM-N970F.webp"
-      ],
-      "aliases": [
-        "SAMSUNG-SM-N970F",
-        "SMSUNG-SM-N970F"
       ]
     },
     {
@@ -13166,12 +13125,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/sigma/emmc/Sigma-Other-X-TREME-PQ30-2-ISP.webp",
+      "path": "isp-pinouts/sigma/emmc/Sigma-X-TREME-PQ30-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "sigma",
-      "model_key": "OTHERXTREMEPQ302",
-      "title": "Sigma-Other-X-TREME-PQ30-2-ISP",
+      "model_key": "SIGMAXTREMEPQ302",
+      "title": "Sigma-X-TREME-PQ30-2-ISP",
       "sha256": "e7fc806e409ce97ed01c9f5cf29e9d448f02df3ba08121c002bd2b34532b5d58",
       "width": 1049,
       "height": 969,
@@ -13186,12 +13145,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/sigma/emmc/Sigma-Other-X-TREME-PQ30-ISP.webp",
+      "path": "isp-pinouts/sigma/emmc/Sigma-X-TREME-PQ30-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "sigma",
-      "model_key": "OTHERXTREMEPQ30",
-      "title": "Sigma-Other-X-TREME-PQ30-ISP",
+      "model_key": "SIGMAXTREMEPQ30",
+      "title": "Sigma-X-TREME-PQ30-ISP",
       "sha256": "cdc2ea3ef88d35bab92c32b0fa7e04b34bd033b32e41fc0239f9e8f7338dd369",
       "width": 520,
       "height": 480,
@@ -13206,12 +13165,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/sky/emmc/Sky-Other-A760S-ISP.webp",
+      "path": "isp-pinouts/sky/emmc/Sky-A760S-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "sky",
-      "model_key": "OTHERA760S",
-      "title": "Sky-Other-A760S-ISP",
+      "model_key": "SKYA760S",
+      "title": "Sky-A760S-ISP",
       "sha256": "a2bb3f73de7558abfcb1cab554d86dadd6b94bf2c9a8eccbc6be943572b05232",
       "width": 547,
       "height": 480,
@@ -13226,12 +13185,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/sky/emmc/Sky-Other-A800S-2-ISP.webp",
+      "path": "isp-pinouts/sky/emmc/Sky-A800S-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "sky",
-      "model_key": "OTHERA800S2",
-      "title": "Sky-Other-A800S-2-ISP",
+      "model_key": "SKYA800S2",
+      "title": "Sky-A800S-2-ISP",
       "sha256": "4b1a6ec37f97e0778d210c600e076eacf91689b3931cf79a0d2babd91ebcf8e3",
       "width": 1050,
       "height": 921,
@@ -13246,12 +13205,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/sky/emmc/Sky-Other-A800S-ISP.webp",
+      "path": "isp-pinouts/sky/emmc/Sky-A800S-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "sky",
-      "model_key": "OTHERA800S",
-      "title": "Sky-Other-A800S-ISP",
+      "model_key": "SKYA800S",
+      "title": "Sky-A800S-ISP",
       "sha256": "e9f3d0acb2b2cbefd104d46ce875149ac24de29ff18b67fc7cd16827882955a9",
       "width": 547,
       "height": 480,
@@ -13266,12 +13225,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/sky/emmc/Sky-Other-A810K-2-ISP.webp",
+      "path": "isp-pinouts/sky/emmc/Sky-A810K-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "sky",
-      "model_key": "OTHERA810K2",
-      "title": "Sky-Other-A810K-2-ISP",
+      "model_key": "SKYA810K2",
+      "title": "Sky-A810K-2-ISP",
       "sha256": "37249c469f9aa054b50f8ab8817990a9e0eaeb4e6a7e3d324d184395604b3d93",
       "width": 547,
       "height": 480,
@@ -13286,12 +13245,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/sky/emmc/Sky-Other-A810K-ISP.webp",
+      "path": "isp-pinouts/sky/emmc/Sky-A810K-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "sky",
-      "model_key": "OTHERA810K",
-      "title": "Sky-Other-A810K-ISP",
+      "model_key": "SKYA810K",
+      "title": "Sky-A810K-ISP",
       "sha256": "beeb86c6d755b5480a5e86b63e396d6d51de596bfc86fcda8d047050174f2313",
       "width": 1050,
       "height": 921,
@@ -13306,12 +13265,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/sky/emmc/Sky-Other-A810S-2-ISP.webp",
+      "path": "isp-pinouts/sky/emmc/Sky-A810S-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "sky",
-      "model_key": "OTHERA810S2",
-      "title": "Sky-Other-A810S-2-ISP",
+      "model_key": "SKYA810S2",
+      "title": "Sky-A810S-2-ISP",
       "sha256": "5cf397290e9c6b219bcfd58c3c4746e518a6d3b512ab0f0eb490e278902ceba4",
       "width": 1049,
       "height": 920,
@@ -13326,12 +13285,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/sky/emmc/Sky-Other-A810S-ISP.webp",
+      "path": "isp-pinouts/sky/emmc/Sky-A810S-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "sky",
-      "model_key": "OTHERA810S",
-      "title": "Sky-Other-A810S-ISP",
+      "model_key": "SKYA810S",
+      "title": "Sky-A810S-ISP",
       "sha256": "b8f94c5aead0cd33f20474ad5194f5affcf0d1b910bbcd4b0af28405c17b961b",
       "width": 547,
       "height": 480,
@@ -13346,12 +13305,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/sky/emmc/Sky-Other-A820L-2-ISP.webp",
+      "path": "isp-pinouts/sky/emmc/Sky-A820L-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "sky",
-      "model_key": "OTHERA820L2",
-      "title": "Sky-Other-A820L-2-ISP",
+      "model_key": "SKYA820L2",
+      "title": "Sky-A820L-2-ISP",
       "sha256": "9a7425311122684a3ea26d97c72a48267fb38471b40329d97cc5528f77781815",
       "width": 547,
       "height": 480,
@@ -13366,12 +13325,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/sky/emmc/Sky-Other-A820L-ISP.webp",
+      "path": "isp-pinouts/sky/emmc/Sky-A820L-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "sky",
-      "model_key": "OTHERA820L",
-      "title": "Sky-Other-A820L-ISP",
+      "model_key": "SKYA820L",
+      "title": "Sky-A820L-ISP",
       "sha256": "d1d038df45f557f5ce20a8dee3d52b6f9045169ffc80b7cf29a0788cc16b394c",
       "width": 1050,
       "height": 921,
@@ -13386,12 +13345,72 @@
       ]
     },
     {
-      "path": "isp-pinouts/sky/emmc/Sky-Other-A830K-2-ISP.webp",
+      "path": "isp-pinouts/sky/emmc/Sky-A830K-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "sky",
-      "model_key": "OTHERA830K2",
-      "title": "Sky-Other-A830K-2-ISP",
+      "model_key": "SKYA830K",
+      "title": "Sky-A830K-ISP",
+      "sha256": "fd7fcad5f91b3ba103d7f0cdf8c275e131559a305d99ecb86bf09def2ec3afce",
+      "width": 547,
+      "height": 480,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "isp-pinouts/emmc/SKY-A830K.webp"
+      ],
+      "aliases": [
+        "SKY-A830K"
+      ]
+    },
+    {
+      "path": "isp-pinouts/sky/emmc/Sky-A830L-2-ISP.webp",
+      "kind": "isp-pinouts",
+      "protocol": "emmc",
+      "brand": "sky",
+      "model_key": "SKYA830L2",
+      "title": "Sky-A830L-2-ISP",
+      "sha256": "821e46b02110258c90f68ce00f7c9739ebad876f33f2c1a577247a54c27ffed4",
+      "width": 1050,
+      "height": 921,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "isp-pinouts/emmc/SKY-A830L-2.webp"
+      ],
+      "aliases": [
+        "SKY-A830L-2"
+      ]
+    },
+    {
+      "path": "isp-pinouts/sky/emmc/Sky-A830L-ISP.webp",
+      "kind": "isp-pinouts",
+      "protocol": "emmc",
+      "brand": "sky",
+      "model_key": "SKYA830L",
+      "title": "Sky-A830L-ISP",
+      "sha256": "e9da25fe1f9bb8fd3878717c2bb58829b1e54ec273c81568bc0788393467d2d4",
+      "width": 547,
+      "height": 480,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "isp-pinouts/emmc/SKY-A830L.webp"
+      ],
+      "aliases": [
+        "SKY-A830L"
+      ]
+    },
+    {
+      "path": "isp-pinouts/sky/emmc/Sky-A830S-ISP.webp",
+      "kind": "isp-pinouts",
+      "protocol": "emmc",
+      "brand": "sky",
+      "model_key": "SKYA830K2",
+      "title": "Sky-A830S-ISP",
       "sha256": "95c9347e459a19b442a6c543ca3f55964b69405cf54b40051a0f252535142b37",
       "width": 1050,
       "height": 921,
@@ -13408,72 +13427,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/sky/emmc/Sky-Other-A830K-ISP.webp",
+      "path": "isp-pinouts/sky/emmc/Sky-A840S-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "sky",
-      "model_key": "OTHERA830K",
-      "title": "Sky-Other-A830K-ISP",
-      "sha256": "fd7fcad5f91b3ba103d7f0cdf8c275e131559a305d99ecb86bf09def2ec3afce",
-      "width": 547,
-      "height": 480,
-      "sources": [
-        "legacy"
-      ],
-      "original_paths": [
-        "isp-pinouts/emmc/SKY-A830K.webp"
-      ],
-      "aliases": [
-        "SKY-A830K"
-      ]
-    },
-    {
-      "path": "isp-pinouts/sky/emmc/Sky-Other-A830L-2-ISP.webp",
-      "kind": "isp-pinouts",
-      "protocol": "emmc",
-      "brand": "sky",
-      "model_key": "OTHERA830L2",
-      "title": "Sky-Other-A830L-2-ISP",
-      "sha256": "821e46b02110258c90f68ce00f7c9739ebad876f33f2c1a577247a54c27ffed4",
-      "width": 1050,
-      "height": 921,
-      "sources": [
-        "legacy"
-      ],
-      "original_paths": [
-        "isp-pinouts/emmc/SKY-A830L-2.webp"
-      ],
-      "aliases": [
-        "SKY-A830L-2"
-      ]
-    },
-    {
-      "path": "isp-pinouts/sky/emmc/Sky-Other-A830L-ISP.webp",
-      "kind": "isp-pinouts",
-      "protocol": "emmc",
-      "brand": "sky",
-      "model_key": "OTHERA830L",
-      "title": "Sky-Other-A830L-ISP",
-      "sha256": "e9da25fe1f9bb8fd3878717c2bb58829b1e54ec273c81568bc0788393467d2d4",
-      "width": 547,
-      "height": 480,
-      "sources": [
-        "legacy"
-      ],
-      "original_paths": [
-        "isp-pinouts/emmc/SKY-A830L.webp"
-      ],
-      "aliases": [
-        "SKY-A830L"
-      ]
-    },
-    {
-      "path": "isp-pinouts/sky/emmc/Sky-Other-A840S-2-ISP.webp",
-      "kind": "isp-pinouts",
-      "protocol": "emmc",
-      "brand": "sky",
-      "model_key": "OTHERA840S2",
-      "title": "Sky-Other-A840S-2-ISP",
+      "model_key": "SKYA840S2",
+      "title": "Sky-A840S-2-ISP",
       "sha256": "88bb7e49fa6d0ad3a2d5b31c0de3b0ae8b5b40976635f86657840c8eb7b57f00",
       "width": 547,
       "height": 480,
@@ -13488,12 +13447,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/sky/emmc/Sky-Other-A840S-ISP.webp",
+      "path": "isp-pinouts/sky/emmc/Sky-A840S-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "sky",
-      "model_key": "OTHERA840S",
-      "title": "Sky-Other-A840S-ISP",
+      "model_key": "SKYA840S",
+      "title": "Sky-A840S-ISP",
       "sha256": "31827a0bf3c4e582e84c072b78d891c22347af9fa80b5d16273b38db674874f0",
       "width": 1049,
       "height": 920,
@@ -13508,12 +13467,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/sky/emmc/Sky-Other-A850K-2-ISP.webp",
+      "path": "isp-pinouts/sky/emmc/Sky-A850K-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "sky",
-      "model_key": "OTHERA850K2",
-      "title": "Sky-Other-A850K-2-ISP",
+      "model_key": "SKYA850K2",
+      "title": "Sky-A850K-2-ISP",
       "sha256": "2901cd406a2b31cf1706d82fc0dab96ad71b4cc20a5ca90137f1297fee0ce759",
       "width": 547,
       "height": 480,
@@ -13528,12 +13487,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/sky/emmc/Sky-Other-A850K-ISP.webp",
+      "path": "isp-pinouts/sky/emmc/Sky-A850K-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "sky",
-      "model_key": "OTHERA850K",
-      "title": "Sky-Other-A850K-ISP",
+      "model_key": "SKYA850K",
+      "title": "Sky-A850K-ISP",
       "sha256": "41d710b9a3173fa293420ef9acdf26b80b5937e66b04efb62c3be80e75d0e87c",
       "width": 1049,
       "height": 920,
@@ -13550,12 +13509,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/sky/emmc/Sky-Other-A850L-2-ISP.webp",
+      "path": "isp-pinouts/sky/emmc/Sky-A850L-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "sky",
-      "model_key": "OTHERA850L2",
-      "title": "Sky-Other-A850L-2-ISP",
+      "model_key": "SKYA850L2",
+      "title": "Sky-A850L-2-ISP",
       "sha256": "5cd463512c64c95384553ae0fc6c917cb3071f4b49c864094132a824ec4a9c0d",
       "width": 1049,
       "height": 920,
@@ -13570,12 +13529,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/sky/emmc/Sky-Other-A850L-ISP.webp",
+      "path": "isp-pinouts/sky/emmc/Sky-A850L-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "sky",
-      "model_key": "OTHERA850L",
-      "title": "Sky-Other-A850L-ISP",
+      "model_key": "SKYA850L",
+      "title": "Sky-A850L-ISP",
       "sha256": "45aaf20fb8b5c3a1ba661ace9cd62f7a9677939c85c57eab755a4fdb69a739a2",
       "width": 547,
       "height": 480,
@@ -13590,12 +13549,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/sky/emmc/Sky-Other-A870-2-ISP.webp",
+      "path": "isp-pinouts/sky/emmc/Sky-A870-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "sky",
-      "model_key": "OTHERA8702",
-      "title": "Sky-Other-A870-2-ISP",
+      "model_key": "SKYA8702",
+      "title": "Sky-A870-2-ISP",
       "sha256": "c234bf413c8bbcc2e1c09cb349edf88f7d2878a6fce6a8ef0785c31d811ac1da",
       "width": 1049,
       "height": 920,
@@ -13610,12 +13569,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/sky/emmc/Sky-Other-A870-ISP.webp",
+      "path": "isp-pinouts/sky/emmc/Sky-A870-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "sky",
-      "model_key": "OTHERA870",
-      "title": "Sky-Other-A870-ISP",
+      "model_key": "SKYA870",
+      "title": "Sky-A870-ISP",
       "sha256": "19f375cb2e0f8f254dadd3b18d55663697af20d2e68c2ced35c5d83b2dcc4bb4",
       "width": 547,
       "height": 480,
@@ -15094,12 +15053,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/starway/emmc/Starway-Other-ANDROMEDA-S845-2-ISP.webp",
+      "path": "isp-pinouts/starway/emmc/Starway-ANDROMEDA-S845-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "starway",
-      "model_key": "OTHERANDROMEDAS8452",
-      "title": "Starway-Other-ANDROMEDA-S845-2-ISP",
+      "model_key": "STARWAYANDROMEDAS8452",
+      "title": "Starway-ANDROMEDA-S845-2-ISP",
       "sha256": "834bc27e47916619361bbb55aa878be8afc513b70e0dc7b8558c25b49de67023",
       "width": 1050,
       "height": 921,
@@ -15114,12 +15073,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/starway/emmc/Starway-Other-ANDROMEDA-S845-ISP.webp",
+      "path": "isp-pinouts/starway/emmc/Starway-ANDROMEDA-S845-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "starway",
-      "model_key": "OTHERANDROMEDAS845",
-      "title": "Starway-Other-ANDROMEDA-S845-ISP",
+      "model_key": "STARWAYANDROMEDAS845",
+      "title": "Starway-ANDROMEDA-S845-ISP",
       "sha256": "14344a4775d2e5f0192c2ab472c38b10c89e50c3d1ca3434b8b7584cc46c66e3",
       "width": 547,
       "height": 480,
@@ -15134,12 +15093,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/tesla/emmc/Tesla-Other-ATOM-7.0-3G-2-ISP.webp",
+      "path": "isp-pinouts/tesla/emmc/Tesla-ATOM-7.0-3G-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "tesla",
-      "model_key": "OTHERATOM703G2",
-      "title": "Tesla-Other-ATOM-7.0-3G-2-ISP",
+      "model_key": "TESLAATOM703G2",
+      "title": "Tesla-ATOM-7.0-3G-2-ISP",
       "sha256": "aaa3b77aaa2271768a5537b13e0c379a676168d989b326f76fe436add2a526fd",
       "width": 1050,
       "height": 921,
@@ -15154,12 +15113,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/tesla/emmc/Tesla-Other-ATOM-7.0-3G-ISP.webp",
+      "path": "isp-pinouts/tesla/emmc/Tesla-ATOM-7.0-3G-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "tesla",
-      "model_key": "OTHERATOM703G",
-      "title": "Tesla-Other-ATOM-7.0-3G-ISP",
+      "model_key": "TESLAATOM703G",
+      "title": "Tesla-ATOM-7.0-3G-ISP",
       "sha256": "c97484df9dfa1a9f56b02f4f64b87eee921d5c917b657ad09322309f2428d1d5",
       "width": 547,
       "height": 480,
@@ -15174,12 +15133,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/texet/emmc/Texet-Other-TM-4272-2-ISP.webp",
+      "path": "isp-pinouts/texet/emmc/Texet-TM-4272-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "texet",
-      "model_key": "OTHERTM42722",
-      "title": "Texet-Other-TM-4272-2-ISP",
+      "model_key": "TEXETTM42722",
+      "title": "Texet-TM-4272-2-ISP",
       "sha256": "76c61836dda2162b9c80465ea3fda47f53091e2835b427bfa944b46b4bde25be",
       "width": 547,
       "height": 480,
@@ -15194,12 +15153,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/texet/emmc/Texet-Other-TM-4272-ISP.webp",
+      "path": "isp-pinouts/texet/emmc/Texet-TM-4272-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "texet",
-      "model_key": "OTHERTM4272",
-      "title": "Texet-Other-TM-4272-ISP",
+      "model_key": "TEXETTM4272",
+      "title": "Texet-TM-4272-ISP",
       "sha256": "6e79764f7a4a218f2616490c3e70e95640ecafc838282085a452334651270c07",
       "width": 1050,
       "height": 921,
@@ -15214,12 +15173,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/texet/emmc/Texet-Other-TM-7877-3G-2-ISP.webp",
+      "path": "isp-pinouts/texet/emmc/Texet-TM-7877-3G-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "texet",
-      "model_key": "OTHERTM78773G2",
-      "title": "Texet-Other-TM-7877-3G-2-ISP",
+      "model_key": "TEXETTM78773G2",
+      "title": "Texet-TM-7877-3G-2-ISP",
       "sha256": "292e52e5e323a20d0d2a5e8a7da9341859d1fa1e2dc2a5d09969f2363fd1c7e0",
       "width": 547,
       "height": 480,
@@ -15234,12 +15193,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/texet/emmc/Texet-Other-TM-7877-3G-ISP.webp",
+      "path": "isp-pinouts/texet/emmc/Texet-TM-7877-3G-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "texet",
-      "model_key": "OTHERTM78773G",
-      "title": "Texet-Other-TM-7877-3G-ISP",
+      "model_key": "TEXETTM78773G",
+      "title": "Texet-TM-7877-3G-ISP",
       "sha256": "37c0e8eaa1021aab1b623686c98175cc1dd43af7aef1141ec6e116393df9397d",
       "width": 1050,
       "height": 921,
@@ -15254,12 +15213,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/tomtom/emmc/Tomtom-Other-VIA-2-ISP.webp",
+      "path": "isp-pinouts/tomtom/emmc/Tomtom-VIA-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "tomtom",
-      "model_key": "OTHERVIA2",
-      "title": "Tomtom-Other-VIA-2-ISP",
+      "model_key": "TOMTOMVIA2",
+      "title": "Tomtom-VIA-2-ISP",
       "sha256": "ee08af46f4bea72e99dba9fd705c575367aada6be0a4426cade93de2c2048013",
       "width": 1050,
       "height": 921,
@@ -15274,12 +15233,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/tomtom/emmc/Tomtom-Other-VIA-ISP.webp",
+      "path": "isp-pinouts/tomtom/emmc/Tomtom-VIA-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "tomtom",
-      "model_key": "OTHERVIA",
-      "title": "Tomtom-Other-VIA-ISP",
+      "model_key": "TOMTOMVIA",
+      "title": "Tomtom-VIA-ISP",
       "sha256": "baf82952dfe7d4acd3e61b0d69754466748735e6bc462180c8bf40a46bc60f16",
       "width": 547,
       "height": 480,
@@ -15294,12 +15253,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/toshiba/emmc/Toshiba-Other-TV-39L4353RB-2-ISP.webp",
+      "path": "isp-pinouts/toshiba/emmc/Toshiba-TV-39L4353RB-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "toshiba",
-      "model_key": "OTHERTV39L4353RB2",
-      "title": "Toshiba-Other-TV-39L4353RB-2-ISP",
+      "model_key": "TOSHIBATV39L4353RB2",
+      "title": "Toshiba-TV-39L4353RB-2-ISP",
       "sha256": "07f97232d9c425f0b03c5475292dafee8759decddd8ea2e0ec28917f617eb084",
       "width": 547,
       "height": 480,
@@ -15314,12 +15273,52 @@
       ]
     },
     {
-      "path": "isp-pinouts/veon/emmc/Veon-Other-C8680-2-ISP.webp",
+      "path": "isp-pinouts/tp-link/emmc/TP-Link-NEFFOS-Y5L-TP801A-2-ISP.webp",
+      "kind": "isp-pinouts",
+      "protocol": "emmc",
+      "brand": "tp-link",
+      "model_key": "LINKNEFFOSY5LTP801A2",
+      "title": "TP-Link-NEFFOS-Y5L-TP801A-2-ISP",
+      "sha256": "1d5c5598aff70b54f2baf87157a1653a222a45f00f89d50901b3f9534a72ab06",
+      "width": 1050,
+      "height": 921,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "isp-pinouts/emmc/TP-LINK-NEFFOS-Y5L-TP801A-2.webp"
+      ],
+      "aliases": [
+        "TP-LINK-NEFFOS-Y5L-TP801A-2"
+      ]
+    },
+    {
+      "path": "isp-pinouts/tp-link/emmc/TP-Link-NEFFOS-Y5L-TP801A-ISP.webp",
+      "kind": "isp-pinouts",
+      "protocol": "emmc",
+      "brand": "tp-link",
+      "model_key": "LINKNEFFOSY5LTP801A",
+      "title": "TP-Link-NEFFOS-Y5L-TP801A-ISP",
+      "sha256": "87ab614fec90400ae7a94c4707693f0019c1d6b0ab18bd65c298de8e99ac40b5",
+      "width": 547,
+      "height": 480,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "isp-pinouts/emmc/TP-LINK-NEFFOS-Y5L-TP801A.webp"
+      ],
+      "aliases": [
+        "TP-LINK-NEFFOS-Y5L-TP801A"
+      ]
+    },
+    {
+      "path": "isp-pinouts/veon/emmc/Veon-C8680-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "veon",
-      "model_key": "OTHERC86802",
-      "title": "Veon-Other-C8680-2-ISP",
+      "model_key": "VEONC86802",
+      "title": "Veon-C8680-2-ISP",
       "sha256": "1e7e3e7455683ad6783209b6e38fbb198fbaacd7a52df54abc9c372ae1a0d49c",
       "width": 547,
       "height": 480,
@@ -15334,12 +15333,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/veon/emmc/Veon-Other-C8680-ISP.webp",
+      "path": "isp-pinouts/veon/emmc/Veon-C8680-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "veon",
-      "model_key": "OTHERC8680",
-      "title": "Veon-Other-C8680-ISP",
+      "model_key": "VEONC8680",
+      "title": "Veon-C8680-ISP",
       "sha256": "ab3a047d6aa0f5966ae0ffac1221b5a6c01eac79738b0fa7f2d966edb24d367a",
       "width": 1050,
       "height": 921,
@@ -17416,12 +17415,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/yureka/emmc/Yureka-Other-YU5510A-ISP.webp",
+      "path": "isp-pinouts/yu/emmc/YU-YUREKA-YU5510A-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
-      "brand": "yureka",
-      "model_key": "OTHERYU5510A",
-      "title": "Yureka-Other-YU5510A-ISP",
+      "brand": "yu",
+      "model_key": "YUREKAYU5510A",
+      "title": "YU-YUREKA-YU5510A-ISP",
       "sha256": "b1e01920a70b1bdbf21726485e1b00ba859de7f74367a6fe820721f917ead340",
       "width": 547,
       "height": 480,
@@ -17436,12 +17435,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/zopo/emmc/Zopo-Other-C2-2-ISP.webp",
+      "path": "isp-pinouts/zopo/emmc/Zopo-C2-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "zopo",
-      "model_key": "OTHERC22",
-      "title": "Zopo-Other-C2-2-ISP",
+      "model_key": "ZOPOC22",
+      "title": "Zopo-C2-2-ISP",
       "sha256": "d3cd354f01d47fa90e82f3aaf7ef057db864a7020e2b2458e0a3974f1bf5deaa",
       "width": 1050,
       "height": 921,
@@ -17456,12 +17455,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/zopo/emmc/Zopo-Other-C2-b-2-ISP.webp",
+      "path": "isp-pinouts/zopo/emmc/Zopo-C2-b-2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "zopo",
-      "model_key": "OTHERC2B2",
-      "title": "Zopo-Other-C2-b-2-ISP",
+      "model_key": "ZOPOC2B2",
+      "title": "Zopo-C2-b-2-ISP",
       "sha256": "392c3dc1507566c21a0d1cb541c7757c1c5061befbd02cfda12537df7dd03b01",
       "width": 1050,
       "height": 921,
@@ -17476,12 +17475,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/zopo/emmc/Zopo-Other-C2-b-ISP.webp",
+      "path": "isp-pinouts/zopo/emmc/Zopo-C2-b-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "zopo",
-      "model_key": "OTHERC2B",
-      "title": "Zopo-Other-C2-b-ISP",
+      "model_key": "ZOPOC2B",
+      "title": "Zopo-C2-b-ISP",
       "sha256": "12310adf13ecda23251d2397d83e663da451565f7219b48e74b32f1128c555b1",
       "width": 547,
       "height": 480,
@@ -17496,12 +17495,12 @@
       ]
     },
     {
-      "path": "isp-pinouts/zopo/emmc/Zopo-Other-C2-ISP.webp",
+      "path": "isp-pinouts/zopo/emmc/Zopo-C2-ISP.webp",
       "kind": "isp-pinouts",
       "protocol": "emmc",
       "brand": "zopo",
-      "model_key": "OTHERC2",
-      "title": "Zopo-Other-C2-ISP",
+      "model_key": "ZOPOC2",
+      "title": "Zopo-C2-ISP",
       "sha256": "d70e2116c99590ac9fd963db6cc8be60cdfb01c289b4801b76b0ae16b7abb9f5",
       "width": 547,
       "height": 480,
@@ -19196,12 +19195,12 @@
       ]
     },
     {
-      "path": "test-points/honor/Honor-30-BMH-AN10-2-Test-Point.webp",
+      "path": "test-points/honor/Honor-30-BMH-AN10-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "honor",
-      "model_key": "30BMHAN102",
-      "title": "Honor-30-BMH-AN10-2-Test-Point",
+      "model_key": "30BMHAN10",
+      "title": "Honor-30-BMH-AN10-Test-Point-tp-2",
       "sha256": "2c19c9abd48e2ad4f2a23aea40f7817bb4cf95c21ffdad8058493eb87a537a70",
       "width": 599,
       "height": 481,
@@ -19319,12 +19318,12 @@
       ]
     },
     {
-      "path": "test-points/honor/Honor-3C-H30-U10-2-Test-Point.webp",
+      "path": "test-points/honor/Honor-3c-h30-u10-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "honor",
-      "model_key": "3CH30U102",
-      "title": "Honor-3C-H30-U10-2-Test-Point",
+      "model_key": "3CH30U10",
+      "title": "Honor-3c-h30-u10-Test-Point-tp-2",
       "sha256": "6ca2e6e9bb590620232cfd83170b87a843d6ca5094deb55d1902033f95234add",
       "width": 1007,
       "height": 580,
@@ -19379,12 +19378,12 @@
       ]
     },
     {
-      "path": "test-points/honor/Honor-4X-Che2-L11-2-Test-Point.webp",
+      "path": "test-points/honor/Honor-4X-Che2-L11-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "honor",
-      "model_key": "4XCHE2L112",
-      "title": "Honor-4X-Che2-L11-2-Test-Point",
+      "model_key": "4XCHE2L11",
+      "title": "Honor-4X-Che2-L11-Test-Point-tp-2",
       "sha256": "e55f4bccc4b0a520d97e3ba060b2aa83d9ded50df9f165a83d0e32088cfb24a8",
       "width": 637,
       "height": 607,
@@ -19416,26 +19415,6 @@
       ],
       "aliases": [
         "Honor-4X-(Che2-L11)"
-      ]
-    },
-    {
-      "path": "test-points/honor/Honor-50-2-Test-Point.webp",
-      "kind": "test-points",
-      "protocol": null,
-      "brand": "honor",
-      "model_key": "502",
-      "title": "Honor-50-2-Test-Point",
-      "sha256": "49eb396fc27b785204b871a06268af981b5304dc99081394fbdf614e14c48282",
-      "width": 632,
-      "height": 558,
-      "sources": [
-        "sumatech"
-      ],
-      "original_paths": [
-        "test-points/sumatech/Honor-50-test-point.webp"
-      ],
-      "aliases": [
-        "Honor-50-test-point"
       ]
     },
     {
@@ -19479,6 +19458,26 @@
       ]
     },
     {
+      "path": "test-points/honor/Honor-50-Test-Point-tp-2.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "honor",
+      "model_key": "50",
+      "title": "Honor-50-Test-Point-tp-2",
+      "sha256": "49eb396fc27b785204b871a06268af981b5304dc99081394fbdf614e14c48282",
+      "width": 632,
+      "height": 558,
+      "sources": [
+        "sumatech"
+      ],
+      "original_paths": [
+        "test-points/sumatech/Honor-50-test-point.webp"
+      ],
+      "aliases": [
+        "Honor-50-test-point"
+      ]
+    },
+    {
       "path": "test-points/honor/Honor-50-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
@@ -19499,12 +19498,12 @@
       ]
     },
     {
-      "path": "test-points/honor/Honor-6-H60-L04-2-Test-Point.webp",
+      "path": "test-points/honor/Honor-6-H60-L04-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "honor",
-      "model_key": "6H60L042",
-      "title": "Honor-6-H60-L04-2-Test-Point",
+      "model_key": "6H60L04",
+      "title": "Honor-6-H60-L04-Test-Point-tp-2",
       "sha256": "1b46e8ef1219d4f2b7f57fc0f291202fa26df028a3587e78fb780e7d6c61f97c",
       "width": 720,
       "height": 1280,
@@ -19579,12 +19578,12 @@
       ]
     },
     {
-      "path": "test-points/honor/Honor-6A-DLI-AL20-2-Test-Point.webp",
+      "path": "test-points/honor/Honor-6A-DLI-AL20-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "honor",
-      "model_key": "6ADLIAL202",
-      "title": "Honor-6A-DLI-AL20-2-Test-Point",
+      "model_key": "6ADLIAL20",
+      "title": "Honor-6A-DLI-AL20-Test-Point-tp-2",
       "sha256": "dcb4a2656285bd23c856f21cc57c3707eca9ae23cac235e28bced9b74267c3e4",
       "width": 405,
       "height": 535,
@@ -19619,12 +19618,12 @@
       ]
     },
     {
-      "path": "test-points/honor/Honor-6X-BLN-AL20-AL40-AL00-2-Test-Point.webp",
+      "path": "test-points/honor/Honor-6X-BLN-AL20-AL40-AL00-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "honor",
-      "model_key": "6XBLNAL20AL40AL002",
-      "title": "Honor-6X-BLN-AL20-AL40-AL00-2-Test-Point",
+      "model_key": "6XBLNAL20AL40AL00",
+      "title": "Honor-6X-BLN-AL20-AL40-AL00-Test-Point-tp-2",
       "sha256": "719ced8890d24d2106d2f9442771d2f850f8d4480e397a179bd378c2aa15a375",
       "width": 915,
       "height": 340,
@@ -19739,6 +19738,28 @@
       ]
     },
     {
+      "path": "test-points/honor/Honor-7i-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "honor",
+      "model_key": "SHOTXATHUL01",
+      "title": "Honor-7i-Test-Point",
+      "sha256": "9bb6236e933af0807c8e375aa1ea54f8b208bf611226ad8d2fd1c755cf38e341",
+      "width": 1136,
+      "height": 691,
+      "sources": [
+        "unlocktool"
+      ],
+      "original_paths": [
+        "test-points/unlocktool/huawei/Honor-7i.webp",
+        "test-points/unlocktool/huawei/Huawei-Shot-X-(ATH-UL01).webp"
+      ],
+      "aliases": [
+        "Honor-7i",
+        "Huawei-Shot-X-(ATH-UL01)"
+      ]
+    },
+    {
       "path": "test-points/honor/Honor-7X-BND-L21-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
@@ -19779,12 +19800,12 @@
       ]
     },
     {
-      "path": "test-points/honor/Honor-8-FRD-AL00-2-Test-Point.webp",
+      "path": "test-points/honor/Honor-8-FRD-AL00-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "honor",
-      "model_key": "8FRDAL002",
-      "title": "Honor-8-FRD-AL00-2-Test-Point",
+      "model_key": "8FRDAL00",
+      "title": "Honor-8-FRD-AL00-Test-Point-tp-2",
       "sha256": "105fb02a64f4573f31db2cff7b8a8fde87a327ec8087fc6b3e4154acf99438ce",
       "width": 375,
       "height": 400,
@@ -19919,12 +19940,12 @@
       ]
     },
     {
-      "path": "test-points/honor/Honor-8x-JSN-AL00-Test-Point.webp",
+      "path": "test-points/honor/Honor-8x-JSN-L22-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "honor",
       "model_key": "8XJSNAL00",
-      "title": "Honor-8x-JSN-AL00-Test-Point",
+      "title": "Honor-8x-JSN-L22-Test-Point",
       "sha256": "97a68628c3a54171516985c213780ea3e4876851b02b1173aa6bea50d2cc3ef0",
       "width": 1417,
       "height": 756,
@@ -20143,12 +20164,12 @@
       ]
     },
     {
-      "path": "test-points/honor/Honor-Huawei-8A-JAT-LGRP2-Test-Point.webp",
+      "path": "test-points/honor/Honor-Huawei-8A-JAT-L21-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "honor",
       "model_key": "HUAWEI8AJATLGRP2",
-      "title": "Honor-Huawei-8A-JAT-LGRP2-Test-Point",
+      "title": "Honor-Huawei-8A-JAT-L21-Test-Point",
       "sha256": "e2ca7e90a2c2219d46b5fa509c08d7d9a311acfb80fbbf00f00c8dc40b339c6b",
       "width": 638,
       "height": 447,
@@ -20611,12 +20632,12 @@
       ]
     },
     {
-      "path": "test-points/honor/Honor-Play-COR-AL10-2-Test-Point.webp",
+      "path": "test-points/honor/Honor-Play-COR-AL10-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "honor",
-      "model_key": "PLAYCORAL102",
-      "title": "Honor-Play-COR-AL10-2-Test-Point",
+      "model_key": "PLAYCORAL10",
+      "title": "Honor-Play-COR-AL10-Test-Point-tp-2",
       "sha256": "3b82c88736dc4a89c7471f38a2c2b8dd097d5dabe22c60f6042ee82f336267c0",
       "width": 930,
       "height": 303,
@@ -20771,12 +20792,12 @@
       ]
     },
     {
-      "path": "test-points/honor/Honor-V8-KNT-2-Test-Point.webp",
+      "path": "test-points/honor/Honor-V8-KNT-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "honor",
-      "model_key": "V8KNT2",
-      "title": "Honor-V8-KNT-2-Test-Point",
+      "model_key": "V8KNT",
+      "title": "Honor-V8-KNT-Test-Point-tp-2",
       "sha256": "462450766f9bab55633e932963790885a97edca0da01c34b9a40cdfb7499a408",
       "width": 426,
       "height": 509,
@@ -20851,12 +20872,12 @@
       ]
     },
     {
-      "path": "test-points/honor/Honor-View-10-2-Test-Point.webp",
+      "path": "test-points/honor/Honor-View-10-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "honor",
-      "model_key": "VIEW102",
-      "title": "Honor-View-10-2-Test-Point",
+      "model_key": "VIEW10",
+      "title": "Honor-View-10-Test-Point-tp-2",
       "sha256": "267e7160c02aecf6d6aaa8c53c7940a4ff5e40f92c2b4c638c7fe9acaf6bb3d0",
       "width": 600,
       "height": 1067,
@@ -20931,12 +20952,12 @@
       ]
     },
     {
-      "path": "test-points/honor/Honor-X7-CMA-LX2-2-Test-Point.webp",
+      "path": "test-points/honor/Honor-X7-CMA-LX2-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "honor",
-      "model_key": "X7CMALX22",
-      "title": "Honor-X7-CMA-LX2-2-Test-Point",
+      "model_key": "X7CMALX2",
+      "title": "Honor-X7-CMA-LX2-Test-Point-tp-2",
       "sha256": "4766150aed94b210c41ceaab0e04adaef278a553199446c369b0b7f0d8871f21",
       "width": 540,
       "height": 694,
@@ -21031,12 +21052,12 @@
       ]
     },
     {
-      "path": "test-points/huawei/Huawei-5X-KIW-L21-2-Test-Point.webp",
+      "path": "test-points/huawei/Huawei-5X-KIW-L21-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "huawei",
-      "model_key": "5XKIWL212",
-      "title": "Huawei-5X-KIW-L21-2-Test-Point",
+      "model_key": "5XKIWL21",
+      "title": "Huawei-5X-KIW-L21-Test-Point-tp-2",
       "sha256": "55158b05482ef0f95c03a31a1c10843f1c4ca09f20976a88a48e9f9f5517a7a0",
       "width": 994,
       "height": 568,
@@ -21591,12 +21612,12 @@
       ]
     },
     {
-      "path": "test-points/huawei/Huawei-CAM-L21-2-Test-Point.webp",
+      "path": "test-points/huawei/Huawei-CAM-L21-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "huawei",
-      "model_key": "CAML212",
-      "title": "Huawei-CAM-L21-2-Test-Point",
+      "model_key": "CAML21",
+      "title": "Huawei-CAM-L21-Test-Point-tp-2",
       "sha256": "6e4a2d0e8e8a9d4a2efa254339ddf3bc0ce547cb5157e52747cd1d87b6af1a92",
       "width": 400,
       "height": 204,
@@ -21931,12 +21952,12 @@
       ]
     },
     {
-      "path": "test-points/huawei/Huawei-ENJOY-10S-AQM-AL00-2-Test-Point.webp",
+      "path": "test-points/huawei/Huawei-Enjoy-10S-AQM-AL00-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "huawei",
-      "model_key": "ENJOY10SAQMAL002",
-      "title": "Huawei-ENJOY-10S-AQM-AL00-2-Test-Point",
+      "model_key": "ENJOY10SAQMAL00",
+      "title": "Huawei-Enjoy-10S-AQM-AL00-Test-Point-tp-2",
       "sha256": "a31ed89cd0bf99c38713cf0b4361e7b9b13bdb13b63d2e62cf4d6e00f755917b",
       "width": 594,
       "height": 594,
@@ -22111,12 +22132,12 @@
       ]
     },
     {
-      "path": "test-points/huawei/Huawei-EVA-L09-2-Test-Point.webp",
+      "path": "test-points/huawei/Huawei-EVA-L09-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "huawei",
-      "model_key": "EVAL092",
-      "title": "Huawei-EVA-L09-2-Test-Point",
+      "model_key": "EVAL09",
+      "title": "Huawei-EVA-L09-Test-Point-tp-2",
       "sha256": "42a149ddd9f2cd4ab5f3b1c251b7376c8ebe245c6c5828588d40ddbedfa641a7",
       "width": 648,
       "height": 734,
@@ -22591,32 +22612,12 @@
       ]
     },
     {
-      "path": "test-points/huawei/Huawei-GR5-KII-L21-2-Test-Point.webp",
-      "kind": "test-points",
-      "protocol": null,
-      "brand": "huawei",
-      "model_key": "GR5KIIL212",
-      "title": "Huawei-GR5-KII-L21-2-Test-Point",
-      "sha256": "dcf0b858129e4e374889ad0d37dfeb3761b645044efcecc745712cfdda93a69c",
-      "width": 321,
-      "height": 411,
-      "sources": [
-        "unlocktool"
-      ],
-      "original_paths": [
-        "test-points/unlocktool/huawei/Huawei-GR5-(KII-L21).webp"
-      ],
-      "aliases": [
-        "Huawei-GR5-(KII-L21)"
-      ]
-    },
-    {
-      "path": "test-points/huawei/Huawei-GR5-KII-L21-Test-Point.webp",
+      "path": "test-points/huawei/Huawei-GR5-KII-L21-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "huawei",
       "model_key": "GR5KIIL21",
-      "title": "Huawei-GR5-KII-L21-Test-Point",
+      "title": "Huawei-GR5-KII-L21-Test-Point-tp-2",
       "sha256": "3f4f033fababa684408022f737188ad0f39ef72e7a37f6221d69fbf003fc87b0",
       "width": 321,
       "height": 411,
@@ -22628,6 +22629,26 @@
       ],
       "aliases": [
         "GR5-KII-L21"
+      ]
+    },
+    {
+      "path": "test-points/huawei/Huawei-GR5-KII-L21-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "huawei",
+      "model_key": "GR5KIIL21",
+      "title": "Huawei-GR5-KII-L21-Test-Point",
+      "sha256": "dcf0b858129e4e374889ad0d37dfeb3761b645044efcecc745712cfdda93a69c",
+      "width": 321,
+      "height": 411,
+      "sources": [
+        "unlocktool"
+      ],
+      "original_paths": [
+        "test-points/unlocktool/huawei/Huawei-GR5-(KII-L21).webp"
+      ],
+      "aliases": [
+        "Huawei-GR5-(KII-L21)"
       ]
     },
     {
@@ -22711,12 +22732,12 @@
       ]
     },
     {
-      "path": "test-points/huawei/Huawei-Honor3-HN3-U00-2-Test-Point.webp",
+      "path": "test-points/huawei/Huawei-Honor3-HN3-U00-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "huawei",
-      "model_key": "HONOR3HN3U002",
-      "title": "Huawei-Honor3-HN3-U00-2-Test-Point",
+      "model_key": "HONOR3HN3U00",
+      "title": "Huawei-Honor3-HN3-U00-Test-Point-tp-2",
       "sha256": "efa894a608b561211354c1b8a9ff79f86184f047a709e099dca61c17a8b9daea",
       "width": 1122,
       "height": 632,
@@ -23296,32 +23317,12 @@
       ]
     },
     {
-      "path": "test-points/huawei/Huawei-MATE-30-5G-TAS-AN00-2-Test-Point.webp",
-      "kind": "test-points",
-      "protocol": null,
-      "brand": "huawei",
-      "model_key": "MATE305GTASAN002",
-      "title": "Huawei-MATE-30-5G-TAS-AN00-2-Test-Point",
-      "sha256": "55a32039733d8f56155eac917364e867644b96296dd63f7b9083d02626d3e57a",
-      "width": 601,
-      "height": 455,
-      "sources": [
-        "unlocktool"
-      ],
-      "original_paths": [
-        "test-points/unlocktool/huawei/MATE-30-5G-TAS-AN00.webp"
-      ],
-      "aliases": [
-        "MATE-30-5G-TAS-AN00"
-      ]
-    },
-    {
-      "path": "test-points/huawei/Huawei-Mate-30-5G-TAS-AN00-Test-Point.webp",
+      "path": "test-points/huawei/Huawei-MATE-30-5G-TAS-AN00-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "huawei",
       "model_key": "MATE305GTASAN00",
-      "title": "Huawei-Mate-30-5G-TAS-AN00-Test-Point",
+      "title": "Huawei-MATE-30-5G-TAS-AN00-Test-Point-tp-2",
       "sha256": "0f4ca92521a70e774a60dd4099fb1a7cdac4c8a0926667b7f70d01db2015cda9",
       "width": 601,
       "height": 455,
@@ -23333,6 +23334,26 @@
       ],
       "aliases": [
         "Mate-30-5G-TAS-AN00"
+      ]
+    },
+    {
+      "path": "test-points/huawei/Huawei-MATE-30-5G-TAS-AN00-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "huawei",
+      "model_key": "MATE305GTASAN00",
+      "title": "Huawei-MATE-30-5G-TAS-AN00-Test-Point",
+      "sha256": "55a32039733d8f56155eac917364e867644b96296dd63f7b9083d02626d3e57a",
+      "width": 601,
+      "height": 455,
+      "sources": [
+        "unlocktool"
+      ],
+      "original_paths": [
+        "test-points/unlocktool/huawei/MATE-30-5G-TAS-AN00.webp"
+      ],
+      "aliases": [
+        "MATE-30-5G-TAS-AN00"
       ]
     },
     {
@@ -23356,32 +23377,12 @@
       ]
     },
     {
-      "path": "test-points/huawei/Huawei-MATE-30-PRO-5G-LIO-AN00-2-Test-Point.webp",
-      "kind": "test-points",
-      "protocol": null,
-      "brand": "huawei",
-      "model_key": "MATE30PRO5GLIOAN002",
-      "title": "Huawei-MATE-30-PRO-5G-LIO-AN00-2-Test-Point",
-      "sha256": "c482a0f05e006b0923d547071f8f362917b0aafd412562f8e1f3131fd0995e0d",
-      "width": 596,
-      "height": 600,
-      "sources": [
-        "unlocktool"
-      ],
-      "original_paths": [
-        "test-points/unlocktool/huawei/MATE-30-PRO-5G-LIO-AN00.webp"
-      ],
-      "aliases": [
-        "MATE-30-PRO-5G-LIO-AN00"
-      ]
-    },
-    {
-      "path": "test-points/huawei/Huawei-Mate-30-PRO-5G-LIO-AN00-Test-Point.webp",
+      "path": "test-points/huawei/Huawei-MATE-30-PRO-5G-LIO-AN00-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "huawei",
       "model_key": "MATE30PRO5GLIOAN00",
-      "title": "Huawei-Mate-30-PRO-5G-LIO-AN00-Test-Point",
+      "title": "Huawei-MATE-30-PRO-5G-LIO-AN00-Test-Point-tp-2",
       "sha256": "0f968bb2545adb4ff42942f70d17ca0c594b6867bbc618a7b59ad23b4cf831f2",
       "width": 596,
       "height": 600,
@@ -23393,6 +23394,26 @@
       ],
       "aliases": [
         "Mate-30-PRO-5G-LIO-AN00"
+      ]
+    },
+    {
+      "path": "test-points/huawei/Huawei-MATE-30-PRO-5G-LIO-AN00-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "huawei",
+      "model_key": "MATE30PRO5GLIOAN00",
+      "title": "Huawei-MATE-30-PRO-5G-LIO-AN00-Test-Point",
+      "sha256": "c482a0f05e006b0923d547071f8f362917b0aafd412562f8e1f3131fd0995e0d",
+      "width": 596,
+      "height": 600,
+      "sources": [
+        "unlocktool"
+      ],
+      "original_paths": [
+        "test-points/unlocktool/huawei/MATE-30-PRO-5G-LIO-AN00.webp"
+      ],
+      "aliases": [
+        "MATE-30-PRO-5G-LIO-AN00"
       ]
     },
     {
@@ -23636,12 +23657,12 @@
       ]
     },
     {
-      "path": "test-points/huawei/Huawei-MATE-X-TAH-AN00-2-Test-Point.webp",
+      "path": "test-points/huawei/Huawei-Mate-X-TAH-AN00-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "huawei",
-      "model_key": "MATEXTAHAN002",
-      "title": "Huawei-MATE-X-TAH-AN00-2-Test-Point",
+      "model_key": "MATEXTAHAN00",
+      "title": "Huawei-Mate-X-TAH-AN00-Test-Point-tp-2",
       "sha256": "45c511c677ec641fe26126ef83f55928677e6c5fec5f1c2bf098b98bb8e854dc",
       "width": 600,
       "height": 446,
@@ -24156,12 +24177,12 @@
       ]
     },
     {
-      "path": "test-points/huawei/Huawei-Nova-3-PAR-AL00-2-Test-Point.webp",
+      "path": "test-points/huawei/Huawei-Nova-3-PAR-AL00-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "huawei",
-      "model_key": "NOVA3PARAL002",
-      "title": "Huawei-Nova-3-PAR-AL00-2-Test-Point",
+      "model_key": "NOVA3PARAL00",
+      "title": "Huawei-Nova-3-PAR-AL00-Test-Point-tp-2",
       "sha256": "8b1b0c3ed6452a6f8264359f279c171e08251a856de7beedad49a64afc2c4a85",
       "width": 250,
       "height": 271,
@@ -24356,12 +24377,12 @@
       ]
     },
     {
-      "path": "test-points/huawei/Huawei-NOVA-6-5G-WLZ-AN00-2-Test-Point.webp",
+      "path": "test-points/huawei/Huawei-Nova-6-5G-WLZ-AN00-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "huawei",
-      "model_key": "NOVA65GWLZAN002",
-      "title": "Huawei-NOVA-6-5G-WLZ-AN00-2-Test-Point",
+      "model_key": "NOVA65GWLZAN00",
+      "title": "Huawei-Nova-6-5G-WLZ-AN00-Test-Point-tp-2",
       "sha256": "2dc752b21fed02adf98dab201a587301ddafdb97c588f36b68288a72f6201853",
       "width": 513,
       "height": 600,
@@ -24496,12 +24517,12 @@
       ]
     },
     {
-      "path": "test-points/huawei/Huawei-NOVA-7-SE-CDY-AN00-Test-Point.webp",
+      "path": "test-points/huawei/Huawei-Nova-7-SE-CDY-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "huawei",
       "model_key": "NOVA7SECDYAN00",
-      "title": "Huawei-NOVA-7-SE-CDY-AN00-Test-Point",
+      "title": "Huawei-Nova-7-SE-CDY-Test-Point",
       "sha256": "cd31c362698fc4660735c070186d3e971dd67db0832d98e48129bf9b43e5581a",
       "width": 602,
       "height": 540,
@@ -24738,12 +24759,12 @@
       ]
     },
     {
-      "path": "test-points/huawei/Huawei-P10-VTR-2-Test-Point.webp",
+      "path": "test-points/huawei/Huawei-P10-VTR-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "huawei",
-      "model_key": "P10VTR2",
-      "title": "Huawei-P10-VTR-2-Test-Point",
+      "model_key": "P10VTR",
+      "title": "Huawei-P10-VTR-Test-Point-tp-2",
       "sha256": "186097762f5bd88ad5eaa99cc4de3834a383f3f1ebbca0d758230b198d3d946d",
       "width": 1333,
       "height": 750,
@@ -24798,32 +24819,12 @@
       ]
     },
     {
-      "path": "test-points/huawei/Huawei-P20-Pro-CLT-L29-2-Test-Point.webp",
-      "kind": "test-points",
-      "protocol": null,
-      "brand": "huawei",
-      "model_key": "P20PROCLTL292",
-      "title": "Huawei-P20-Pro-CLT-L29-2-Test-Point",
-      "sha256": "b58591a713b8d2c52937c9e89a6ffb74004068d63ade2dc19121ff00a2d1efdc",
-      "width": 1207,
-      "height": 637,
-      "sources": [
-        "unlocktool"
-      ],
-      "original_paths": [
-        "test-points/unlocktool/huawei/Huawei-P20-Pro-CLT-L29.webp"
-      ],
-      "aliases": [
-        "Huawei-P20-Pro-CLT-L29"
-      ]
-    },
-    {
-      "path": "test-points/huawei/Huawei-P20-Pro-CLT-L29-Test-Point.webp",
+      "path": "test-points/huawei/Huawei-P20-Pro-CLT-L29-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "huawei",
       "model_key": "P20PROCLTL29",
-      "title": "Huawei-P20-Pro-CLT-L29-Test-Point",
+      "title": "Huawei-P20-Pro-CLT-L29-Test-Point-tp-2",
       "sha256": "35ac7dbf94b25632afc1ac55801a4aa285b443c529e2b78b12ed7686fd8f8a44",
       "width": 1207,
       "height": 637,
@@ -24835,6 +24836,26 @@
       ],
       "aliases": [
         "Huawei-P20-Pro-CLT-L29-NEW"
+      ]
+    },
+    {
+      "path": "test-points/huawei/Huawei-P20-Pro-CLT-L29-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "huawei",
+      "model_key": "P20PROCLTL29",
+      "title": "Huawei-P20-Pro-CLT-L29-Test-Point",
+      "sha256": "b58591a713b8d2c52937c9e89a6ffb74004068d63ade2dc19121ff00a2d1efdc",
+      "width": 1207,
+      "height": 637,
+      "sources": [
+        "unlocktool"
+      ],
+      "original_paths": [
+        "test-points/unlocktool/huawei/Huawei-P20-Pro-CLT-L29.webp"
+      ],
+      "aliases": [
+        "Huawei-P20-Pro-CLT-L29"
       ]
     },
     {
@@ -24938,12 +24959,12 @@
       ]
     },
     {
-      "path": "test-points/huawei/Huawei-P30-PRO-VOG-AL00-2-Test-Point.webp",
+      "path": "test-points/huawei/Huawei-P30-PRO-VOG-AL00-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "huawei",
-      "model_key": "P30PROVOGAL002",
-      "title": "Huawei-P30-PRO-VOG-AL00-2-Test-Point",
+      "model_key": "P30PROVOGAL00",
+      "title": "Huawei-P30-PRO-VOG-AL00-Test-Point-tp-2",
       "sha256": "715b2e4dfdfa942fcd1d521690fab367cc9a5c2bde5088c3560f5e6247a372b3",
       "width": 602,
       "height": 345,
@@ -25078,12 +25099,12 @@
       ]
     },
     {
-      "path": "test-points/huawei/Huawei-p50-abr-lx9-2-Test-Point.webp",
+      "path": "test-points/huawei/Huawei-P50-ABR-LX9-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "huawei",
-      "model_key": "P50ABRLX92",
-      "title": "Huawei-p50-abr-lx9-2-Test-Point",
+      "model_key": "P50ABRLX9",
+      "title": "Huawei-P50-ABR-LX9-Test-Point-tp-2",
       "sha256": "e3d64dafcdd82989d1d2cb5367b2e59e4a899ef79121a7455f278e7718aa8c13",
       "width": 757,
       "height": 322,
@@ -25598,28 +25619,6 @@
       ]
     },
     {
-      "path": "test-points/huawei/Huawei-Shot-X-ATH-UL01-Test-Point.webp",
-      "kind": "test-points",
-      "protocol": null,
-      "brand": "huawei",
-      "model_key": "SHOTXATHUL01",
-      "title": "Huawei-Shot-X-ATH-UL01-Test-Point",
-      "sha256": "9bb6236e933af0807c8e375aa1ea54f8b208bf611226ad8d2fd1c755cf38e341",
-      "width": 1136,
-      "height": 691,
-      "sources": [
-        "unlocktool"
-      ],
-      "original_paths": [
-        "test-points/unlocktool/huawei/Honor-7i.webp",
-        "test-points/unlocktool/huawei/Huawei-Shot-X-(ATH-UL01).webp"
-      ],
-      "aliases": [
-        "Honor-7i",
-        "Huawei-Shot-X-(ATH-UL01)"
-      ]
-    },
-    {
       "path": "test-points/huawei/Huawei-SHT-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
@@ -25740,12 +25739,12 @@
       ]
     },
     {
-      "path": "test-points/huawei/Huawei-Tab-3-KOB-l09-2-Test-Point.webp",
+      "path": "test-points/huawei/Huawei-Tab-3-KOB-L09-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "huawei",
-      "model_key": "TAB3KOBL092",
-      "title": "Huawei-Tab-3-KOB-l09-2-Test-Point",
+      "model_key": "TAB3KOBL09",
+      "title": "Huawei-Tab-3-KOB-L09-Test-Point-tp-2",
       "sha256": "bd3e76e9a50e518cd1d8b21199eb38214bb4195f84d25febf07194704f97731b",
       "width": 639,
       "height": 410,
@@ -25920,12 +25919,12 @@
       ]
     },
     {
-      "path": "test-points/huawei/Huawei-V30-PRO-OXF-AN10-2-Test-Point.webp",
+      "path": "test-points/huawei/Huawei-V30-PRO-OXF-AN10-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "huawei",
-      "model_key": "V30PROOXFAN102",
-      "title": "Huawei-V30-PRO-OXF-AN10-2-Test-Point",
+      "model_key": "V30PROOXFAN10",
+      "title": "Huawei-V30-PRO-OXF-AN10-Test-Point-tp-2",
       "sha256": "6da04c68e14ae8b3733c9ad46f416e2b98998565e6669c84bca837b451d2088d",
       "width": 288,
       "height": 306,
@@ -26040,12 +26039,12 @@
       ]
     },
     {
-      "path": "test-points/huawei/Huawei-X10-TEL-AN00a-2-Test-Point.webp",
+      "path": "test-points/huawei/Huawei-X10-TEL-AN00a-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "huawei",
-      "model_key": "X10TELAN00A2",
-      "title": "Huawei-X10-TEL-AN00a-2-Test-Point",
+      "model_key": "X10TELAN00A",
+      "title": "Huawei-X10-TEL-AN00a-Test-Point-tp-2",
       "sha256": "4aa5b86168c2d5d84636a10c5bb5bf61b8ef04f1b3191ef42e7ffe0e57500c6a",
       "width": 599,
       "height": 597,
@@ -26140,12 +26139,12 @@
       ]
     },
     {
-      "path": "test-points/huawei/Huawei-Y5-2019-AMN-L21-Test-Point.webp",
+      "path": "test-points/huawei/Huawei-Y5-AMN-LX9-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "huawei",
       "model_key": "Y52019AMNL21",
-      "title": "Huawei-Y5-2019-AMN-L21-Test-Point",
+      "title": "Huawei-Y5-AMN-LX9-Test-Point",
       "sha256": "6e4eef0574ba88882fe333afded30e8ea1e69321e791987de93308e14ef1a554",
       "width": 633,
       "height": 394,
@@ -26166,12 +26165,12 @@
       ]
     },
     {
-      "path": "test-points/huawei/Huawei-Y530-2-Test-Point.webp",
+      "path": "test-points/huawei/Huawei-Y530-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "huawei",
-      "model_key": "Y5302",
-      "title": "Huawei-Y530-2-Test-Point",
+      "model_key": "Y530",
+      "title": "Huawei-Y530-Test-Point-tp-2",
       "sha256": "b178050471342d1909c4601dae2e1fbf75608bdff599c360ef86e70bfcab2300",
       "width": 501,
       "height": 374,
@@ -26206,46 +26205,6 @@
       ]
     },
     {
-      "path": "test-points/huawei/Huawei-Y550-2-Test-Point.webp",
-      "kind": "test-points",
-      "protocol": null,
-      "brand": "huawei",
-      "model_key": "Y5502",
-      "title": "Huawei-Y550-2-Test-Point",
-      "sha256": "002a2c438c97960a9e999b1141fe31a0e38bb0d3e2a5db4ba716a7986e6af38c",
-      "width": 1280,
-      "height": 718,
-      "sources": [
-        "legacy"
-      ],
-      "original_paths": [
-        "test-points/huawei/Y550.webp"
-      ],
-      "aliases": [
-        "Y550"
-      ]
-    },
-    {
-      "path": "test-points/huawei/Huawei-Y550-3-Test-Point.webp",
-      "kind": "test-points",
-      "protocol": null,
-      "brand": "huawei",
-      "model_key": "Y5503",
-      "title": "Huawei-Y550-3-Test-Point",
-      "sha256": "56fa18cd37e47a67069ba43f9f9b487d0b3b9ae46124b8afdb3459e6400df5c0",
-      "width": 372,
-      "height": 414,
-      "sources": [
-        "unlocktool"
-      ],
-      "original_paths": [
-        "test-points/unlocktool/huawei/Huawei-Y550.webp"
-      ],
-      "aliases": [
-        "Huawei-Y550"
-      ]
-    },
-    {
       "path": "test-points/huawei/Huawei-Y550-L01-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
@@ -26263,6 +26222,46 @@
       ],
       "aliases": [
         "Huawei-Y550-L01"
+      ]
+    },
+    {
+      "path": "test-points/huawei/Huawei-y550-Test-Point-tp-2.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "huawei",
+      "model_key": "Y550",
+      "title": "Huawei-y550-Test-Point-tp-2",
+      "sha256": "002a2c438c97960a9e999b1141fe31a0e38bb0d3e2a5db4ba716a7986e6af38c",
+      "width": 1280,
+      "height": 718,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points/huawei/Y550.webp"
+      ],
+      "aliases": [
+        "Y550"
+      ]
+    },
+    {
+      "path": "test-points/huawei/Huawei-y550-Test-Point-tp-3.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "huawei",
+      "model_key": "Y550",
+      "title": "Huawei-y550-Test-Point-tp-3",
+      "sha256": "56fa18cd37e47a67069ba43f9f9b487d0b3b9ae46124b8afdb3459e6400df5c0",
+      "width": 372,
+      "height": 414,
+      "sources": [
+        "unlocktool"
+      ],
+      "original_paths": [
+        "test-points/unlocktool/huawei/Huawei-Y550.webp"
+      ],
+      "aliases": [
+        "Huawei-Y550"
       ]
     },
     {
@@ -26306,12 +26305,12 @@
       ]
     },
     {
-      "path": "test-points/huawei/Huawei-Y5p-2-Test-Point.webp",
+      "path": "test-points/huawei/Huawei-Y5P-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "huawei",
-      "model_key": "Y5P2",
-      "title": "Huawei-Y5p-2-Test-Point",
+      "model_key": "Y5P",
+      "title": "Huawei-Y5P-Test-Point-tp-2",
       "sha256": "cfa46feaa1144f647221ff19efc7a549c533d24f79f98d2e48cd17926b155a2e",
       "width": 819,
       "height": 460,
@@ -26346,12 +26345,12 @@
       ]
     },
     {
-      "path": "test-points/huawei/Huawei-Y6-2019-MRD-LGRP2-Test-Point.webp",
+      "path": "test-points/huawei/Huawei-Y6-2019-MRD-L11-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "huawei",
       "model_key": "Y62019MRDLGRP2",
-      "title": "Huawei-Y6-2019-MRD-LGRP2-Test-Point",
+      "title": "Huawei-Y6-2019-MRD-L11-Test-Point",
       "sha256": "955c097c1aba18a67d718b1104a609f792cbfc3e76ee9d52c6c0f62901b73c5a",
       "width": 511,
       "height": 443,
@@ -26456,12 +26455,12 @@
       ]
     },
     {
-      "path": "test-points/huawei/Huawei-Y6-SCC-U21-2-Test-Point.webp",
+      "path": "test-points/huawei/Huawei-Y6-SCC-U21-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "huawei",
-      "model_key": "Y6SCCU212",
-      "title": "Huawei-Y6-SCC-U21-2-Test-Point",
+      "model_key": "Y6SCCU21",
+      "title": "Huawei-Y6-SCC-U21-Test-Point-tp-2",
       "sha256": "67c8d8f548c860a398c00d9ab2aacc16f50d4e5ae02e16fa4a06ea8bc0bf5514",
       "width": 250,
       "height": 185,
@@ -26496,12 +26495,12 @@
       ]
     },
     {
-      "path": "test-points/huawei/Huawei-Y6-SCL-AL00-2-Test-Point.webp",
+      "path": "test-points/huawei/Huawei-Y6-SCL-AL00-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "huawei",
-      "model_key": "Y6SCLAL002",
-      "title": "Huawei-Y6-SCL-AL00-2-Test-Point",
+      "model_key": "Y6SCLAL00",
+      "title": "Huawei-Y6-SCL-AL00-Test-Point-tp-2",
       "sha256": "8b3ca216ae9554c23a3a09ea85212aeb4f2d6e4bff05a6b9bd3ddb81ce519637",
       "width": 212,
       "height": 154,
@@ -27396,48 +27395,6 @@
       ]
     },
     {
-      "path": "test-points/lg/LG-G6-2-Test-Point.webp",
-      "kind": "test-points",
-      "protocol": null,
-      "brand": "lg",
-      "model_key": "G62",
-      "title": "LG-G6-2-Test-Point",
-      "sha256": "dbc7b9b6587792c4d0ca7e5b93596dde57e3f0bbc8a1cd5c2b4e6f084075a235",
-      "width": 800,
-      "height": 534,
-      "sources": [
-        "droidwin"
-      ],
-      "original_paths": [
-        "test-points/droidwin/LG-G6.webp"
-      ],
-      "aliases": [
-        "LG-G6"
-      ]
-    },
-    {
-      "path": "test-points/lg/LG-G6-H870-G600L-Test-Point.webp",
-      "kind": "test-points",
-      "protocol": null,
-      "brand": "lg",
-      "model_key": "G6H870G600L",
-      "title": "LG-G6-H870-G600L-Test-Point",
-      "sha256": "3c27edbf135aa96f1a158db3668334337a7fb6f838af655709466b8b40ad49d5",
-      "width": 621,
-      "height": 650,
-      "sources": [
-        "unlocktool"
-      ],
-      "original_paths": [
-        "test-points/unlocktool/lg/LG-G6-H870-G600L.webp",
-        "test-points/unlocktool/lg/LG-H870-9008.webp"
-      ],
-      "aliases": [
-        "LG-G6-H870-G600L",
-        "LG-H870-9008"
-      ]
-    },
-    {
       "path": "test-points/lg/LG-G6-H870S-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
@@ -27455,6 +27412,26 @@
       ],
       "aliases": [
         "G6-H870S"
+      ]
+    },
+    {
+      "path": "test-points/lg/LG-G6-Test-Point-tp-2.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "lg",
+      "model_key": "G6",
+      "title": "LG-G6-Test-Point-tp-2",
+      "sha256": "dbc7b9b6587792c4d0ca7e5b93596dde57e3f0bbc8a1cd5c2b4e6f084075a235",
+      "width": 800,
+      "height": 534,
+      "sources": [
+        "droidwin"
+      ],
+      "original_paths": [
+        "test-points/droidwin/LG-G6.webp"
+      ],
+      "aliases": [
+        "LG-G6"
       ]
     },
     {
@@ -27555,6 +27532,28 @@
       ],
       "aliases": [
         "LG-H788-9008"
+      ]
+    },
+    {
+      "path": "test-points/lg/LG-H870-9008-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "lg",
+      "model_key": "G6H870G600L",
+      "title": "LG-H870-9008-Test-Point",
+      "sha256": "3c27edbf135aa96f1a158db3668334337a7fb6f838af655709466b8b40ad49d5",
+      "width": 621,
+      "height": 650,
+      "sources": [
+        "unlocktool"
+      ],
+      "original_paths": [
+        "test-points/unlocktool/lg/LG-G6-H870-G600L.webp",
+        "test-points/unlocktool/lg/LG-H870-9008.webp"
+      ],
+      "aliases": [
+        "LG-G6-H870-G600L",
+        "LG-H870-9008"
       ]
     },
     {
@@ -27778,12 +27777,12 @@
       ]
     },
     {
-      "path": "test-points/lg/LG-V20-H910-US996-VS995-9008-Test-Point.webp",
+      "path": "test-points/lg/LG-V20-LS997-H918-9008-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "lg",
       "model_key": "V20H910US996VS9959008",
-      "title": "LG-V20-H910-US996-VS995-9008-Test-Point",
+      "title": "LG-V20-LS997-H918-9008-Test-Point",
       "sha256": "4417f77067fa60e28e5052e3854731e0a034305b6f642573af19b3b124fedd3f",
       "width": 711,
       "height": 904,
@@ -27960,12 +27959,12 @@
       ]
     },
     {
-      "path": "test-points/mobvoi/Mobvoi-Other-Ticwatch-Pro-3-Pro-X-Test-Point.webp",
+      "path": "test-points/mobvoi/Mobvoi-Ticwatch-Pro-3-Pro-X-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "mobvoi",
-      "model_key": "OTHERTICWATCHPRO3PROX",
-      "title": "Mobvoi-Other-Ticwatch-Pro-3-Pro-X-Test-Point",
+      "model_key": "TICWATCHPRO3PROX",
+      "title": "Mobvoi-Ticwatch-Pro-3-Pro-X-Test-Point",
       "sha256": "78b67885644f03a07eddb595b87d1a210d7f5d4d0d2a075785cc0249f32153f3",
       "width": 650,
       "height": 740,
@@ -28320,12 +28319,12 @@
       ]
     },
     {
-      "path": "test-points/nokia/Nokia-2-ta-1029-2-Test-Point.webp",
+      "path": "test-points/nokia/Nokia-2-TA-1029-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "nokia",
-      "model_key": "2TA10292",
-      "title": "Nokia-2-ta-1029-2-Test-Point",
+      "model_key": "2TA1029",
+      "title": "Nokia-2-TA-1029-Test-Point-tp-2",
       "sha256": "c387accac801a62fb97ad3c5f97432d906f7cd0632fb0084abd57a2d19ef5d8b",
       "width": 454,
       "height": 402,
@@ -28400,12 +28399,12 @@
       ]
     },
     {
-      "path": "test-points/nokia/Nokia-2.4-ta-1270-2-Test-Point.webp",
+      "path": "test-points/nokia/Nokia-2.4-TA-1270-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "nokia",
-      "model_key": "24TA12702",
-      "title": "Nokia-2.4-ta-1270-2-Test-Point",
+      "model_key": "24TA1270",
+      "title": "Nokia-2.4-TA-1270-Test-Point-tp-2",
       "sha256": "9e2a92ee7c4b5c0b3c870344543f1543c23e3eeab1c1de7a1c4b0849b70a4a13",
       "width": 1147,
       "height": 313,
@@ -28640,12 +28639,12 @@
       ]
     },
     {
-      "path": "test-points/nokia/Nokia-8-TA-1004-2-Test-Point.webp",
+      "path": "test-points/nokia/Nokia-8-ta-1004-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "nokia",
-      "model_key": "8TA10042",
-      "title": "Nokia-8-TA-1004-2-Test-Point",
+      "model_key": "8TA1004",
+      "title": "Nokia-8-ta-1004-Test-Point-tp-2",
       "sha256": "dda32ecbbe79013ef1ca7cd761c7e23857d20b5993d53f45092937044109163b",
       "width": 361,
       "height": 554,
@@ -28740,12 +28739,12 @@
       ]
     },
     {
-      "path": "test-points/nokia/Nokia-c1-2nd-edition-ta-1380-sc9863a-2-Test-Point.webp",
+      "path": "test-points/nokia/Nokia-c1-2nd-edition-ta-1380-sc9863a-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "nokia",
-      "model_key": "C12NDEDITIONTA1380SC9863A2",
-      "title": "Nokia-c1-2nd-edition-ta-1380-sc9863a-2-Test-Point",
+      "model_key": "C12NDEDITIONTA1380SC9863A",
+      "title": "Nokia-c1-2nd-edition-ta-1380-sc9863a-Test-Point-tp-2",
       "sha256": "bfd000ee584b51c3e119a54db9256ab4ba61caeca47c26350bee2b1ac07941b6",
       "width": 500,
       "height": 689,
@@ -28800,12 +28799,12 @@
       ]
     },
     {
-      "path": "test-points/nokia/Nokia-C12-Pro-2-Test-Point.webp",
+      "path": "test-points/nokia/Nokia-C12-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "nokia",
       "model_key": "C12PRO2",
-      "title": "Nokia-C12-Pro-2-Test-Point",
+      "title": "Nokia-C12-Test-Point",
       "sha256": "afaf268a108a29099ca10593b164a9a440a2a83375afdc6f4f4290e1eebaac0b",
       "width": 1536,
       "height": 1517,
@@ -29106,12 +29105,12 @@
       ]
     },
     {
-      "path": "test-points/nokia/Nokia-G11-2-Test-Point.webp",
+      "path": "test-points/nokia/Nokia-G11-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "nokia",
-      "model_key": "G112",
-      "title": "Nokia-G11-2-Test-Point",
+      "model_key": "G11",
+      "title": "Nokia-G11-Test-Point-tp-2",
       "sha256": "bc05031e749663f3c1bc385d3617e87fc3bf12262d2a44c639f185db77cfd654",
       "width": 550,
       "height": 550,
@@ -29246,12 +29245,12 @@
       ]
     },
     {
-      "path": "test-points/oppo/Oppo-a16k-cph2349-2-Test-Point.webp",
+      "path": "test-points/oppo/Oppo-A16K-CPH2349-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "oppo",
-      "model_key": "A16KCPH23492",
-      "title": "Oppo-a16k-cph2349-2-Test-Point",
+      "model_key": "A16KCPH2349",
+      "title": "Oppo-A16K-CPH2349-Test-Point-tp-2",
       "sha256": "b9ed42d22aa97356929bcc84dad9d0555a72b5f58f366f4ff94f391bf867c896",
       "width": 1224,
       "height": 742,
@@ -29366,12 +29365,12 @@
       ]
     },
     {
-      "path": "test-points/oppo/Oppo-A54-8859a543-Test-Point.webp",
+      "path": "test-points/oppo/Oppo-A54-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "oppo",
       "model_key": "A548859A543",
-      "title": "Oppo-A54-8859a543-Test-Point",
+      "title": "Oppo-A54-Test-Point",
       "sha256": "8859a5435226305d94114f17424018dce040b6baa9b3316cfca4f31de2aa4876",
       "width": 2032,
       "height": 1524,
@@ -29448,12 +29447,12 @@
       ]
     },
     {
-      "path": "test-points/oppo/Oppo-A73-2-Test-Point.webp",
+      "path": "test-points/oppo/Oppo-a73-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "oppo",
-      "model_key": "A732",
-      "title": "Oppo-A73-2-Test-Point",
+      "model_key": "A73",
+      "title": "Oppo-a73-Test-Point-tp-2",
       "sha256": "efe85391454345629f79a31ed8e79cffcefb6ba2cb2d76c6b7e89e6a9513ace5",
       "width": 640,
       "height": 416,
@@ -29488,12 +29487,12 @@
       ]
     },
     {
-      "path": "test-points/oppo/Oppo-A77-5G-CPH2339-9008-Test-Point.webp",
+      "path": "test-points/oppo/Oppo-a77-cph2339-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "oppo",
       "model_key": "A775GCPH23399008",
-      "title": "Oppo-A77-5G-CPH2339-9008-Test-Point",
+      "title": "Oppo-a77-cph2339-Test-Point",
       "sha256": "c83fecea4de7feadf69f8308bf631da13c091fca40a944354895e3805f545929",
       "width": 702,
       "height": 540,
@@ -29527,26 +29526,6 @@
       ],
       "aliases": [
         "Oppo-A79"
-      ]
-    },
-    {
-      "path": "test-points/oppo/Oppo-a83-2-Test-Point.webp",
-      "kind": "test-points",
-      "protocol": null,
-      "brand": "oppo",
-      "model_key": "A832",
-      "title": "Oppo-a83-2-Test-Point",
-      "sha256": "f8fe795cfbf6d686c1ed2b4082ede836c5b5bbb75429f3381f85c72d6a6f52c9",
-      "width": 768,
-      "height": 422,
-      "sources": [
-        "sumatech"
-      ],
-      "original_paths": [
-        "test-points/sumatech/oppo-a83-test-point.webp"
-      ],
-      "aliases": [
-        "oppo-a83-test-point"
       ]
     },
     {
@@ -29587,6 +29566,26 @@
       ],
       "aliases": [
         "oppo-a83-cph-1729-test-point-2"
+      ]
+    },
+    {
+      "path": "test-points/oppo/Oppo-A83-Test-Point-tp-2.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "oppo",
+      "model_key": "A83",
+      "title": "Oppo-A83-Test-Point-tp-2",
+      "sha256": "f8fe795cfbf6d686c1ed2b4082ede836c5b5bbb75429f3381f85c72d6a6f52c9",
+      "width": 768,
+      "height": 422,
+      "sources": [
+        "sumatech"
+      ],
+      "original_paths": [
+        "test-points/sumatech/oppo-a83-test-point.webp"
+      ],
+      "aliases": [
+        "oppo-a83-test-point"
       ]
     },
     {
@@ -29770,32 +29769,32 @@
       ]
     },
     {
-      "path": "test-points/oppo/Oppo-F9-2-Test-Point.webp",
-      "kind": "test-points",
-      "protocol": null,
-      "brand": "oppo",
-      "model_key": "F92",
-      "title": "Oppo-F9-2-Test-Point",
-      "sha256": "d72615a78d71ffaab51b99804ff04978c90889b967c40456a622bc6f791b0ddd",
-      "width": 576,
-      "height": 270,
-      "sources": [
-        "sumatech"
-      ],
-      "original_paths": [
-        "test-points/sumatech/Oppo-F9-test-point.webp"
-      ],
-      "aliases": [
-        "Oppo-F9-test-point"
-      ]
-    },
-    {
-      "path": "test-points/oppo/Oppo-F9-Pro-CPH-1823-Test-Point.webp",
+      "path": "test-points/oppo/Oppo-F9-Pro-CPH1823-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "oppo",
       "model_key": "F9PROCPH1823",
-      "title": "Oppo-F9-Pro-CPH-1823-Test-Point",
+      "title": "Oppo-F9-Pro-CPH1823-Test-Point-tp-2",
+      "sha256": "62a8f843a107cc5b0d57d0a2533ade4b8467c79b0eb1d720c7d9391d81339bd1",
+      "width": 495,
+      "height": 474,
+      "sources": [
+        "unlocktool"
+      ],
+      "original_paths": [
+        "test-points/unlocktool/oppo/Oppo-F9-Pro-(CPH1823).webp"
+      ],
+      "aliases": [
+        "Oppo-F9-Pro-(CPH1823)"
+      ]
+    },
+    {
+      "path": "test-points/oppo/Oppo-F9-Pro-CPH1823-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "oppo",
+      "model_key": "F9PROCPH1823",
+      "title": "Oppo-F9-Pro-CPH1823-Test-Point",
       "sha256": "54718dcd2460e35adbba370655b3659fa9ee89e42ea7c1b3f0212727dfe0e71f",
       "width": 514,
       "height": 533,
@@ -29810,23 +29809,23 @@
       ]
     },
     {
-      "path": "test-points/oppo/Oppo-F9-Pro-CPH1823-2-Test-Point.webp",
+      "path": "test-points/oppo/Oppo-F9-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "oppo",
-      "model_key": "F9PROCPH18232",
-      "title": "Oppo-F9-Pro-CPH1823-2-Test-Point",
-      "sha256": "62a8f843a107cc5b0d57d0a2533ade4b8467c79b0eb1d720c7d9391d81339bd1",
-      "width": 495,
-      "height": 474,
+      "model_key": "F9",
+      "title": "Oppo-F9-Test-Point-tp-2",
+      "sha256": "d72615a78d71ffaab51b99804ff04978c90889b967c40456a622bc6f791b0ddd",
+      "width": 576,
+      "height": 270,
       "sources": [
-        "unlocktool"
+        "sumatech"
       ],
       "original_paths": [
-        "test-points/unlocktool/oppo/Oppo-F9-Pro-(CPH1823).webp"
+        "test-points/sumatech/Oppo-F9-test-point.webp"
       ],
       "aliases": [
-        "Oppo-F9-Pro-(CPH1823)"
+        "Oppo-F9-test-point"
       ]
     },
     {
@@ -29867,6 +29866,110 @@
       ],
       "aliases": [
         "oppo-R15-PACM00"
+      ]
+    },
+    {
+      "path": "test-points/other/Other-1-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "other",
+      "model_key": "FILE1",
+      "title": "Other-1-Test-Point",
+      "sha256": "a25c309ba5473248aa1b1ec5696432822727fbf9accc3b5c6b999f5522fb0f7f",
+      "width": 232,
+      "height": 138,
+      "sources": [
+        "sumatech"
+      ],
+      "original_paths": [
+        "test-points/sumatech/file-1.webp"
+      ],
+      "aliases": [
+        "file-1"
+      ]
+    },
+    {
+      "path": "test-points/other/Other-2-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "other",
+      "model_key": "FILE2",
+      "title": "Other-2-Test-Point",
+      "sha256": "85fce0c6879daeabafb255ef53c14417e232a34b32375733ce704f69c8561d0e",
+      "width": 96,
+      "height": 96,
+      "sources": [
+        "sumatech"
+      ],
+      "original_paths": [
+        "test-points/sumatech/file-2.webp"
+      ],
+      "aliases": [
+        "file-2"
+      ]
+    },
+    {
+      "path": "test-points/other/Other-3-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "other",
+      "model_key": "FILE3",
+      "title": "Other-3-Test-Point",
+      "sha256": "753b3c06078a2f3f7bc37afb0cf282ee65046b3621ab99e6fea29fd62c65d131",
+      "width": 96,
+      "height": 96,
+      "sources": [
+        "sumatech"
+      ],
+      "original_paths": [
+        "test-points/sumatech/file-3.webp",
+        "test-points/sumatech/file-5.webp",
+        "test-points/sumatech/file-6.webp"
+      ],
+      "aliases": [
+        "file-3",
+        "file-5",
+        "file-6"
+      ]
+    },
+    {
+      "path": "test-points/other/Other-4-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "other",
+      "model_key": "FILE4",
+      "title": "Other-4-Test-Point",
+      "sha256": "8ec6a7fc9218ad472e09f9b028614397758074ff35acfd1f9f7e66712b6b403a",
+      "width": 128,
+      "height": 128,
+      "sources": [
+        "sumatech"
+      ],
+      "original_paths": [
+        "test-points/sumatech/file-4.webp"
+      ],
+      "aliases": [
+        "file-4"
+      ]
+    },
+    {
+      "path": "test-points/other/Other-Various-Android-Devices-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "other",
+      "model_key": "VARIOUSANDROIDDEVICES",
+      "title": "Other-Various-Android-Devices-Test-Point",
+      "sha256": "e191c382762b9cf72c7efa7eaf03423be213aacead79c85dc53cb56f3ad31fac",
+      "width": 760,
+      "height": 420,
+      "sources": [
+        "droidwin"
+      ],
+      "original_paths": [
+        "test-points/droidwin/Various-Android-Devices.webp"
+      ],
+      "aliases": [
+        "Various-Android-Devices"
       ]
     },
     {
@@ -30047,6 +30150,28 @@
       ],
       "aliases": [
         "Realme-Q3-Pro-MTK-5G-RMX2205"
+      ]
+    },
+    {
+      "path": "test-points/samsung/Samsung-A01-A015-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "samsung",
+      "model_key": "M01M015G",
+      "title": "Samsung-A01-A015-Test-Point",
+      "sha256": "8cc093f95b2d9d8d8cd254aed93e1671ff7eb5f8510f1d91d0fdc9bc328d0c1f",
+      "width": 659,
+      "height": 583,
+      "sources": [
+        "unlocktool"
+      ],
+      "original_paths": [
+        "test-points/unlocktool/samsung/Samsung-A01-(A015)-TP.webp",
+        "test-points/unlocktool/samsung/Samsung-M01-(M015G)-TP.webp"
+      ],
+      "aliases": [
+        "Samsung-A01-(A015)-TP",
+        "Samsung-M01-(M015G)-TP"
       ]
     },
     {
@@ -30730,12 +30855,12 @@
       ]
     },
     {
-      "path": "test-points/samsung/Samsung-a20s-a207f-2-Test-Point.webp",
+      "path": "test-points/samsung/Samsung-A20s-A207F-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "samsung",
-      "model_key": "A20SA207F2",
-      "title": "Samsung-a20s-a207f-2-Test-Point",
+      "model_key": "A20SA207F",
+      "title": "Samsung-A20s-A207F-Test-Point-tp-2",
       "sha256": "e95f63a396b478a0cb391c3767639f24a64efab02a235399e5ca976c86bf83e9",
       "width": 600,
       "height": 437,
@@ -30770,12 +30895,12 @@
       ]
     },
     {
-      "path": "test-points/samsung/Samsung-A22-A225F-2-Test-Point.webp",
+      "path": "test-points/samsung/Samsung-a22-a225f-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "samsung",
-      "model_key": "A22A225F2",
-      "title": "Samsung-A22-A225F-2-Test-Point",
+      "model_key": "A22A225F",
+      "title": "Samsung-a22-a225f-Test-Point-tp-2",
       "sha256": "6870ccc8431ae25dcc167553d6450bd81c8c29470d8bfd2086344f7953500a11",
       "width": 640,
       "height": 360,
@@ -31250,12 +31375,12 @@
       ]
     },
     {
-      "path": "test-points/samsung/Samsung-m01-core-m013f-2-Test-Point.webp",
+      "path": "test-points/samsung/Samsung-M01-Core-M013F-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "samsung",
-      "model_key": "M01COREM013F2",
-      "title": "Samsung-m01-core-m013f-2-Test-Point",
+      "model_key": "M01COREM013F",
+      "title": "Samsung-M01-Core-M013F-Test-Point-tp-2",
       "sha256": "b9b4d03348b0bafb27baf8aee6bb04a35cbd7771d0b7a0a0e973209ba194a306",
       "width": 344,
       "height": 541,
@@ -31287,28 +31412,6 @@
       ],
       "aliases": [
         "Samsung-M01-Core-SM-M013F-TP"
-      ]
-    },
-    {
-      "path": "test-points/samsung/Samsung-M01-M015G-Test-Point.webp",
-      "kind": "test-points",
-      "protocol": null,
-      "brand": "samsung",
-      "model_key": "M01M015G",
-      "title": "Samsung-M01-M015G-Test-Point",
-      "sha256": "8cc093f95b2d9d8d8cd254aed93e1671ff7eb5f8510f1d91d0fdc9bc328d0c1f",
-      "width": 659,
-      "height": 583,
-      "sources": [
-        "unlocktool"
-      ],
-      "original_paths": [
-        "test-points/unlocktool/samsung/Samsung-A01-(A015)-TP.webp",
-        "test-points/unlocktool/samsung/Samsung-M01-(M015G)-TP.webp"
-      ],
-      "aliases": [
-        "Samsung-A01-(A015)-TP",
-        "Samsung-M01-(M015G)-TP"
       ]
     },
     {
@@ -32112,12 +32215,12 @@
       ]
     },
     {
-      "path": "test-points/vivo/Vivo-unknown-model-Test-Point.webp",
+      "path": "test-points/vivo/Vivo-V1-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "vivo",
       "model_key": "UNKNOWNMODEL",
-      "title": "Vivo-unknown-model-Test-Point",
+      "title": "Vivo-V1-Test-Point",
       "sha256": "46c66cf6896a4e0d79f6bab9d7d5702a56293d663d21908a669c086214c10682",
       "width": 646,
       "height": 532,
@@ -32252,6 +32355,28 @@
       ]
     },
     {
+      "path": "test-points/vivo/Vivo-V17-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "vivo",
+      "model_key": "V19NEO",
+      "title": "Vivo-V17-Test-Point",
+      "sha256": "98c17ea530e537f4b3f5e26a64381209b33e25ce85ca5d1e6af8952e85f57019",
+      "width": 640,
+      "height": 360,
+      "sources": [
+        "unlocktool"
+      ],
+      "original_paths": [
+        "test-points/unlocktool/vivo/Vivo-V17.webp",
+        "test-points/unlocktool/vivo/Vivo-V19-NEO.webp"
+      ],
+      "aliases": [
+        "Vivo-V17",
+        "Vivo-V19-NEO"
+      ]
+    },
+    {
       "path": "test-points/vivo/Vivo-V19-1933-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
@@ -32269,28 +32394,6 @@
       ],
       "aliases": [
         "Vivo-V19-1933"
-      ]
-    },
-    {
-      "path": "test-points/vivo/Vivo-V19-NEO-Test-Point.webp",
-      "kind": "test-points",
-      "protocol": null,
-      "brand": "vivo",
-      "model_key": "V19NEO",
-      "title": "Vivo-V19-NEO-Test-Point",
-      "sha256": "98c17ea530e537f4b3f5e26a64381209b33e25ce85ca5d1e6af8952e85f57019",
-      "width": 640,
-      "height": 360,
-      "sources": [
-        "unlocktool"
-      ],
-      "original_paths": [
-        "test-points/unlocktool/vivo/Vivo-V17.webp",
-        "test-points/unlocktool/vivo/Vivo-V19-NEO.webp"
-      ],
-      "aliases": [
-        "Vivo-V17",
-        "Vivo-V19-NEO"
       ]
     },
     {
@@ -33174,12 +33277,12 @@
       ]
     },
     {
-      "path": "test-points/vivo/Vivo-Y19-2-Test-Point.webp",
+      "path": "test-points/vivo/Vivo-y19-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "vivo",
-      "model_key": "Y192",
-      "title": "Vivo-Y19-2-Test-Point",
+      "model_key": "Y19",
+      "title": "Vivo-y19-Test-Point-tp-2",
       "sha256": "f3afe3d736d5d0b92690bff0b148e53ffbaef9327848858a6f229170131b716c",
       "width": 600,
       "height": 500,
@@ -33654,12 +33757,12 @@
       ]
     },
     {
-      "path": "test-points/vivo/Vivo-y52-5g-pd2069f-2-Test-Point.webp",
+      "path": "test-points/vivo/Vivo-Y52-5G-PD2069F-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "vivo",
-      "model_key": "Y525GPD2069F2",
-      "title": "Vivo-y52-5g-pd2069f-2-Test-Point",
+      "model_key": "Y525GPD2069F",
+      "title": "Vivo-Y52-5G-PD2069F-Test-Point-tp-2",
       "sha256": "68b4ebb24932cc06f3e36394afcb915af903fbf202c0f9ab346321f33586bd35",
       "width": 800,
       "height": 456,
@@ -33794,12 +33897,12 @@
       ]
     },
     {
-      "path": "test-points/vivo/Vivo-y71-2-Test-Point.webp",
+      "path": "test-points/vivo/Vivo-Y71-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "vivo",
-      "model_key": "Y712",
-      "title": "Vivo-y71-2-Test-Point",
+      "model_key": "Y71",
+      "title": "Vivo-Y71-Test-Point-tp-2",
       "sha256": "ff0eff2b3664bea01a4993c82237fd92e15b1a49d72b04750b3bd84161f17de6",
       "width": 526,
       "height": 457,
@@ -33834,12 +33937,12 @@
       ]
     },
     {
-      "path": "test-points/vivo/Vivo-Y71S-Test-Point.webp",
+      "path": "test-points/vivo/Vivo-Y73-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "vivo",
       "model_key": "Y71S",
-      "title": "Vivo-Y71S-Test-Point",
+      "title": "Vivo-Y73-Test-Point",
       "sha256": "58c7bbbd2614240b7b29cc3fea40bbeb2945fc9c0bea7d50489000231532cd35",
       "width": 609,
       "height": 495,
@@ -33916,12 +34019,12 @@
       ]
     },
     {
-      "path": "test-points/vivo/Vivo-Y85A-2-Test-Point.webp",
+      "path": "test-points/vivo/Vivo-y85a-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "vivo",
-      "model_key": "Y85A2",
-      "title": "Vivo-Y85A-2-Test-Point",
+      "model_key": "Y85A",
+      "title": "Vivo-y85a-Test-Point-tp-2",
       "sha256": "6b34f54491e1846edacf0e83a689ef46d56df28f87d84b5788c2ee21762fa23a",
       "width": 634,
       "height": 445,
@@ -34136,12 +34239,12 @@
       ]
     },
     {
-      "path": "test-points/vivo/Vivo-Z6-5G-PD1963-Test-Point.webp",
+      "path": "test-points/vivo/Vivo-Z6-5G-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "vivo",
       "model_key": "Z65GPD1963",
-      "title": "Vivo-Z6-5G-PD1963-Test-Point",
+      "title": "Vivo-Z6-5G-Test-Point",
       "sha256": "4d0b171cffd334d7e5d75c2b55b5e4415378de16f7f775d7a4da7d40ea5fa2b1",
       "width": 736,
       "height": 567,
@@ -34258,110 +34361,6 @@
       ]
     },
     {
-      "path": "test-points/webp/Webp-Other-file-1-Test-Point.webp",
-      "kind": "test-points",
-      "protocol": null,
-      "brand": "webp",
-      "model_key": "OTHERFILE1",
-      "title": "Webp-Other-file-1-Test-Point",
-      "sha256": "a25c309ba5473248aa1b1ec5696432822727fbf9accc3b5c6b999f5522fb0f7f",
-      "width": 232,
-      "height": 138,
-      "sources": [
-        "sumatech"
-      ],
-      "original_paths": [
-        "test-points/sumatech/file-1.webp"
-      ],
-      "aliases": [
-        "file-1"
-      ]
-    },
-    {
-      "path": "test-points/webp/Webp-Other-file-2-Test-Point.webp",
-      "kind": "test-points",
-      "protocol": null,
-      "brand": "webp",
-      "model_key": "OTHERFILE2",
-      "title": "Webp-Other-file-2-Test-Point",
-      "sha256": "85fce0c6879daeabafb255ef53c14417e232a34b32375733ce704f69c8561d0e",
-      "width": 96,
-      "height": 96,
-      "sources": [
-        "sumatech"
-      ],
-      "original_paths": [
-        "test-points/sumatech/file-2.webp"
-      ],
-      "aliases": [
-        "file-2"
-      ]
-    },
-    {
-      "path": "test-points/webp/Webp-Other-file-3-Test-Point.webp",
-      "kind": "test-points",
-      "protocol": null,
-      "brand": "webp",
-      "model_key": "OTHERFILE3",
-      "title": "Webp-Other-file-3-Test-Point",
-      "sha256": "753b3c06078a2f3f7bc37afb0cf282ee65046b3621ab99e6fea29fd62c65d131",
-      "width": 96,
-      "height": 96,
-      "sources": [
-        "sumatech"
-      ],
-      "original_paths": [
-        "test-points/sumatech/file-3.webp",
-        "test-points/sumatech/file-5.webp",
-        "test-points/sumatech/file-6.webp"
-      ],
-      "aliases": [
-        "file-3",
-        "file-5",
-        "file-6"
-      ]
-    },
-    {
-      "path": "test-points/webp/Webp-Other-file-4-Test-Point.webp",
-      "kind": "test-points",
-      "protocol": null,
-      "brand": "webp",
-      "model_key": "OTHERFILE4",
-      "title": "Webp-Other-file-4-Test-Point",
-      "sha256": "8ec6a7fc9218ad472e09f9b028614397758074ff35acfd1f9f7e66712b6b403a",
-      "width": 128,
-      "height": 128,
-      "sources": [
-        "sumatech"
-      ],
-      "original_paths": [
-        "test-points/sumatech/file-4.webp"
-      ],
-      "aliases": [
-        "file-4"
-      ]
-    },
-    {
-      "path": "test-points/webp/Webp-Other-Various-Android-Devices-Test-Point.webp",
-      "kind": "test-points",
-      "protocol": null,
-      "brand": "webp",
-      "model_key": "OTHERVARIOUSANDROIDDEVICES",
-      "title": "Webp-Other-Various-Android-Devices-Test-Point",
-      "sha256": "e191c382762b9cf72c7efa7eaf03423be213aacead79c85dc53cb56f3ad31fac",
-      "width": 760,
-      "height": 420,
-      "sources": [
-        "droidwin"
-      ],
-      "original_paths": [
-        "test-points/droidwin/Various-Android-Devices.webp"
-      ],
-      "aliases": [
-        "Various-Android-Devices"
-      ]
-    },
-    {
       "path": "test-points/xiaomi/Xiaomi-A1-tissot-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
@@ -34382,12 +34381,12 @@
       ]
     },
     {
-      "path": "test-points/xiaomi/Xiaomi-A3-laurel-sprout-Test-Point.webp",
+      "path": "test-points/xiaomi/Xiaomi-CC9-pixys-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "xiaomi",
       "model_key": "A3LAURELSPROUT",
-      "title": "Xiaomi-A3-laurel-sprout-Test-Point",
+      "title": "Xiaomi-CC9-pixys-Test-Point",
       "sha256": "39d785529c8ec1a9d4a2ef1adcc82e214c4a48219f1c514e1e7901e45eb09fbd",
       "width": 614,
       "height": 591,
@@ -34524,12 +34523,12 @@
       ]
     },
     {
-      "path": "test-points/xiaomi/Xiaomi-Mi-3-2-Test-Point.webp",
+      "path": "test-points/xiaomi/Xiaomi-Mi-3-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "xiaomi",
-      "model_key": "MI32",
-      "title": "Xiaomi-Mi-3-2-Test-Point",
+      "model_key": "MI3",
+      "title": "Xiaomi-Mi-3-Test-Point-tp-2",
       "sha256": "73e8598553b547cb5dce0e4c573c2037019e95348f157ed2b58a191b89668906",
       "width": 226,
       "height": 320,
@@ -34604,12 +34603,12 @@
       ]
     },
     {
-      "path": "test-points/xiaomi/Xiaomi-Mi-4i-2-Test-Point.webp",
+      "path": "test-points/xiaomi/Xiaomi-Mi-4i-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "xiaomi",
-      "model_key": "MI4I2",
-      "title": "Xiaomi-Mi-4i-2-Test-Point",
+      "model_key": "MI4I",
+      "title": "Xiaomi-Mi-4i-Test-Point-tp-2",
       "sha256": "19a2254efe65c8dccd54ab65415782786f39c76b8c6af567af5b0099aac0e6a1",
       "width": 320,
       "height": 265,
@@ -34664,26 +34663,6 @@
       ]
     },
     {
-      "path": "test-points/xiaomi/Xiaomi-Mi-5-2-Test-Point.webp",
-      "kind": "test-points",
-      "protocol": null,
-      "brand": "xiaomi",
-      "model_key": "MI52",
-      "title": "Xiaomi-Mi-5-2-Test-Point",
-      "sha256": "9d293b196fd0f9efa73d7482545fafc4fcd3cda3dccc21fb08f61ed8b6fc40fd",
-      "width": 400,
-      "height": 314,
-      "sources": [
-        "sumatech"
-      ],
-      "original_paths": [
-        "test-points/sumatech/xiaomi/Xiaomi-Mi-5-Test-Point.webp"
-      ],
-      "aliases": [
-        "Xiaomi-Mi-5-Test-Point"
-      ]
-    },
-    {
       "path": "test-points/xiaomi/Xiaomi-Mi-5-Gemini-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
@@ -34701,6 +34680,26 @@
       ],
       "aliases": [
         "Xiaomi-Mi-5-(Gemini)"
+      ]
+    },
+    {
+      "path": "test-points/xiaomi/Xiaomi-Mi-5-Test-Point-tp-2.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "xiaomi",
+      "model_key": "MI5",
+      "title": "Xiaomi-Mi-5-Test-Point-tp-2",
+      "sha256": "9d293b196fd0f9efa73d7482545fafc4fcd3cda3dccc21fb08f61ed8b6fc40fd",
+      "width": 400,
+      "height": 314,
+      "sources": [
+        "sumatech"
+      ],
+      "original_paths": [
+        "test-points/sumatech/xiaomi/Xiaomi-Mi-5-Test-Point.webp"
+      ],
+      "aliases": [
+        "Xiaomi-Mi-5-Test-Point"
       ]
     },
     {
@@ -35084,26 +35083,6 @@
       ]
     },
     {
-      "path": "test-points/xiaomi/Xiaomi-Mi-Max-2-2-Test-Point.webp",
-      "kind": "test-points",
-      "protocol": null,
-      "brand": "xiaomi",
-      "model_key": "MIMAX22",
-      "title": "Xiaomi-Mi-Max-2-2-Test-Point",
-      "sha256": "0144e5c6ffafa2d44d7f72f4cfc66120562d9301d3f8bd8ceaae82c38b6ba14b",
-      "width": 563,
-      "height": 374,
-      "sources": [
-        "sumatech"
-      ],
-      "original_paths": [
-        "test-points/sumatech/xiaomi/Xiaomi-Mi-Max-2-Test-Point.webp"
-      ],
-      "aliases": [
-        "Xiaomi-Mi-Max-2-Test-Point"
-      ]
-    },
-    {
       "path": "test-points/xiaomi/Xiaomi-Mi-Max-2-Oxygen-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
@@ -35121,6 +35100,26 @@
       ],
       "aliases": [
         "Xiaomi-Mi-Max-2(Oxygen)"
+      ]
+    },
+    {
+      "path": "test-points/xiaomi/Xiaomi-Mi-Max-2-Test-Point-tp-2.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "xiaomi",
+      "model_key": "MIMAX2",
+      "title": "Xiaomi-Mi-Max-2-Test-Point-tp-2",
+      "sha256": "0144e5c6ffafa2d44d7f72f4cfc66120562d9301d3f8bd8ceaae82c38b6ba14b",
+      "width": 563,
+      "height": 374,
+      "sources": [
+        "sumatech"
+      ],
+      "original_paths": [
+        "test-points/sumatech/xiaomi/Xiaomi-Mi-Max-2-Test-Point.webp"
+      ],
+      "aliases": [
+        "Xiaomi-Mi-Max-2-Test-Point"
       ]
     },
     {
@@ -35504,6 +35503,30 @@
       ]
     },
     {
+      "path": "test-points/xiaomi/Xiaomi-poco-c3-hw-protection-resistor-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "xiaomi",
+      "model_key": "REDMI9AHWPROTECTIONRESISTOR",
+      "title": "Xiaomi-poco-c3-hw-protection-resistor-Test-Point",
+      "sha256": "4611952711672f9ef5670f41a0591c6b764a10a965c55df583968c250dce3e33",
+      "width": 703,
+      "height": 577,
+      "sources": [
+        "sumatech"
+      ],
+      "original_paths": [
+        "test-points/sumatech/xiaomi-poco-c3-hw-protection-resistor.webp",
+        "test-points/sumatech/xiaomi-redmi-9a-hw-protection-resistor.webp",
+        "test-points/sumatech/xiaomi-redmi-9c-hw-protection-resistor.webp"
+      ],
+      "aliases": [
+        "xiaomi-poco-c3-hw-protection-resistor",
+        "xiaomi-redmi-9a-hw-protection-resistor",
+        "xiaomi-redmi-9c-hw-protection-resistor"
+      ]
+    },
+    {
       "path": "test-points/xiaomi/Xiaomi-Poco-F1-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
@@ -35684,26 +35707,6 @@
       ]
     },
     {
-      "path": "test-points/xiaomi/Xiaomi-Redmi-2-2-Test-Point.webp",
-      "kind": "test-points",
-      "protocol": null,
-      "brand": "xiaomi",
-      "model_key": "REDMI22",
-      "title": "Xiaomi-Redmi-2-2-Test-Point",
-      "sha256": "4694c9bdaef86eee3d8980d61affaf611cb1564db51eddadc742f4420602cbb4",
-      "width": 480,
-      "height": 327,
-      "sources": [
-        "sumatech"
-      ],
-      "original_paths": [
-        "test-points/sumatech/xiaomi/Xiaomi-Redmi-2-Test-Point.webp"
-      ],
-      "aliases": [
-        "Xiaomi-Redmi-2-Test-Point"
-      ]
-    },
-    {
       "path": "test-points/xiaomi/Xiaomi-Redmi-2-2A-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
@@ -35721,6 +35724,26 @@
       ],
       "aliases": [
         "Xiaomi-Redmi-2-2A"
+      ]
+    },
+    {
+      "path": "test-points/xiaomi/Xiaomi-Redmi-2-Test-Point-tp-2.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "xiaomi",
+      "model_key": "REDMI2",
+      "title": "Xiaomi-Redmi-2-Test-Point-tp-2",
+      "sha256": "4694c9bdaef86eee3d8980d61affaf611cb1564db51eddadc742f4420602cbb4",
+      "width": 480,
+      "height": 327,
+      "sources": [
+        "sumatech"
+      ],
+      "original_paths": [
+        "test-points/sumatech/xiaomi/Xiaomi-Redmi-2-Test-Point.webp"
+      ],
+      "aliases": [
+        "Xiaomi-Redmi-2-Test-Point"
       ]
     },
     {
@@ -35744,26 +35767,6 @@
       ]
     },
     {
-      "path": "test-points/xiaomi/Xiaomi-Redmi-3-2-Test-Point.webp",
-      "kind": "test-points",
-      "protocol": null,
-      "brand": "xiaomi",
-      "model_key": "REDMI32",
-      "title": "Xiaomi-Redmi-3-2-Test-Point",
-      "sha256": "5fa1fdcbbe580a77df622627d0a174d87eea1f765a773000f2b28c05256d3dcf",
-      "width": 533,
-      "height": 427,
-      "sources": [
-        "unlocktool"
-      ],
-      "original_paths": [
-        "test-points/unlocktool/xiaomi/Xiaomi-Redmi-3.webp"
-      ],
-      "aliases": [
-        "Xiaomi-Redmi-3"
-      ]
-    },
-    {
       "path": "test-points/xiaomi/Xiaomi-Redmi-3-Pro-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
@@ -35781,6 +35784,26 @@
       ],
       "aliases": [
         "Xiaomi-Redmi-3-Pro"
+      ]
+    },
+    {
+      "path": "test-points/xiaomi/Xiaomi-Redmi-3-Test-Point-tp-2.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "xiaomi",
+      "model_key": "REDMI3",
+      "title": "Xiaomi-Redmi-3-Test-Point-tp-2",
+      "sha256": "5fa1fdcbbe580a77df622627d0a174d87eea1f765a773000f2b28c05256d3dcf",
+      "width": 533,
+      "height": 427,
+      "sources": [
+        "unlocktool"
+      ],
+      "original_paths": [
+        "test-points/unlocktool/xiaomi/Xiaomi-Redmi-3.webp"
+      ],
+      "aliases": [
+        "Xiaomi-Redmi-3"
       ]
     },
     {
@@ -35844,26 +35867,6 @@
       ]
     },
     {
-      "path": "test-points/xiaomi/Xiaomi-Redmi-4-2-Test-Point.webp",
-      "kind": "test-points",
-      "protocol": null,
-      "brand": "xiaomi",
-      "model_key": "REDMI42",
-      "title": "Xiaomi-Redmi-4-2-Test-Point",
-      "sha256": "ac3750830e859ac7497bf0b89fb467c039fe1a00664861228d3b9dea5a8340bc",
-      "width": 272,
-      "height": 283,
-      "sources": [
-        "sumatech"
-      ],
-      "original_paths": [
-        "test-points/sumatech/xiaomi/Xiaomi-Redmi-4-Test-Point.webp"
-      ],
-      "aliases": [
-        "Xiaomi-Redmi-4-Test-Point"
-      ]
-    },
-    {
       "path": "test-points/xiaomi/Xiaomi-Redmi-4-Prime-markw-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
@@ -35901,6 +35904,26 @@
       ],
       "aliases": [
         "Xiaomi-Redmi-4-Prime-Test-Point"
+      ]
+    },
+    {
+      "path": "test-points/xiaomi/Xiaomi-Redmi-4-Test-Point-tp-2.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "xiaomi",
+      "model_key": "REDMI4",
+      "title": "Xiaomi-Redmi-4-Test-Point-tp-2",
+      "sha256": "ac3750830e859ac7497bf0b89fb467c039fe1a00664861228d3b9dea5a8340bc",
+      "width": 272,
+      "height": 283,
+      "sources": [
+        "sumatech"
+      ],
+      "original_paths": [
+        "test-points/sumatech/xiaomi/Xiaomi-Redmi-4-Test-Point.webp"
+      ],
+      "aliases": [
+        "Xiaomi-Redmi-4-Test-Point"
       ]
     },
     {
@@ -35964,12 +35987,12 @@
       ]
     },
     {
-      "path": "test-points/xiaomi/Xiaomi-Redmi-4X-Santoni-2-Test-Point.webp",
+      "path": "test-points/xiaomi/Xiaomi-Redmi-4X-Santoni-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "xiaomi",
-      "model_key": "REDMI4XSANTONI2",
-      "title": "Xiaomi-Redmi-4X-Santoni-2-Test-Point",
+      "model_key": "REDMI4XSANTONI",
+      "title": "Xiaomi-Redmi-4X-Santoni-Test-Point-tp-2",
       "sha256": "6b95d9cb915d2ea949038c721394bd307cb1485199ab0f1a98f0c7015ec4bba4",
       "width": 450,
       "height": 356,
@@ -36241,30 +36264,6 @@
       ],
       "aliases": [
         "Xiaomi-Redmi-9A-(dandelion)-MTK"
-      ]
-    },
-    {
-      "path": "test-points/xiaomi/Xiaomi-redmi-9a-hw-protection-resistor-Test-Point.webp",
-      "kind": "test-points",
-      "protocol": null,
-      "brand": "xiaomi",
-      "model_key": "REDMI9AHWPROTECTIONRESISTOR",
-      "title": "Xiaomi-redmi-9a-hw-protection-resistor-Test-Point",
-      "sha256": "4611952711672f9ef5670f41a0591c6b764a10a965c55df583968c250dce3e33",
-      "width": 703,
-      "height": 577,
-      "sources": [
-        "sumatech"
-      ],
-      "original_paths": [
-        "test-points/sumatech/xiaomi-poco-c3-hw-protection-resistor.webp",
-        "test-points/sumatech/xiaomi-redmi-9a-hw-protection-resistor.webp",
-        "test-points/sumatech/xiaomi-redmi-9c-hw-protection-resistor.webp"
-      ],
-      "aliases": [
-        "xiaomi-poco-c3-hw-protection-resistor",
-        "xiaomi-redmi-9a-hw-protection-resistor",
-        "xiaomi-redmi-9c-hw-protection-resistor"
       ]
     },
     {
@@ -36548,26 +36547,6 @@
       ]
     },
     {
-      "path": "test-points/xiaomi/Xiaomi-Redmi-Note-3-2-Test-Point.webp",
-      "kind": "test-points",
-      "protocol": null,
-      "brand": "xiaomi",
-      "model_key": "REDMINOTE32",
-      "title": "Xiaomi-Redmi-Note-3-2-Test-Point",
-      "sha256": "290b795a9843fdee92b0dfae269819bf8f09973cd588d95390ebc5a76d998650",
-      "width": 450,
-      "height": 506,
-      "sources": [
-        "sumatech"
-      ],
-      "original_paths": [
-        "test-points/sumatech/Xiaomi-Redmi-Note-3-test-point.webp"
-      ],
-      "aliases": [
-        "Xiaomi-Redmi-Note-3-test-point"
-      ]
-    },
-    {
       "path": "test-points/xiaomi/Xiaomi-Redmi-Note-3-Kenzo-Kate-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
@@ -36628,6 +36607,26 @@
       ]
     },
     {
+      "path": "test-points/xiaomi/Xiaomi-Redmi-Note-3-Test-Point-tp-2.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "xiaomi",
+      "model_key": "REDMINOTE3",
+      "title": "Xiaomi-Redmi-Note-3-Test-Point-tp-2",
+      "sha256": "290b795a9843fdee92b0dfae269819bf8f09973cd588d95390ebc5a76d998650",
+      "width": 450,
+      "height": 506,
+      "sources": [
+        "sumatech"
+      ],
+      "original_paths": [
+        "test-points/sumatech/Xiaomi-Redmi-Note-3-test-point.webp"
+      ],
+      "aliases": [
+        "Xiaomi-Redmi-Note-3-test-point"
+      ]
+    },
+    {
       "path": "test-points/xiaomi/Xiaomi-Redmi-Note-3-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
@@ -36668,28 +36667,6 @@
       ]
     },
     {
-      "path": "test-points/xiaomi/Xiaomi-Redmi-Note-4G-Signal-sim-Test-Point.webp",
-      "kind": "test-points",
-      "protocol": null,
-      "brand": "xiaomi",
-      "model_key": "REDMINOTE4GSIGNALSIM",
-      "title": "Xiaomi-Redmi-Note-4G-Signal-sim-Test-Point",
-      "sha256": "669e42591785cdf5ea698d732fe0376d9f4a129b8b88f45f640f7a6e58955103",
-      "width": 300,
-      "height": 168,
-      "sources": [
-        "unlocktool"
-      ],
-      "original_paths": [
-        "test-points/unlocktool/xiaomi/Xiaomi-Redmi-Note-4G-Signal-sim.webp",
-        "test-points/unlocktool/xiaomi/Xiaomi-Redmi-Note4G-Single-SIM.webp"
-      ],
-      "aliases": [
-        "Xiaomi-Redmi-Note-4G-Signal-sim",
-        "Xiaomi-Redmi-Note4G-Single-SIM"
-      ]
-    },
-    {
       "path": "test-points/xiaomi/Xiaomi-Redmi-Note-4G-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
@@ -36710,12 +36687,12 @@
       ]
     },
     {
-      "path": "test-points/xiaomi/Xiaomi-Redmi-Note-4X-2-Test-Point.webp",
+      "path": "test-points/xiaomi/Xiaomi-Redmi-Note-4X-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "xiaomi",
-      "model_key": "REDMINOTE4X2",
-      "title": "Xiaomi-Redmi-Note-4X-2-Test-Point",
+      "model_key": "REDMINOTE4X",
+      "title": "Xiaomi-Redmi-Note-4X-Test-Point-tp-2",
       "sha256": "c802a44759939c48fd4cdbdb9019b0bc3fa23d861847bd7849011662092613fa",
       "width": 378,
       "height": 294,
@@ -36947,6 +36924,28 @@
       ],
       "aliases": [
         "Redmi-Note-9-4G"
+      ]
+    },
+    {
+      "path": "test-points/xiaomi/Xiaomi-Redmi-Note4G-Single-SIM-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "xiaomi",
+      "model_key": "REDMINOTE4GSIGNALSIM",
+      "title": "Xiaomi-Redmi-Note4G-Single-SIM-Test-Point",
+      "sha256": "669e42591785cdf5ea698d732fe0376d9f4a129b8b88f45f640f7a6e58955103",
+      "width": 300,
+      "height": 168,
+      "sources": [
+        "unlocktool"
+      ],
+      "original_paths": [
+        "test-points/unlocktool/xiaomi/Xiaomi-Redmi-Note-4G-Signal-sim.webp",
+        "test-points/unlocktool/xiaomi/Xiaomi-Redmi-Note4G-Single-SIM.webp"
+      ],
+      "aliases": [
+        "Xiaomi-Redmi-Note-4G-Signal-sim",
+        "Xiaomi-Redmi-Note4G-Single-SIM"
       ]
     },
     {

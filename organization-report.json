@@ -3,7 +3,7 @@
   "original_images": 1915,
   "unique_images": 1841,
   "duplicates_removed": 74,
-  "variant_model_groups_preserved": 3,
+  "variant_model_groups_preserved": 64,
   "brands": {
     "4good": 2,
     "acer": 24,
@@ -16,7 +16,7 @@
     "archos": 2,
     "artel": 5,
     "assistant": 2,
-    "asus": 130,
+    "asus": 132,
     "blu": 2,
     "bq": 4,
     "bravis": 2,
@@ -26,16 +26,14 @@
     "coolpad": 14,
     "crius": 2,
     "google": 4,
-    "honor": 99,
-    "huawei": 294,
+    "honor": 100,
+    "huawei": 293,
     "infinix": 12,
     "itel": 2,
     "jio": 1,
     "lenovo": 11,
     "lg": 123,
-    "link": 2,
     "luna": 2,
-    "me172v": 2,
     "megafon": 2,
     "meizu": 7,
     "micromax": 16,
@@ -45,6 +43,7 @@
     "nokia": 47,
     "oneplus": 3,
     "oppo": 59,
+    "other": 5,
     "realme": 20,
     "samsung": 233,
     "sigma": 2,
@@ -56,13 +55,13 @@
     "texet": 4,
     "tomtom": 2,
     "toshiba": 1,
+    "tp-link": 2,
     "veon": 2,
     "vivo": 155,
     "vsmart": 5,
-    "webp": 5,
     "wiko": 2,
     "xiaomi": 199,
-    "yureka": 1,
+    "yu": 1,
     "zopo": 4,
     "zte": 73
   },
@@ -70,7 +69,7 @@
     "isp-pinouts": 940,
     "test-points": 901
   },
-  "other_brand_images": 0,
+  "other_brand_images": 5,
   "duplicate_groups": [
     {
       "kept": "isp-pinouts/emmc/ANDROMAX-T-INNOS-AD682-2.webp",
@@ -518,9 +517,10 @@
     }
   ],
   "rules": [
-    "Source folders removed; provenance retained in catalog.json.",
-    "Exact SHA-256 duplicates removed globally.",
-    "Pixel-equivalent removal is deliberately strict within one brand/model group.",
-    "Different diagrams for the same model are preserved as numbered TP/ISP variants."
+    "Folders are brand-first; collection source names are metadata only.",
+    "Exact duplicate image bytes are stored once.",
+    "Model grouping is recovered from the pre-sort provenance catalog.",
+    "Different images for the same model remain numbered TP/ISP variants.",
+    "Unknown brands remain in other instead of being guessed from a model token."
   ]
 }
