@@ -1,0 +1,77 @@
+name: Collect public test-point images
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/collect-images.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install collector dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install requests beautifulsoup4 pillow lxml
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq p7zip-full
+
+      - name: Configure repository commits
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Run collectors and preserve each completed source
+        shell: bash
+        run: |
+          set +e
+          collect_and_push() {
+            source="$1"
+            minutes="$2"
+            echo "===== COLLECTING: $source ====="
+            timeout "${minutes}m" python collect_sources.py "$source"
+            result=$?
+            find . -name .digests -type f -delete
+            git add test-points isp-pinouts collection-report.json 2>/dev/null
+            if ! git diff --cached --quiet; then
+              git commit -m "Collect $source test-point images"
+              git push origin main
+            fi
+            echo "===== RESULT: $source ($result) ====="
+          }
+
+          collect_and_push passware 20
+          collect_and_push droidwin 10
+          collect_and_push easyjtag 90
+          collect_and_push sigma 120
+          collect_and_push unlocktool 120
+          collect_and_push sumatech 120
+          exit 0
+
+      - name: Remove one-time collector files
+        if: always()
+        run: |
+          rm -f collect_sources.py .github/workflows/collect-images.yml
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m "Remove one-time collection workflow"
+            git push origin main
+          fi
