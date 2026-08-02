@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "/home/runner/work/testpoints-verse/testpoints-verse/scripts/import_xiaomi_webp_zip.py", line 112, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/home/runner/work/testpoints-verse/testpoints-verse/scripts/import_xiaomi_webp_zip.py", line 106, in main
+    saved, skipped = install(download())
+                             ^^^^^^^^^^
+  File "/home/runner/work/testpoints-verse/testpoints-verse/scripts/import_xiaomi_webp_zip.py", line 56, in download
+    raise RuntimeError(" | ".join(errors))
+RuntimeError: https://drive.usercontent.google.com/download?id=1X3ziMgVjrmRBA04mpBtkBP1lkrBA5Xke&export=download&confirm=t: ValueError: response is not the expected ZIP (1233946 bytes) | https://drive.google.com/uc?export=download&id=1X3ziMgVjrmRBA04mpBtkBP1lkrBA5Xke: ValueError: response is not the expected ZIP (1233352 bytes)
+Drive import failed; trying original MediaFire PDF.
+Traceback (most recent call last):
+  File "/home/runner/work/testpoints-verse/testpoints-verse/scripts/recover_xiaomi_pdf_images.py", line 201, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/home/runner/work/testpoints-verse/testpoints-verse/scripts/recover_xiaomi_pdf_images.py", line 193, in main
+    pdf_data = recover_pdf()
+               ^^^^^^^^^^^^^
+  File "/home/runner/work/testpoints-verse/testpoints-verse/scripts/recover_xiaomi_pdf_images.py", line 96, in recover_pdf
+    raise RuntimeError((process.stderr or process.stdout)[-500:])
+RuntimeError: 
+
+Break signaled
+
