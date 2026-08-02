@@ -13,7 +13,7 @@ permissions:
 
 concurrency:
   group: collect-remaining-testpoints
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   collect:
