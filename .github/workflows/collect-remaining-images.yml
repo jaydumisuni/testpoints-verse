@@ -1,0 +1,88 @@
+name: Collect remaining test-point images
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/oracle_unlocktool_collect.py
+      - .github/workflows/collect-remaining-images.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect-remaining-testpoints
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install browser and image tooling
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install requests beautifulsoup4 pillow playwright
+          python -m playwright install --with-deps chromium
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq p7zip-full unar
+
+      - name: Configure commits
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Collect complete UnlockTool catalogue
+        env:
+          SOURCE: unlocktool
+        run: |
+          set +e
+          python scripts/oracle_unlocktool_collect.py
+          status=$?
+          git add test-points/unlocktool isp-pinouts/*/unlocktool collection-report.json 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m "Collect complete UnlockTool test-point catalogue"
+            git push origin main
+          fi
+          echo "UnlockTool collector exit: $status"
+
+      - name: Collect DroidWin through rendered browser
+        env:
+          SOURCE: droidwin
+        run: |
+          set +e
+          python scripts/oracle_unlocktool_collect.py
+          status=$?
+          git add test-points/droidwin collection-report.json 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m "Collect DroidWin rendered test-point images"
+            git push origin main
+          fi
+          echo "DroidWin collector exit: $status"
+
+      - name: Collect SumaTech through MediaFire browser flow
+        env:
+          SOURCE: sumatech
+        run: |
+          set +e
+          python scripts/oracle_unlocktool_collect.py
+          status=$?
+          git add test-points/sumatech isp-pinouts/*/sumatech collection-report.json 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m "Collect SumaTech test-point packages"
+            git push origin main
+          fi
+          echo "SumaTech collector exit: $status"
