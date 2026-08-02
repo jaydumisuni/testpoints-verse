@@ -87,6 +87,38 @@ jobs:
           fi
           echo "DroidWin collector exit: $status"
 
+      - name: Enable SumaTech password-protected archives
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          path = Path('scripts/oracle_unlocktool_collect.py')
+          source = path.read_text('utf-8')
+          old = '''                        proc = subprocess.run([sevenzip, "x", "-y", f"-o{out}", str(archive)], capture_output=True, text=True, timeout=180)
+                        if proc.returncode != 0:
+                            raise RuntimeError(f"archive extraction failed: {proc.stderr[-300:]}")
+'''
+          new = '''                        extraction_attempts = [
+                            [sevenzip, "x", "-y", "-pwww.sumatechsolution.com", f"-o{out}", str(archive)],
+                            [sevenzip, "x", "-y", f"-o{out}", str(archive)],
+                        ]
+                        extraction_errors = []
+                        extracted = False
+                        for command in extraction_attempts:
+                            shutil.rmtree(out, ignore_errors=True)
+                            out.mkdir()
+                            proc = subprocess.run(command, capture_output=True, text=True, timeout=180)
+                            if proc.returncode == 0:
+                                extracted = True
+                                break
+                            extraction_errors.append((proc.stderr or proc.stdout)[-300:])
+                        if not extracted:
+                            raise RuntimeError(f"archive extraction failed: {' | '.join(extraction_errors)}")
+'''
+          if old not in source:
+              raise SystemExit('SumaTech extractor target not found')
+          path.write_text(source.replace(old, new), 'utf-8')
+          PY
+
       - name: Collect SumaTech through MediaFire browser flow
         env:
           SOURCE: sumatech
@@ -94,6 +126,7 @@ jobs:
           set +e
           python scripts/oracle_unlocktool_collect.py
           status=$?
+          git restore scripts/oracle_unlocktool_collect.py
           git add collection-report.json 2>/dev/null || true
           git add test-points/sumatech 2>/dev/null || true
           git add isp-pinouts/ufs/sumatech isp-pinouts/emmc/sumatech isp-pinouts/unclassified/sumatech 2>/dev/null || true
