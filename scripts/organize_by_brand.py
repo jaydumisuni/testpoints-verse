@@ -37,6 +37,18 @@ BRANDS = [
 ]
 DISPLAY = {name: name.title() for name, _ in BRANDS} | {"lg": "LG", "zte": "ZTE", "htc": "HTC", "qmobile": "QMobile"}
 
+CATALOG_PATH = ROOT / "catalog.json"
+REPORT_PATH = ROOT / "organization-report.json"
+try:
+    _old_catalog = json.loads(CATALOG_PATH.read_text("utf-8"))
+    PREVIOUS = {r["path"]: r for r in _old_catalog.get("records", [])}
+except Exception:
+    PREVIOUS = {}
+try:
+    PREVIOUS_DUPLICATES = json.loads(REPORT_PATH.read_text("utf-8")).get("duplicate_groups", [])
+except Exception:
+    PREVIOUS_DUPLICATES = []
+
 @dataclass
 class Asset:
     path: Path; kind: str; protocol: str | None; source: str; brand: str; title: str; key: str
@@ -56,6 +68,15 @@ def brand_from(text):
         if any(re.search(p, text, re.I) for p in pats): return brand
     return None
 
+def fallback_brand(text):
+    aliases = {"ticwatch": "mobvoi", "iphone": "apple", "ipad": "apple", "ipod": "apple", "surface": "microsoft", "lumia": "microsoft", "kindle": "amazon", "blackberry": "blackberry"}
+    skip = GENERIC | {"other", "file", "unknown", "model", "various", "android", "devices", "device", "multi", "brand", "pinouts", "points", "images", "archive"}
+    for token in re.split(r"[^A-Za-z0-9]+", asc(text)):
+        low = token.lower()
+        if not low or low in skip or not re.search(r"[a-z]", low): continue
+        return aliases.get(low, slug(low, lower=True))
+    return "other"
+
 def ocr_brand(path):
     if not shutil.which("tesseract"): return None
     try:
@@ -67,7 +88,8 @@ def ocr_brand(path):
 
 def detect(path):
     rel = path.relative_to(ROOT); parts = [p for p in rel.parts if p.lower() not in SOURCE | PROTOCOL]
-    brand = brand_from(" ".join(parts)) or ocr_brand(path) or "other"
+    context = " ".join(parts)
+    brand = brand_from(context) or ocr_brand(path) or fallback_brand(context)
     source = next((p.lower() for p in rel.parts if p.lower() in SOURCE), "legacy")
     protocol = next((p.lower() for p in rel.parts if p.lower() in PROTOCOL), None)
     if rel.parts[0] == "isp-pinouts" and protocol is None:
@@ -96,7 +118,9 @@ def load(path):
         dgray = np.asarray(rgb.convert("L").resize((17, 16), Image.Resampling.LANCZOS), dtype=np.int16)
         dh = int("".join("1" if x else "0" for x in (dgray[:, 1:] > dgray[:, :-1]).ravel()), 2)
         pixels = np.asarray(rgb.resize((256, 256), Image.Resampling.LANCZOS), dtype=np.int16)
-    return Asset(path, rel.parts[0], protocol, source, brand, title, key, digest, w, h, len(data), ph, dh, pixels, [str(rel)], [path.stem])
+    prev = PREVIOUS.get(str(rel), {})
+    origins = list(prev.get("original_paths", [str(rel)])); aliases = list(prev.get("aliases", [path.stem]))
+    return Asset(path, rel.parts[0], protocol, source, brand, title, key, digest, w, h, len(data), ph, dh, pixels, origins, aliases)
 
 def scan():
     paths = sorted(p for root in ROOTS if root.exists() for p in root.rglob("*.webp")); assets = []
@@ -169,13 +193,13 @@ def write(assigned, original, removed):
         records.append({"path": rel, "kind": a.kind, "protocol": a.protocol, "brand": a.brand, "model_key": a.key, "title": dest.stem, "sha256": a.sha, "width": a.width, "height": a.height, "sources": sorted({next((p.lower() for p in Path(o).parts if p.lower() in SOURCE), "legacy") for o in a.origins}), "original_paths": a.origins, "aliases": a.aliases})
     summary = {"original_images": original, "unique_images": len(records), "duplicates_removed": len(removed), "variant_model_groups_preserved": sum(v > 1 for v in variants.values()), "brands": dict(sorted(brands.items())), "kinds": dict(sorted(kinds.items())), "other_brand_images": brands.get("other", 0)}
     catalog = {"schema_version": 2, "generated_at": datetime.now(timezone.utc).isoformat(), "layout": {"test_points": "test-points/<brand>/<model>-Test-Point[-tp-N].webp", "isp_pinouts": "isp-pinouts/<brand>/<protocol>/<model>-ISP[-isp-N].webp"}, "summary": summary, "records": records}
-    (ROOT / "catalog.json").write_text(json.dumps(catalog, indent=2) + "\n")
-    (ROOT / "organization-report.json").write_text(json.dumps({"status": "success", **summary, "duplicate_groups": removed, "rules": ["Source folders removed; provenance retained in catalog.json.", "Exact SHA-256 duplicates removed globally.", "Pixel-equivalent removal is deliberately strict within one brand/model group.", "Different diagrams for the same model are preserved as numbered TP/ISP variants."]}, indent=2) + "\n")
+    CATALOG_PATH.write_text(json.dumps(catalog, indent=2) + "\n")
+    REPORT_PATH.write_text(json.dumps({"status": "success", **summary, "duplicate_groups": removed, "rules": ["Source folders removed; provenance retained in catalog.json.", "Exact SHA-256 duplicates removed globally.", "Pixel-equivalent removal is deliberately strict within one brand/model group.", "Different diagrams for the same model are preserved as numbered TP/ISP variants."]}, indent=2) + "\n")
     (ROOT / "README.md").write_text("# testpoints-verse\n\nDevice test-point and ISP pinout images organized by **brand**, not collection source.\n\n- `test-points/<brand>/...`\n- `isp-pinouts/<brand>/<protocol>/...`\n- `catalog.json` preserves source paths, aliases, hashes, dimensions, and provenance.\n- `organization-report.json` records deduplication totals.\n\nDuplicate images are stored once. Genuine alternative diagrams for one model are retained as `-tp-2`, `-tp-3`, `-isp-2`, and similar variants.\n")
     return catalog
 
 def verify(expected=None):
-    cat = json.loads((ROOT / "catalog.json").read_text()); records = cat["records"]; paths = set(); hashes = set(); origins = set(); errors = []
+    cat = json.loads(CATALOG_PATH.read_text()); records = cat["records"]; paths = set(); hashes = set(); origins = set(); errors = []
     for r in records:
         p = ROOT / r["path"]; parts = Path(r["path"]).parts
         if r["path"] in paths: errors.append("duplicate catalog path: " + r["path"])
@@ -198,8 +222,14 @@ def verify(expected=None):
     return {"status": "success", "files": len(records), "original_paths_accounted": len(origins), "exact_duplicate_hashes": 0}
 
 def organize():
-    original = scan(); kept, removed1 = exact_dedupe(original); kept, removed2 = visual_dedupe(kept); assigned = destinations(kept)
-    install(assigned); cat = write(assigned, len(original), removed1 + removed2); proof = verify(len(original)); print(json.dumps({"summary": cat["summary"], "verification": proof}, indent=2))
+    original = scan(); coverage = len({o for a in original for o in a.origins})
+    kept, removed1 = exact_dedupe(original); kept, removed2 = visual_dedupe(kept); assigned = destinations(kept)
+    merged_removed = []
+    seen = set()
+    for row in PREVIOUS_DUPLICATES + removed1 + removed2:
+        marker = (row.get("removed"), row.get("reason"), row.get("sha256"))
+        if marker not in seen: seen.add(marker); merged_removed.append(row)
+    install(assigned); cat = write(assigned, coverage, merged_removed); proof = verify(coverage); print(json.dumps({"summary": cat["summary"], "verification": proof}, indent=2))
 
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--verify-only", action="store_true"); args = ap.parse_args()
