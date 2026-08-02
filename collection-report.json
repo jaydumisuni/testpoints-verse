@@ -49,11 +49,17 @@
       "notes": []
     },
     "sumatech": {
-      "status": "failed",
-      "links": 0,
-      "saved": 0,
-      "failed": 0,
-      "notes": []
+      "status": "partial",
+      "links": 146,
+      "saved": 143,
+      "skipped_existing": 0,
+      "failed": 3,
+      "archive_password_used": "www.sumatechsolution.com",
+      "notes": [
+        "xiaomi-test-point pdf: RuntimeError: archive extraction failed: ocale=C.UTF-8 Threads:4 OPEN_MAX:65536\n\nScanning the drive for archives:\n1 file, 592592 bytes (579 KiB)\n\nExtracting archive: /tmp/tmp6ysnvlge/download.bin\n--\nPath = /tmp/tmp6ysnvlge/download.bin\nType = Rar5\nPhysical Size = 592592\nSolid = -\nBlocks = 1\nEncrypted = -\nMultivolume = -\nVolumes = 1\n\nEverything is Ok\n\nSize:       612611\nCompressed: 592592\n | \n\nBreak signaled\n | /tmp/tmp6ysnvlge/download.bin: RAR 5\n  xiaomi-test-point.pdf  (612611 B)... OK.\nSuccessfully extracted to \"/tmp/tmp6ysnvlge/out/xiaomi-test-point.pdf\".\n | /tmp/tmp6ysnvlge/download.bin: RAR 5\n  xiaomi-test-point.pdf  (612611 B)... This archive requires a password to unpack. Use the -p option to provide one.\n [https://www.mediafire.com/file/5zo5oifcxlo1739/xiaomi-test-point.rar/file]",
+        "file: RuntimeError: archive extraction failed: ERROR: Wrong password : Sumatech Tool v1.0.exe\n | \n\nBreak signaled\n | /tmp/tmpjq0wh65k/download.bin: RAR 5\n  Sumatech Tool v1.0.exe  (10446359 B)... Failed! (Missing or wrong password)\nExtraction to directory \"/tmp/tmpjq0wh65k/out\" failed (1 file failed.)\n | /tmp/tmpjq0wh65k/download.bin: RAR 5\n  Sumatech Tool v1.0.exe  (10446359 B)... This archive requires a password to unpack. Use the -p option to provide one.\n [https://www.mediafire.com/file/qv7av36e0v88nmp/Sumatech+Tool+v1.0.rar/file]",
+        "file: ValueError: image too small: 64x64 [https://www.mediafire.com/file/qdx4ga6ai9hctrt/_Sumatech_solution_14701842.apk/file]"
+      ]
     }
   }
 }
