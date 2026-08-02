@@ -1,0 +1,495 @@
+{
+  "status": "success",
+  "original_images": 1915,
+  "unique_images": 1841,
+  "duplicates_removed": 74,
+  "variant_model_groups_preserved": 66,
+  "brands": {
+    "alcatel": 43,
+    "amazon": 20,
+    "archos": 2,
+    "asus": 130,
+    "coolpad": 14,
+    "google": 4,
+    "honor": 99,
+    "huawei": 294,
+    "infinix": 12,
+    "itel": 2,
+    "jio": 1,
+    "lenovo": 11,
+    "lg": 123,
+    "meizu": 7,
+    "micromax": 16,
+    "motorola": 43,
+    "nokia": 47,
+    "oneplus": 3,
+    "oppo": 59,
+    "other": 142,
+    "realme": 20,
+    "samsung": 233,
+    "sony": 73,
+    "tecno": 9,
+    "vivo": 155,
+    "vsmart": 5,
+    "wiko": 2,
+    "xiaomi": 199,
+    "zte": 73
+  },
+  "kinds": {
+    "isp-pinouts": 940,
+    "test-points": 901
+  },
+  "other_brand_images": 142,
+  "duplicate_groups": [
+    {
+      "kept": "isp-pinouts/emmc/ANDROMAX-T-INNOS-AD682-2.webp",
+      "removed": "isp-pinouts/emmc/ANDROMAX-T-INNOS-AD682J.webp",
+      "reason": "exact-sha256",
+      "sha256": "3abe9309ff86b60aed9e4b062bce62253010c11b1dfdd41be7120ec2f6d09a42"
+    },
+    {
+      "kept": "isp-pinouts/emmc/ANDROMAX-T-INNOS-AD682J-2.webp",
+      "removed": "isp-pinouts/emmc/ANDROMAX-T-INNOS-AD682.webp",
+      "reason": "exact-sha256",
+      "sha256": "b5fde16319cec2d1eb5ad670567d2dbd4294973d3b5da968dd25044f82ab7811"
+    },
+    {
+      "kept": "isp-pinouts/emmc/ASUS-FONEPAD-ME170CG-K012.webp",
+      "removed": "isp-pinouts/emmc/ASUS-FONEPAD-K012.webp",
+      "reason": "exact-sha256",
+      "sha256": "cec77f156e0c460051c533e624a2db77da514054d1f1df1cf76c8196d9bd5dd6"
+    },
+    {
+      "kept": "isp-pinouts/emmc/ASUS-TF103CG-2.webp",
+      "removed": "isp-pinouts/emmc/ASUS-TF103C-2.webp",
+      "reason": "exact-sha256",
+      "sha256": "e3fed0bfa95bbe918f65a9de74e5c3925d3cd5fa8b078da6f554d123625080c6"
+    },
+    {
+      "kept": "isp-pinouts/emmc/ASUS-TF103CG.webp",
+      "removed": "isp-pinouts/emmc/ASUS-TF103C.webp",
+      "reason": "exact-sha256",
+      "sha256": "e9a325256c25c38c84001d8c2a727405d649c009fef5c9f30e1faec53cca4a16"
+    },
+    {
+      "kept": "isp-pinouts/emmc/ASUS-ZENFONE-4S-T00Q.webp",
+      "removed": "isp-pinouts/emmc/ASUS-ZENFONE-4-2.webp",
+      "reason": "exact-sha256",
+      "sha256": "c1e3b4b13fb1e7f0593a6256c4e058a398e56dde966aa03a13bb39310048dd39"
+    },
+    {
+      "kept": "isp-pinouts/emmc/ASUS-ZENFONE-5-T00P-A500KL-2.webp",
+      "removed": "isp-pinouts/emmc/ASUS-ZENFONE-5-T00P-KL-2.webp",
+      "reason": "exact-sha256",
+      "sha256": "81725ea45d1014b3ca2e652ee5c00916c1541f2c29f1ddd90b5dd43b607406d8"
+    },
+    {
+      "kept": "isp-pinouts/emmc/ASUS-ZENFONE-5-T00P-A500KL.webp",
+      "removed": "isp-pinouts/emmc/ASUS-ZENFONE-5-T00P-KL.webp",
+      "reason": "exact-sha256",
+      "sha256": "6bdee286274ee3d9ecd2ff90b2bc8c5a6dc7254e247d4955b9f29ab8f0e607af"
+    },
+    {
+      "kept": "isp-pinouts/emmc/CONDOR-TFX711G-2.webp",
+      "removed": "isp-pinouts/emmc/CONDOR-TFX712G.webp",
+      "reason": "exact-sha256",
+      "sha256": "0218a8863328aa8b09bff02ff08f86ae6e4b7f81283dd83b91d6882e6288981d"
+    },
+    {
+      "kept": "isp-pinouts/emmc/LG-F460K-2.webp",
+      "removed": "isp-pinouts/emmc/LG-F460L-2.webp",
+      "reason": "exact-sha256",
+      "sha256": "73ac339680a47afd84e497a6c0fd56bfc0ee2f76a1ae6163ac6352f8ff7d933d"
+    },
+    {
+      "kept": "isp-pinouts/emmc/LG-F460K.webp",
+      "removed": "isp-pinouts/emmc/LG-F460L.webp",
+      "reason": "exact-sha256",
+      "sha256": "11caed8245c12960b011d8c264b2d62d90ab04b06e710b39e116000e2cd82859"
+    },
+    {
+      "kept": "isp-pinouts/emmc/LG-V400-2.webp",
+      "removed": "isp-pinouts/emmc/LG-V407-2.webp",
+      "reason": "exact-sha256",
+      "sha256": "e912f72a341f91586980e3239f9de861f8b3f236402a1e79c765a37e3bcf82ab"
+    },
+    {
+      "kept": "isp-pinouts/emmc/LG-V400.webp",
+      "removed": "isp-pinouts/emmc/LG-V407.webp",
+      "reason": "exact-sha256",
+      "sha256": "11ceaf5c6689adfd50b96516d1e577726fc2391b6a566ad11f94399b36715a4a"
+    },
+    {
+      "kept": "isp-pinouts/emmc/SAMSUNG-GT-P3100-2.webp",
+      "removed": "isp-pinouts/emmc/SAMSUNG-GT-P3110-2.webp",
+      "reason": "exact-sha256",
+      "sha256": "e9f5dcffc938f8d1bb5148ed842f0a9582389614723c287d2626f3e95adaeaa6"
+    },
+    {
+      "kept": "isp-pinouts/emmc/SAMSUNG-GT-P3100-2.webp",
+      "removed": "isp-pinouts/emmc/SAMSUNG-GT-P3113.webp",
+      "reason": "exact-sha256",
+      "sha256": "e9f5dcffc938f8d1bb5148ed842f0a9582389614723c287d2626f3e95adaeaa6"
+    },
+    {
+      "kept": "isp-pinouts/emmc/SAMSUNG-GT-P3100.webp",
+      "removed": "isp-pinouts/emmc/SAMSUNG-GT-P3110.webp",
+      "reason": "exact-sha256",
+      "sha256": "73f79210a6b092c047f9c20493b675618bae01a943dfb5107fccda353be49d55"
+    },
+    {
+      "kept": "isp-pinouts/emmc/SAMSUNG-GT-P5200-2.webp",
+      "removed": "isp-pinouts/emmc/SAMSUNG-GT-P5210.webp",
+      "reason": "exact-sha256",
+      "sha256": "3b36f25c15738ab1ec062353d4c1b71683cb5416d1b0a386a04b9543bbba2395"
+    },
+    {
+      "kept": "isp-pinouts/emmc/SAMSUNG-GT-P7300-2.webp",
+      "removed": "isp-pinouts/emmc/SAMSUNG-GT-P7310.webp",
+      "reason": "exact-sha256",
+      "sha256": "b323f29455e6852c1b5196ea510899db45626e551db0f765c05d359119839d57"
+    },
+    {
+      "kept": "isp-pinouts/emmc/SAMSUNG-GT-P7310-2.webp",
+      "removed": "isp-pinouts/emmc/SAMSUNG-GT-P7300.webp",
+      "reason": "exact-sha256",
+      "sha256": "a3b61850cff1c8e5b3c2311cbc20c2666fc788758a33b66f14fd42d436aa975f"
+    },
+    {
+      "kept": "isp-pinouts/emmc/SKY-A830K-2.webp",
+      "removed": "isp-pinouts/emmc/SKY-A830S.webp",
+      "reason": "exact-sha256",
+      "sha256": "95c9347e459a19b442a6c543ca3f55964b69405cf54b40051a0f252535142b37"
+    },
+    {
+      "kept": "isp-pinouts/emmc/SKY-A850K.webp",
+      "removed": "isp-pinouts/emmc/SKY-A850S.webp",
+      "reason": "exact-sha256",
+      "sha256": "41d710b9a3173fa293420ef9acdf26b80b5937e66b04efb62c3be80e75d0e87c"
+    },
+    {
+      "kept": "isp-pinouts/emmc/SONY-XPERIA-M-DUAL-C1904-2.webp",
+      "removed": "isp-pinouts/emmc/SONY-XPERIA-M-DUAL-C2004-2.webp",
+      "reason": "exact-sha256",
+      "sha256": "f2f5258a7e2f0385d49aba4af845ab58357b996b25a8961acbad7c7160ea2e50"
+    },
+    {
+      "kept": "isp-pinouts/emmc/SONY-XPERIA-M-DUAL-C1904.webp",
+      "removed": "isp-pinouts/emmc/SONY-XPERIA-M-DUAL-C2004.webp",
+      "reason": "exact-sha256",
+      "sha256": "15b320fa72a947d1d7c2cce982d408911153f2c2e523319bd59e4f2b0f33e222"
+    },
+    {
+      "kept": "isp-pinouts/emmc/XIAOMI-M1-2.webp",
+      "removed": "isp-pinouts/emmc/XIAOMI-Mi-1.webp",
+      "reason": "exact-sha256",
+      "sha256": "9b945113a8043b369b856d101a44a53c3060ece36d50872ad4fbc12979a23c86"
+    },
+    {
+      "kept": "isp-pinouts/ufs/SAMSUNG-SM-A920FN.webp",
+      "removed": "isp-pinouts/ufs/SAMSUNG-SM-A920X.webp",
+      "reason": "exact-sha256",
+      "sha256": "eb5ab2a586f7237d178009f3c2414ea45341734f41af77382a86ab7ef4cf602c"
+    },
+    {
+      "kept": "isp-pinouts/ufs/SAMSUNG-SM-G950F-2.webp",
+      "removed": "isp-pinouts/ufs/SAMSUNG-SM-G950N.webp",
+      "reason": "exact-sha256",
+      "sha256": "6c141837744b590cdba504622d5f38220d92e9492d601e5c975b781a75bffb09"
+    },
+    {
+      "kept": "isp-pinouts/ufs/SAMSUNG-SM-G960U-2.webp",
+      "removed": "isp-pinouts/ufs/SAMSUNG-SM-G9650.webp",
+      "reason": "exact-sha256",
+      "sha256": "d1965affee77d78b7e1a0b17bc3dafa0080a8115f31f1a4b9ca3a6fb084a38c8"
+    },
+    {
+      "kept": "isp-pinouts/ufs/SAMSUNG-SM-G9700-2.webp",
+      "removed": "isp-pinouts/ufs/SAMSUNG-SM-G9708.webp",
+      "reason": "exact-sha256",
+      "sha256": "125c6ebc055b29b66fab133e023394ef9b030746deb75f12db96e3435267273e"
+    },
+    {
+      "kept": "isp-pinouts/ufs/SAMSUNG-SM-G975U-2.webp",
+      "removed": "isp-pinouts/ufs/SAMSUNG-SM-G9750.webp",
+      "reason": "exact-sha256",
+      "sha256": "1e05ae15d725079b7f3ed7399cc3eb284bafe1185570815edc18fdfdc50eb704"
+    },
+    {
+      "kept": "isp-pinouts/ufs/SAMSUNG-SM-G975U-2.webp",
+      "removed": "isp-pinouts/ufs/SAMSUNG-SM-G9758.webp",
+      "reason": "exact-sha256",
+      "sha256": "1e05ae15d725079b7f3ed7399cc3eb284bafe1185570815edc18fdfdc50eb704"
+    },
+    {
+      "kept": "isp-pinouts/ufs/SAMSUNG-SM-N960F-2.webp",
+      "removed": "isp-pinouts/ufs/SAMSUNG-SM-N960N-2.webp",
+      "reason": "exact-sha256",
+      "sha256": "ff0768055fe54d1a5f34a385f2307835f6a764ec7f7efb4f58de694ad7a2b182"
+    },
+    {
+      "kept": "isp-pinouts/ufs/SAMSUNG-SM-N960F.webp",
+      "removed": "isp-pinouts/ufs/SAMSUNG-SM-N960N.webp",
+      "reason": "exact-sha256",
+      "sha256": "f03816449038acc587aacf7eec65a5cdbf97878dbb4f6ee2d6d18d39dc8ffa1b"
+    },
+    {
+      "kept": "isp-pinouts/ufs/SMSUNG-SM-N970F.webp",
+      "removed": "isp-pinouts/ufs/SAMSUNG-SM-N970F.webp",
+      "reason": "exact-sha256",
+      "sha256": "f94076768aed2bc5a633541059b00ed474ad29c3f3b0eeae8211f4c8c27c4bed"
+    },
+    {
+      "kept": "isp-pinouts/ufs/SAMSUNG-SM-N975F-GALAXY-NOTE-10-PLUS-2.webp",
+      "removed": "isp-pinouts/ufs/SAMSUNG-SM-N975F.webp",
+      "reason": "exact-sha256",
+      "sha256": "8e33482871fea12606a2e94a76e540a440601c05ea5aafb5bc1104508ae7b0a4"
+    },
+    {
+      "kept": "isp-pinouts/ufs/SAMSUNG-SM-N975U-2.webp",
+      "removed": "isp-pinouts/ufs/SAMSUNG-SM-N976B.webp",
+      "reason": "exact-sha256",
+      "sha256": "c35fa63e3027b1d79fa0a085efa313f8f90ecb1719272f3cdf1967811ddef11a"
+    },
+    {
+      "kept": "isp-pinouts/unclassified/Samsung-SM-T580-isp-pinout.webp",
+      "removed": "isp-pinouts/unclassified/Samsung-SM-T585-isp-pinout.webp",
+      "reason": "exact-sha256",
+      "sha256": "b401bdaead9868a9d76bb88b835d86fcb3c0f0bb3665b80cd8dbd9c9bc16a9a5"
+    },
+    {
+      "kept": "isp-pinouts/unclassified/unlocktool/oppo/Oppo-A9X-ISP.webp",
+      "removed": "isp-pinouts/unclassified/unlocktool/oppo/Oppo-F11-ISP.webp",
+      "reason": "exact-sha256",
+      "sha256": "1d6aa4b9c594fd5665acf5e4e64bd57b3489cb913d779fae40845b3e45b65041"
+    },
+    {
+      "kept": "isp-pinouts/unclassified/unlocktool/oppo/Oppo-A9X-ISP.webp",
+      "removed": "isp-pinouts/unclassified/unlocktool/oppo/Oppo-A9-ISP.webp",
+      "reason": "exact-sha256",
+      "sha256": "1d6aa4b9c594fd5665acf5e4e64bd57b3489cb913d779fae40845b3e45b65041"
+    },
+    {
+      "kept": "test-points/huawei/HONOR-30-PRO-EBG-AN10.webp",
+      "removed": "test-points/unlocktool/huawei/HONOR-30-PRO-(EBG-AN10).webp",
+      "reason": "exact-sha256",
+      "sha256": "3e7f870d6a1756b7cff9649ecbc8aaf9b20130fb540560b0eeb16166a7f4e5ad"
+    },
+    {
+      "kept": "test-points/huawei/KSA-XXX.webp",
+      "removed": "test-points/huawei/KSE-XXX.webp",
+      "reason": "exact-sha256",
+      "sha256": "b760bfd6f39d329a67e7dd913551ee6a63edc6b42e4094dbcb82747cb96c2e07"
+    },
+    {
+      "kept": "test-points/huawei/Mate-10-Pro-BLA-L09.webp",
+      "removed": "test-points/unlocktool/huawei/Huawei-Mate-10-Pro-(BLA-L09).webp",
+      "reason": "exact-sha256",
+      "sha256": "9133a5613c9919d17487e960dd911e9e2af6f6e25f01ff6aa285c88d9aebbc45"
+    },
+    {
+      "kept": "test-points/sumatech/file-3.webp",
+      "removed": "test-points/sumatech/file-5.webp",
+      "reason": "exact-sha256",
+      "sha256": "753b3c06078a2f3f7bc37afb0cf282ee65046b3621ab99e6fea29fd62c65d131"
+    },
+    {
+      "kept": "test-points/sumatech/file-3.webp",
+      "removed": "test-points/sumatech/file-6.webp",
+      "reason": "exact-sha256",
+      "sha256": "753b3c06078a2f3f7bc37afb0cf282ee65046b3621ab99e6fea29fd62c65d131"
+    },
+    {
+      "kept": "test-points/sumatech/nokia-g10-ta-1334-ta-1346-test-point.webp",
+      "removed": "test-points/sumatech/nokia-g20-ta-1336-ta-1365-test-point.webp",
+      "reason": "exact-sha256",
+      "sha256": "9d00b88bb1a919738a19c7f86b27622adaf32b2c2490066ac51d096dc8012c18"
+    },
+    {
+      "kept": "test-points/sumatech/xiaomi-redmi-9a-hw-protection-resistor.webp",
+      "removed": "test-points/sumatech/xiaomi-redmi-9c-hw-protection-resistor.webp",
+      "reason": "exact-sha256",
+      "sha256": "4611952711672f9ef5670f41a0591c6b764a10a965c55df583968c250dce3e33"
+    },
+    {
+      "kept": "test-points/sumatech/xiaomi-redmi-9a-hw-protection-resistor.webp",
+      "removed": "test-points/sumatech/xiaomi-poco-c3-hw-protection-resistor.webp",
+      "reason": "exact-sha256",
+      "sha256": "4611952711672f9ef5670f41a0591c6b764a10a965c55df583968c250dce3e33"
+    },
+    {
+      "kept": "test-points/unisoc/Nokia-C12-Pro-2.webp",
+      "removed": "test-points/unisoc/Nokia-C12-Pro.webp",
+      "reason": "exact-sha256",
+      "sha256": "afaf268a108a29099ca10593b164a9a440a2a83375afdc6f4f4290e1eebaac0b"
+    },
+    {
+      "kept": "test-points/unisoc/Nokia-C12-Pro-2.webp",
+      "removed": "test-points/unisoc/Nokia-C12.webp",
+      "reason": "exact-sha256",
+      "sha256": "afaf268a108a29099ca10593b164a9a440a2a83375afdc6f4f4290e1eebaac0b"
+    },
+    {
+      "kept": "test-points/unlocktool/huawei/Huawei-Shot-X-(ATH-UL01).webp",
+      "removed": "test-points/unlocktool/huawei/Honor-7i.webp",
+      "reason": "exact-sha256",
+      "sha256": "9bb6236e933af0807c8e375aa1ea54f8b208bf611226ad8d2fd1c755cf38e341"
+    },
+    {
+      "kept": "test-points/unlocktool/huawei/Honor-8x-JSN-AL00.webp",
+      "removed": "test-points/unlocktool/huawei/Honor-8x-JSN-L22.webp",
+      "reason": "exact-sha256",
+      "sha256": "97a68628c3a54171516985c213780ea3e4876851b02b1173aa6bea50d2cc3ef0"
+    },
+    {
+      "kept": "test-points/unlocktool/huawei/Honor-8x-JSN-AL00.webp",
+      "removed": "test-points/unlocktool/huawei/Honor-8x-JSN-LX1.webp",
+      "reason": "exact-sha256",
+      "sha256": "97a68628c3a54171516985c213780ea3e4876851b02b1173aa6bea50d2cc3ef0"
+    },
+    {
+      "kept": "test-points/unlocktool/huawei/Huawei-Honor-8A-JAT-LGRP2.webp",
+      "removed": "test-points/unlocktool/huawei/Huawei-Honor-8A-JAT-L21.webp",
+      "reason": "exact-sha256",
+      "sha256": "e2ca7e90a2c2219d46b5fa509c08d7d9a311acfb80fbbf00f00c8dc40b339c6b"
+    },
+    {
+      "kept": "test-points/unlocktool/huawei/Huawei-Honor-8A-JAT-LGRP2.webp",
+      "removed": "test-points/unlocktool/huawei/Huawei-Honor-8A-JAT-L29.webp",
+      "reason": "exact-sha256",
+      "sha256": "e2ca7e90a2c2219d46b5fa509c08d7d9a311acfb80fbbf00f00c8dc40b339c6b"
+    },
+    {
+      "kept": "test-points/unlocktool/huawei/Huawei-Honor-8A-JAT-LGRP2.webp",
+      "removed": "test-points/unlocktool/huawei/Huawei-Honor-8A-JAT-L41.webp",
+      "reason": "exact-sha256",
+      "sha256": "e2ca7e90a2c2219d46b5fa509c08d7d9a311acfb80fbbf00f00c8dc40b339c6b"
+    },
+    {
+      "kept": "test-points/unlocktool/huawei/Huawei-Honor-8A-JAT-LGRP2.webp",
+      "removed": "test-points/unlocktool/huawei/Huawei-Honor-8A-JAT-LX1.webp",
+      "reason": "exact-sha256",
+      "sha256": "e2ca7e90a2c2219d46b5fa509c08d7d9a311acfb80fbbf00f00c8dc40b339c6b"
+    },
+    {
+      "kept": "test-points/unlocktool/huawei/Huawei-Y5-2019-AMN-L21.webp",
+      "removed": "test-points/unlocktool/huawei/Huawei-Y5-2019-AMN-L29.webp",
+      "reason": "exact-sha256",
+      "sha256": "6e4eef0574ba88882fe333afded30e8ea1e69321e791987de93308e14ef1a554"
+    },
+    {
+      "kept": "test-points/unlocktool/huawei/Huawei-Y5-2019-AMN-L21.webp",
+      "removed": "test-points/unlocktool/huawei/Huawei-Y5-2019-AMN-LX2.webp",
+      "reason": "exact-sha256",
+      "sha256": "6e4eef0574ba88882fe333afded30e8ea1e69321e791987de93308e14ef1a554"
+    },
+    {
+      "kept": "test-points/unlocktool/huawei/Huawei-Y5-2019-AMN-L21.webp",
+      "removed": "test-points/unlocktool/huawei/Huawei-Y5-AMN-LX9.webp",
+      "reason": "exact-sha256",
+      "sha256": "6e4eef0574ba88882fe333afded30e8ea1e69321e791987de93308e14ef1a554"
+    },
+    {
+      "kept": "test-points/unlocktool/huawei/Huawei-Y6-2019-MRD-LGRP2.webp",
+      "removed": "test-points/unlocktool/huawei/Huawei-Y6-2019-MRD-L41A.webp",
+      "reason": "exact-sha256",
+      "sha256": "955c097c1aba18a67d718b1104a609f792cbfc3e76ee9d52c6c0f62901b73c5a"
+    },
+    {
+      "kept": "test-points/unlocktool/huawei/Huawei-Y6-2019-MRD-LGRP2.webp",
+      "removed": "test-points/unlocktool/huawei/Huawei-Y6-2019-MRD-LX1N.webp",
+      "reason": "exact-sha256",
+      "sha256": "955c097c1aba18a67d718b1104a609f792cbfc3e76ee9d52c6c0f62901b73c5a"
+    },
+    {
+      "kept": "test-points/unlocktool/huawei/Huawei-Y6-2019-MRD-LGRP2.webp",
+      "removed": "test-points/unlocktool/huawei/Huawei-Y6-2019-MRD-L11.webp",
+      "reason": "exact-sha256",
+      "sha256": "955c097c1aba18a67d718b1104a609f792cbfc3e76ee9d52c6c0f62901b73c5a"
+    },
+    {
+      "kept": "test-points/unlocktool/huawei/Huawei-Y6-2019-MRD-LGRP2.webp",
+      "removed": "test-points/unlocktool/huawei/Huawei-Y6-2019-MRD-L21.webp",
+      "reason": "exact-sha256",
+      "sha256": "955c097c1aba18a67d718b1104a609f792cbfc3e76ee9d52c6c0f62901b73c5a"
+    },
+    {
+      "kept": "test-points/unlocktool/huawei/Huawei-Y6-2019-MRD-LGRP2.webp",
+      "removed": "test-points/unlocktool/huawei/Huawei-Y6-2019-MRD-L41.webp",
+      "reason": "exact-sha256",
+      "sha256": "955c097c1aba18a67d718b1104a609f792cbfc3e76ee9d52c6c0f62901b73c5a"
+    },
+    {
+      "kept": "test-points/unlocktool/huawei/NOVA-7-SE-CDY-AN00.webp",
+      "removed": "test-points/unlocktool/huawei/Nova-7-SE-(CDY).webp",
+      "reason": "exact-sha256",
+      "sha256": "cd31c362698fc4660735c070186d3e971dd67db0832d98e48129bf9b43e5581a"
+    },
+    {
+      "kept": "test-points/unlocktool/lg/LG-G6-H870-G600L.webp",
+      "removed": "test-points/unlocktool/lg/LG-H870-9008.webp",
+      "reason": "exact-sha256",
+      "sha256": "3c27edbf135aa96f1a158db3668334337a7fb6f838af655709466b8b40ad49d5"
+    },
+    {
+      "kept": "test-points/unlocktool/lg/LG-V20-H910-US996-VS995-(9008).webp",
+      "removed": "test-points/unlocktool/lg/LG-V20-LS997-H918-(9008).webp",
+      "reason": "exact-sha256",
+      "sha256": "4417f77067fa60e28e5052e3854731e0a034305b6f642573af19b3b124fedd3f"
+    },
+    {
+      "kept": "test-points/unlocktool/oppo/Oppo-A54-8859a543.webp",
+      "removed": "test-points/unlocktool/oppo/Oppo-A54.webp",
+      "reason": "exact-sha256",
+      "sha256": "8859a5435226305d94114f17424018dce040b6baa9b3316cfca4f31de2aa4876"
+    },
+    {
+      "kept": "test-points/unlocktool/oppo/Oppo-A77-5G-CPH2339-9008.webp",
+      "removed": "test-points/unlocktool/oppo/oppo-a77-cph2339.webp",
+      "reason": "exact-sha256",
+      "sha256": "c83fecea4de7feadf69f8308bf631da13c091fca40a944354895e3805f545929"
+    },
+    {
+      "kept": "test-points/unlocktool/samsung/Samsung-M01-(M015G)-TP.webp",
+      "removed": "test-points/unlocktool/samsung/Samsung-A01-(A015)-TP.webp",
+      "reason": "exact-sha256",
+      "sha256": "8cc093f95b2d9d8d8cd254aed93e1671ff7eb5f8510f1d91d0fdc9bc328d0c1f"
+    },
+    {
+      "kept": "test-points/unlocktool/vivo/Vivo-V19-NEO.webp",
+      "removed": "test-points/unlocktool/vivo/Vivo-V17.webp",
+      "reason": "exact-sha256",
+      "sha256": "98c17ea530e537f4b3f5e26a64381209b33e25ce85ca5d1e6af8952e85f57019"
+    },
+    {
+      "kept": "test-points/unlocktool/vivo/Vivo-Y71S.webp",
+      "removed": "test-points/unlocktool/vivo/Vivo-Y73.webp",
+      "reason": "exact-sha256",
+      "sha256": "58c7bbbd2614240b7b29cc3fea40bbeb2945fc9c0bea7d50489000231532cd35"
+    },
+    {
+      "kept": "test-points/unlocktool/vivo/Vivo-Z6-5G-PD1963.webp",
+      "removed": "test-points/unlocktool/vivo/Vivo-Z6-5G.webp",
+      "reason": "exact-sha256",
+      "sha256": "4d0b171cffd334d7e5d75c2b55b5e4415378de16f7f775d7a4da7d40ea5fa2b1"
+    },
+    {
+      "kept": "test-points/unlocktool/xiaomi/Xiaomi-A3-(laurel-sprout).webp",
+      "removed": "test-points/unlocktool/xiaomi/Xiaomi-CC9-(pixys).webp",
+      "reason": "exact-sha256",
+      "sha256": "39d785529c8ec1a9d4a2ef1adcc82e214c4a48219f1c514e1e7901e45eb09fbd"
+    },
+    {
+      "kept": "test-points/unlocktool/xiaomi/Xiaomi-Redmi-Note-4G-Signal-sim.webp",
+      "removed": "test-points/unlocktool/xiaomi/Xiaomi-Redmi-Note4G-Single-SIM.webp",
+      "reason": "exact-sha256",
+      "sha256": "669e42591785cdf5ea698d732fe0376d9f4a129b8b88f45f640f7a6e58955103"
+    }
+  ],
+  "rules": [
+    "Source folders removed; provenance retained in catalog.json.",
+    "Exact SHA-256 duplicates removed globally.",
+    "Pixel-equivalent removal is deliberately strict within one brand/model group.",
+    "Different diagrams for the same model are preserved as numbered TP/ISP variants."
+  ]
+}
