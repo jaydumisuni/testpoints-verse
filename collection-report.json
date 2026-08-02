@@ -28,12 +28,9 @@
     },
     "sigmakey-huawei": {
       "status": "success",
-      "saved": 166,
-      "failed": 3,
+      "saved": 169,
+      "failed": 0,
       "notes": [
-        "Y6 SCL-AL00-1753700338: ValueError: image too small: 212x154",
-        "AGR-W09-1753701972: ValueError: image too small: 148x274",
-        "P8 GRA-L09-1753709181: ValueError: image too small: 157x469",
         "discovered=169"
       ]
     },
