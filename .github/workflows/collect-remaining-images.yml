@@ -45,14 +45,27 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      - name: Collect complete UnlockTool catalogue
+      - name: Collect UnlockTool only when incomplete
         env:
           SOURCE: unlocktool
         run: |
           set +e
-          python scripts/oracle_unlocktool_collect.py
+          if python - <<'PY'
+          import json
+          from pathlib import Path
+          data = json.loads(Path('collection-report.json').read_text('utf-8'))
+          item = data.get('sources', {}).get('unlocktool-edl', {})
+          raise SystemExit(0 if item.get('status') == 'success' and item.get('discovered_posts', 0) >= 595 else 1)
+          PY
+          then
+            echo "UnlockTool already complete; skipping recrawl."
+          else
+            python scripts/oracle_unlocktool_collect.py
+          fi
           status=$?
-          git add test-points/unlocktool isp-pinouts/*/unlocktool collection-report.json 2>/dev/null || true
+          git add collection-report.json 2>/dev/null || true
+          git add test-points/unlocktool 2>/dev/null || true
+          git add isp-pinouts/ufs/unlocktool isp-pinouts/emmc/unlocktool isp-pinouts/unclassified/unlocktool 2>/dev/null || true
           if ! git diff --cached --quiet; then
             git commit -m "Collect complete UnlockTool test-point catalogue"
             git push origin main
@@ -66,7 +79,8 @@ jobs:
           set +e
           python scripts/oracle_unlocktool_collect.py
           status=$?
-          git add test-points/droidwin collection-report.json 2>/dev/null || true
+          git add collection-report.json 2>/dev/null || true
+          git add test-points/droidwin 2>/dev/null || true
           if ! git diff --cached --quiet; then
             git commit -m "Collect DroidWin rendered test-point images"
             git push origin main
@@ -80,7 +94,9 @@ jobs:
           set +e
           python scripts/oracle_unlocktool_collect.py
           status=$?
-          git add test-points/sumatech isp-pinouts/*/sumatech collection-report.json 2>/dev/null || true
+          git add collection-report.json 2>/dev/null || true
+          git add test-points/sumatech 2>/dev/null || true
+          git add isp-pinouts/ufs/sumatech isp-pinouts/emmc/sumatech isp-pinouts/unclassified/sumatech 2>/dev/null || true
           if ! git diff --cached --quiet; then
             git commit -m "Collect SumaTech test-point packages"
             git push origin main
