@@ -9,12 +9,10 @@
       ]
     },
     "droidwin": {
-      "status": "failed",
+      "status": "blocked",
       "saved": 0,
-      "failed": 1,
-      "notes": [
-        "RuntimeError: site returned browser-verification page"
-      ]
+      "failed": 0,
+      "notes": []
     },
     "easy-jtag": {
       "status": "success",
