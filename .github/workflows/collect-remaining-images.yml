@@ -4,7 +4,8 @@ on:
   push:
     branches: [main]
     paths:
-      - scripts/oracle_unlocktool_collect.py
+      - scripts/droidwin_recover.py
+      - scripts/sumatech_recover_v2.py
       - .github/workflows/collect-remaining-images.yml
   workflow_dispatch:
 
@@ -32,11 +33,10 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Install browser and image tooling
+      - name: Install recovery dependencies
         run: |
           python -m pip install --upgrade pip
-          python -m pip install requests beautifulsoup4 pillow playwright
-          python -m playwright install --with-deps chromium
+          python -m pip install requests beautifulsoup4 pillow
           sudo apt-get update -qq
           sudo apt-get install -y -qq p7zip-full unar
 
@@ -45,176 +45,29 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      - name: Collect UnlockTool only when incomplete
-        env:
-          SOURCE: unlocktool
+      - name: Recover DroidWin test-point images
         run: |
           set +e
-          if python - <<'PY'
-          import json
-          from pathlib import Path
-          data = json.loads(Path('collection-report.json').read_text('utf-8'))
-          item = data.get('sources', {}).get('unlocktool-edl', {})
-          raise SystemExit(0 if item.get('status') == 'success' and item.get('discovered_posts', 0) >= 595 else 1)
-          PY
-          then
-            echo "UnlockTool already complete; skipping recrawl."
-          else
-            python scripts/oracle_unlocktool_collect.py
-          fi
-          status=$?
-          git add collection-report.json 2>/dev/null || true
-          git add test-points/unlocktool 2>/dev/null || true
-          git add isp-pinouts/ufs/unlocktool isp-pinouts/emmc/unlocktool isp-pinouts/unclassified/unlocktool 2>/dev/null || true
-          if ! git diff --cached --quiet; then
-            git commit -m "Collect complete UnlockTool test-point catalogue"
-            git push origin main
-          fi
-          echo "UnlockTool collector exit: $status"
-
-      - name: Enable DroidWin WordPress fallback
-        run: |
-          python - <<'PY'
-          from pathlib import Path
-          path = Path('scripts/oracle_unlocktool_collect.py')
-          source = path.read_text('utf-8')
-          old = '''        finally:
-            await context.close()
-            await browser.close()
-
-    for image_url, title in list(dict.fromkeys(items)):
-'''
-          new = '''        finally:
-            await context.close()
-            await browser.close()
-
-    if not items:
-        slug = "how-to-access-edl-test-point-on-various-android-devices"
-        endpoints = [
-            f"https://droidwin.com/wp-json/wp/v2/posts?slug={slug}&per_page=1",
-            f"https://droidwin.com/?rest_route=/wp/v2/posts&slug={slug}&per_page=1",
-        ]
-        for endpoint in endpoints:
-            try:
-                response = fetch(endpoint)
-                payload = response.json()
-                if not isinstance(payload, list) or not payload:
-                    continue
-                rendered = payload[0].get("content", {}).get("rendered", "")
-                soup = BeautifulSoup(rendered, "html.parser")
-                current = "android-device"
-                for node in soup.find_all(["h2", "h3", "h4", "img"]):
-                    if node.name in {"h2", "h3", "h4"}:
-                        heading = node.get_text(" ", strip=True)
-                        if heading:
-                            current = heading
-                        continue
-                    raw = node.get("data-lazy-src") or node.get("data-src") or node.get("src")
-                    alt = node.get("alt") or current
-                    if not raw or re.search(r"logo|avatar|icon|banner|advert|driver|cable", f"{raw} {alt}", re.I):
-                        continue
-                    if re.search(r"test[ -]?point|edl", f"{alt} {current}", re.I):
-                        items.append((urljoin(url, raw), current if "test point" in current.lower() else alt))
-                if items:
-                    notes.append(f"wordpress-api recovered {len(items)} image references")
-                    break
-            except Exception as exc:
-                notes.append(f"wordpress-api: {type(exc).__name__}: {exc}")
-
-    for image_url, title in list(dict.fromkeys(items)):
-'''
-          if old not in source:
-              raise SystemExit('DroidWin fallback target not found')
-          path.write_text(source.replace(old, new), 'utf-8')
-          PY
-
-      - name: Collect DroidWin through rendered browser
-        env:
-          SOURCE: droidwin
-        run: |
-          set +e
-          python scripts/oracle_unlocktool_collect.py
+          python scripts/droidwin_recover.py
           status=$?
           git add collection-report.json 2>/dev/null || true
           git add test-points/droidwin 2>/dev/null || true
           if ! git diff --cached --quiet; then
-            git commit -m "Collect DroidWin rendered test-point images"
+            git commit -m "Recover DroidWin test-point images"
             git push origin main
           fi
-          echo "DroidWin collector exit: $status"
+          echo "DroidWin recovery exit: $status"
 
-      - name: Enable complete SumaTech retrieval
-        run: |
-          python - <<'PY'
-          from pathlib import Path
-          path = Path('scripts/oracle_unlocktool_collect.py')
-          source = path.read_text('utf-8')
-
-          index_old = '''        except Exception as exc:
-            notes.append(f"index: {type(exc).__name__}: {exc}")
-
-        sevenzip = shutil.which("7z") or shutil.which("7zz")
-'''
-          index_new = '''        except Exception as exc:
-            notes.append(f"index: {type(exc).__name__}: {exc}")
-
-        if not links:
-            try:
-                soup = BeautifulSoup(fetch(index_url).text, "html.parser")
-                links = [
-                    [a.get_text(" ", strip=True), urljoin(index_url, a.get("href"))]
-                    for a in soup.select("a[href*='mediafire.com']")
-                    if a.get("href")
-                ]
-                links = list({href: [label, href] for label, href in links}.values())
-            except Exception as exc:
-                notes.append(f"raw-index: {type(exc).__name__}: {exc}")
-
-        sevenzip = shutil.which("7z") or shutil.which("7zz")
-'''
-          if index_old not in source:
-              raise SystemExit('SumaTech index target not found')
-          source = source.replace(index_old, index_new)
-
-          archive_old = '''                        proc = subprocess.run([sevenzip, "x", "-y", f"-o{out}", str(archive)], capture_output=True, text=True, timeout=180)
-                        if proc.returncode != 0:
-                            raise RuntimeError(f"archive extraction failed: {proc.stderr[-300:]}")
-'''
-          archive_new = '''                        extraction_attempts = [
-                            [sevenzip, "x", "-y", "-pwww.sumatechsolution.com", f"-o{out}", str(archive)],
-                            [sevenzip, "x", "-y", f"-o{out}", str(archive)],
-                        ]
-                        extraction_errors = []
-                        extracted = False
-                        for command in extraction_attempts:
-                            shutil.rmtree(out, ignore_errors=True)
-                            out.mkdir()
-                            proc = subprocess.run(command, capture_output=True, text=True, timeout=180)
-                            if proc.returncode == 0:
-                                extracted = True
-                                break
-                            extraction_errors.append((proc.stderr or proc.stdout)[-300:])
-                        if not extracted:
-                            raise RuntimeError(f"archive extraction failed: {' | '.join(extraction_errors)}")
-'''
-          if archive_old not in source:
-              raise SystemExit('SumaTech extractor target not found')
-          path.write_text(source.replace(archive_old, archive_new), 'utf-8')
-          PY
-
-      - name: Collect SumaTech through MediaFire browser flow
-        env:
-          SOURCE: sumatech
+      - name: Recover SumaTech packages
         run: |
           set +e
-          python scripts/oracle_unlocktool_collect.py
+          python scripts/sumatech_recover_v2.py
           status=$?
-          git restore scripts/oracle_unlocktool_collect.py
           git add collection-report.json 2>/dev/null || true
           git add test-points/sumatech 2>/dev/null || true
           git add isp-pinouts/ufs/sumatech isp-pinouts/emmc/sumatech isp-pinouts/unclassified/sumatech 2>/dev/null || true
           if ! git diff --cached --quiet; then
-            git commit -m "Collect SumaTech test-point packages"
+            git commit -m "Recover SumaTech test-point packages"
             git push origin main
           fi
-          echo "SumaTech collector exit: $status"
+          echo "SumaTech recovery exit: $status"
