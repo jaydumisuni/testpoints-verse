@@ -36,12 +36,15 @@
       ]
     },
     "unlocktool-edl": {
-      "status": "failed",
-      "saved": 0,
-      "failed": 1,
-      "notes": [
-        "RuntimeError: no UnlockTool post URLs found"
-      ]
+      "status": "success",
+      "rendered_links": 595,
+      "discovered_posts": 595,
+      "saved": 595,
+      "skipped_existing": 0,
+      "failed": 0,
+      "drive_seed_total": 53,
+      "drive_seed_missing": [],
+      "notes": []
     },
     "sumatech": {
       "status": "failed",
