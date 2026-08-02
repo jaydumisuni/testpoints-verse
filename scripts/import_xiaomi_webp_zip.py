@@ -3,9 +3,11 @@ from __future__ import annotations
 import hashlib
 import io
 import json
+import tempfile
 import zipfile
 from pathlib import Path
 
+import gdown
 import requests
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -39,16 +41,33 @@ EXPECTED = {
 }
 
 
+def is_zip(data: bytes) -> bool:
+    return len(data) >= 10000 and data[:2] == b"PK"
+
+
 def download() -> bytes:
+    errors: list[str] = []
+    with tempfile.TemporaryDirectory() as temporary:
+        output = Path(temporary) / "xiaomi-testpoints.zip"
+        try:
+            result = gdown.download(id=DRIVE_FILE_ID, output=str(output), quiet=False)
+            if not result or not output.exists():
+                raise RuntimeError("gdown did not produce a file")
+            data = output.read_bytes()
+            if not is_zip(data):
+                raise ValueError(f"gdown response is not the expected ZIP ({len(data)} bytes)")
+            return data
+        except Exception as exc:
+            errors.append(f"gdown: {type(exc).__name__}: {exc}")
+
     client = requests.Session()
     client.headers.update({"User-Agent": UA})
-    errors: list[str] = []
     for url in URLS:
         try:
             response = client.get(url, timeout=90, allow_redirects=True)
             response.raise_for_status()
             data = response.content
-            if len(data) < 10000 or data[:2] != b"PK":
+            if not is_zip(data):
                 raise ValueError(f"response is not the expected ZIP ({len(data)} bytes)")
             return data
         except Exception as exc:
