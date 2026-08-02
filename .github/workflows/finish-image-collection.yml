@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - scripts/recover_xiaomi_pdf_images.py
+      - scripts/import_xiaomi_webp_zip.py
       - scripts/recover_sigma_small_images.py
       - .github/workflows/finish-image-collection.yml
   workflow_dispatch:
@@ -20,7 +20,7 @@ jobs:
   finish:
     if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 30
 
     steps:
       - name: Check out repository
@@ -36,16 +36,14 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          python -m pip install requests beautifulsoup4 pillow pymupdf
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq p7zip-full
+          python -m pip install requests beautifulsoup4 pillow
 
       - name: Configure commits
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      - name: Recover the three valid small Sigma images
+      - name: Verify remaining Sigma Huawei images
         run: |
           set +e
           python scripts/recover_sigma_small_images.py
@@ -55,19 +53,19 @@ jobs:
             git commit -m "Recover remaining Sigma Huawei test-point images"
             git push origin main
           fi
-          echo "Sigma recovery exit: $status"
+          echo "Sigma verification exit: $status"
 
-      - name: Recover Xiaomi PDF images
+      - name: Import verified Xiaomi PDF images
         run: |
           set +e
-          python scripts/recover_xiaomi_pdf_images.py
+          python scripts/import_xiaomi_webp_zip.py
           status=$?
           git add test-points/sumatech/xiaomi collection-report.json 2>/dev/null || true
           if ! git diff --cached --quiet; then
             git commit -m "Recover Xiaomi PDF test-point images"
             git push origin main
           fi
-          echo "Xiaomi PDF recovery exit: $status"
+          echo "Xiaomi WebP import exit: $status"
 
       - name: Remove completed collection tooling
         run: |
@@ -99,7 +97,8 @@ jobs:
               scripts/sumatech_recover.py \
               scripts/sumatech_recover_v2.py \
               scripts/recover_xiaomi_pdf_images.py \
-              scripts/recover_sigma_small_images.py
+              scripts/recover_sigma_small_images.py \
+              scripts/import_xiaomi_webp_zip.py
             git add -A
             if ! git diff --cached --quiet; then
               git commit -m "Remove completed image collection tooling"
