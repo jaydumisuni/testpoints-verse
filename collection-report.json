@@ -1,0 +1,28 @@
+{
+  "sources": {
+    "passware-unisoc": {
+      "status": "success",
+      "saved": 24,
+      "failed": 0,
+      "notes": [
+        "discovered=24"
+      ]
+    },
+    "droidwin": {
+      "status": "failed",
+      "saved": 0,
+      "failed": 1,
+      "notes": [
+        "RuntimeError: site returned browser-verification page"
+      ]
+    },
+    "easy-jtag": {
+      "status": "success",
+      "saved": 940,
+      "failed": 0,
+      "notes": [
+        "discovered=978"
+      ]
+    }
+  }
+}
