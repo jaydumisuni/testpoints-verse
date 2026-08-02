@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - scripts/import_xiaomi_webp_zip.py
+      - scripts/recover_xiaomi_pdf_images.py
       - scripts/recover_sigma_small_images.py
       - .github/workflows/finish-image-collection.yml
   workflow_dispatch:
@@ -36,7 +37,9 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          python -m pip install requests beautifulsoup4 pillow
+          python -m pip install requests beautifulsoup4 pillow pymupdf
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq p7zip-full
 
       - name: Configure commits
         run: |
@@ -55,17 +58,28 @@ jobs:
           fi
           echo "Sigma verification exit: $status"
 
-      - name: Import verified Xiaomi PDF images
+      - name: Recover Xiaomi PDF images with fallback
         run: |
           set +e
-          python scripts/import_xiaomi_webp_zip.py
+          : > /tmp/xiaomi-recovery.log
+          python scripts/import_xiaomi_webp_zip.py >> /tmp/xiaomi-recovery.log 2>&1
           status=$?
+          if [ "$status" -ne 0 ]; then
+            echo "Drive import failed; trying original MediaFire PDF." >> /tmp/xiaomi-recovery.log
+            python scripts/recover_xiaomi_pdf_images.py >> /tmp/xiaomi-recovery.log 2>&1
+            status=$?
+          fi
+          cat /tmp/xiaomi-recovery.log
           git add test-points/sumatech/xiaomi collection-report.json 2>/dev/null || true
+          if [ "$status" -ne 0 ]; then
+            cp /tmp/xiaomi-recovery.log xiaomi-recovery.log
+            git add xiaomi-recovery.log
+          fi
           if ! git diff --cached --quiet; then
             git commit -m "Recover Xiaomi PDF test-point images"
             git push origin main
           fi
-          echo "Xiaomi WebP import exit: $status"
+          echo "Xiaomi recovery exit: $status"
 
       - name: Remove completed collection tooling
         run: |
@@ -98,7 +112,8 @@ jobs:
               scripts/sumatech_recover_v2.py \
               scripts/recover_xiaomi_pdf_images.py \
               scripts/recover_sigma_small_images.py \
-              scripts/import_xiaomi_webp_zip.py
+              scripts/import_xiaomi_webp_zip.py \
+              xiaomi-recovery.log
             git add -A
             if ! git diff --cached --quiet; then
               git commit -m "Remove completed image collection tooling"
