@@ -1,0 +1,153 @@
+{
+  "schemaVersion": "testpoints-verse.chimera-import.v1",
+  "source": "https://chimeratool.com/en/test-points",
+  "startedAt": "2026-08-06T17:45:56.644Z",
+  "completedAt": "2026-08-06T18:16:35.807Z",
+  "authenticatedProfileUsed": true,
+  "brands": {
+    "alcatel": {
+      "url": "https://chimeratool.com/en/test-points/alcatel",
+      "discovered": 9,
+      "updatedAt": "2026-08-06T17:46:12.910Z"
+    },
+    "asus": {
+      "url": "https://chimeratool.com/en/test-points/asus",
+      "discovered": 22,
+      "updatedAt": "2026-08-06T17:46:55.300Z"
+    },
+    "blu": {
+      "url": "https://chimeratool.com/en/test-points/blu",
+      "discovered": 7,
+      "updatedAt": "2026-08-06T17:48:12.674Z"
+    },
+    "hisense": {
+      "url": "https://chimeratool.com/en/test-points/hisense",
+      "discovered": 7,
+      "updatedAt": "2026-08-06T17:48:34.301Z"
+    },
+    "honor": {
+      "url": "https://chimeratool.com/en/test-points/honor",
+      "discovered": 22,
+      "updatedAt": "2026-08-06T17:48:55.952Z"
+    },
+    "htc": {
+      "url": "https://chimeratool.com/en/test-points/htc",
+      "discovered": 7,
+      "updatedAt": "2026-08-06T17:50:15.348Z"
+    },
+    "huawei": {
+      "url": "https://chimeratool.com/en/test-points/huawei",
+      "discovered": 22,
+      "updatedAt": "2026-08-06T17:50:37.033Z"
+    },
+    "infinix": {
+      "url": "https://chimeratool.com/en/test-points/infinix",
+      "discovered": 15,
+      "updatedAt": "2026-08-06T17:51:55.379Z"
+    },
+    "itel": {
+      "url": "https://chimeratool.com/en/test-points/itel",
+      "discovered": 9,
+      "updatedAt": "2026-08-06T17:52:47.645Z"
+    },
+    "lenovo": {
+      "url": "https://chimeratool.com/en/test-points/lenovo",
+      "discovered": 22,
+      "updatedAt": "2026-08-06T17:53:16.412Z"
+    },
+    "lg": {
+      "url": "https://chimeratool.com/en/test-points/lg",
+      "discovered": 22,
+      "updatedAt": "2026-08-06T17:54:35.452Z"
+    },
+    "lumia": {
+      "url": "https://chimeratool.com/en/test-points/lumia",
+      "discovered": 22,
+      "updatedAt": "2026-08-06T17:55:53.303Z"
+    },
+    "meizu": {
+      "url": "https://chimeratool.com/en/test-points/meizu",
+      "discovered": 8,
+      "updatedAt": "2026-08-06T17:57:13.392Z"
+    },
+    "motorola": {
+      "url": "https://chimeratool.com/en/test-points/motorola",
+      "discovered": 22,
+      "updatedAt": "2026-08-06T17:57:39.695Z"
+    },
+    "nokia": {
+      "url": "https://chimeratool.com/en/test-points/nokia",
+      "discovered": 22,
+      "updatedAt": "2026-08-06T17:58:58.432Z"
+    },
+    "nothing": {
+      "url": "https://chimeratool.com/en/test-points/nothing",
+      "discovered": 7,
+      "updatedAt": "2026-08-06T18:00:18.867Z"
+    },
+    "nubia": {
+      "url": "https://chimeratool.com/en/test-points/nubia",
+      "discovered": 6,
+      "updatedAt": "2026-08-06T18:00:40.513Z"
+    },
+    "oneplus": {
+      "url": "https://chimeratool.com/en/test-points/oneplus",
+      "discovered": 22,
+      "updatedAt": "2026-08-06T18:00:58.644Z"
+    },
+    "oppo": {
+      "url": "https://chimeratool.com/en/test-points/oppo",
+      "discovered": 22,
+      "updatedAt": "2026-08-06T18:02:17.478Z"
+    },
+    "realme": {
+      "url": "https://chimeratool.com/en/test-points/realme",
+      "discovered": 22,
+      "updatedAt": "2026-08-06T18:03:34.716Z"
+    },
+    "samsung": {
+      "url": "https://chimeratool.com/en/test-points/samsung",
+      "discovered": 22,
+      "updatedAt": "2026-08-06T18:04:52.923Z"
+    },
+    "sony": {
+      "url": "https://chimeratool.com/en/test-points/sony",
+      "discovered": 12,
+      "updatedAt": "2026-08-06T18:06:11.565Z"
+    },
+    "tcl": {
+      "url": "https://chimeratool.com/en/test-points/tcl",
+      "discovered": 7,
+      "updatedAt": "2026-08-06T18:06:52.054Z"
+    },
+    "tecno": {
+      "url": "https://chimeratool.com/en/test-points/tecno",
+      "discovered": 12,
+      "updatedAt": "2026-08-06T18:07:14.747Z"
+    },
+    "ulefone": {
+      "url": "https://chimeratool.com/en/test-points/ulefone",
+      "discovered": 8,
+      "updatedAt": "2026-08-06T18:07:55.803Z"
+    },
+    "vivo": {
+      "url": "https://chimeratool.com/en/test-points/vivo",
+      "discovered": 22,
+      "updatedAt": "2026-08-06T18:08:22.082Z"
+    },
+    "xiaomi": {
+      "url": "https://chimeratool.com/en/test-points/xiaomi",
+      "discovered": 22,
+      "updatedAt": "2026-08-06T18:09:41.466Z"
+    },
+    "zte": {
+      "url": "https://chimeratool.com/en/test-points/zte",
+      "discovered": 22,
+      "updatedAt": "2026-08-06T18:11:01.730Z"
+    }
+  },
+  "devicePagesComplete": 329,
+  "devicePagesFailed": 7,
+  "imagesImportedBeforeRepositoryDeduplication": 329,
+  "duplicatesSkippedDuringDownload": 0
+}
