@@ -1,0 +1,74 @@
+name: Build Clean Test-Point Library
+
+on:
+  push:
+    paths:
+      - clean-build-trigger.txt
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-clean-testpoint-library
+  cancel-in-progress: false
+
+jobs:
+  clean:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install cleanup dependencies
+        run: python -m pip install --disable-pip-version-check opencv-python-headless numpy pillow
+
+      - name: Restore THETECHGUY ghost asset
+        shell: bash
+        run: |
+          mkdir -p assets
+          base64 --decode assets/clean-brand-ghost.webp.b64 > assets/clean-brand-ghost.webp
+          test -s assets/clean-brand-ghost.webp
+
+      - name: Build verified clean derivatives
+        run: python scripts/build_clean_testpoints.py --root . --logo assets/clean-brand-ghost.webp --workers 20
+
+      - name: Prove clean-library contract
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p = Path('clean/manifest.json')
+          assert p.exists(), 'clean/manifest.json missing'
+          d = json.loads(p.read_text(encoding='utf-8'))
+          s = d['summary']
+          assert s['cleaned'] == 868, s
+          assert s['failed'] == 0, s
+          assert d['policy']['originals_untouched'] is True, d['policy']
+          files = list(Path('clean/test-points').rglob('*.webp'))
+          assert len(files) == 868, len(files)
+          print(json.dumps(s, indent=2))
+          PY
+
+      - name: Commit clean library
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- clean assets/clean-brand-ghost.webp
+          if git diff --cached --quiet; then
+            echo "Clean library already current."
+            exit 0
+          fi
+          git commit -m "clean: add verified watermark-reduced test point library"
+          git push origin HEAD:main
