@@ -1,15 +1,15 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-07T08:31:20.224130+00:00",
+  "generated_at": "2026-08-07T08:42:34.629983+00:00",
   "layout": {
     "test_points": "test-points/<brand>/<model>-Test-Point[-tp-N].webp",
     "isp_pinouts": "isp-pinouts/<brand>/<protocol>/<model>-ISP[-isp-N].webp"
   },
   "summary": {
-    "original_images": 3359,
-    "unique_images": 3378,
+    "original_images": 3386,
+    "unique_images": 3449,
     "duplicates_removed": 74,
-    "variant_model_groups_preserved": 41,
+    "variant_model_groups_preserved": 54,
     "brands": {
       "4good": 2,
       "acer": 24,
@@ -33,13 +33,13 @@
       "crius": 2,
       "google": 4,
       "hisense": 3,
-      "honor": 211,
+      "honor": 217,
       "htc": 3,
-      "huawei": 518,
+      "huawei": 530,
       "infinix": 20,
       "itel": 7,
       "jio": 1,
-      "lenovo": 54,
+      "lenovo": 64,
       "lg": 165,
       "link": 2,
       "luna": 2,
@@ -53,8 +53,8 @@
       "nothing": 3,
       "oneplus": 21,
       "oppo": 100,
-      "realme": 68,
-      "samsung": 561,
+      "realme": 71,
+      "samsung": 575,
       "sigma": 2,
       "sky": 21,
       "sony": 81,
@@ -66,18 +66,18 @@
       "toshiba": 1,
       "ulefone": 4,
       "veon": 2,
-      "vivo": 329,
+      "vivo": 345,
       "vsmart": 5,
       "webp": 5,
       "wiko": 2,
-      "xiaomi": 442,
+      "xiaomi": 452,
       "yu": 1,
       "zopo": 4,
       "zte": 95
     },
     "kinds": {
       "isp-pinouts": 940,
-      "test-points": 2438
+      "test-points": 2509
     },
     "other_brand_images": 0
   },
@@ -19283,12 +19283,12 @@
       ]
     },
     {
-      "path": "test-points\\asus\\Asus-ZenFone-3-2-Test-Point-tp-2.webp",
+      "path": "test-points\\asus\\Asus-ZenFone-3-2-2-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "asus",
-      "model_key": "ZENFONE32",
-      "title": "Asus-ZenFone-3-2-Test-Point-tp-2",
+      "model_key": "ZENFONE322",
+      "title": "Asus-ZenFone-3-2-2-Test-Point",
       "sha256": "e402efe30f4590a76d56781abcca2d9ece178549dec44530d9594cca0f959cb5",
       "width": 760,
       "height": 437,
@@ -21863,12 +21863,32 @@
       ]
     },
     {
-      "path": "test-points\\honor\\Honor-Huawei-8X-2-Test-Point.webp",
+      "path": "test-points\\honor\\Honor-Huawei-8X-2-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "honor",
       "model_key": "HUAWEI8X2",
-      "title": "Honor-Huawei-8X-2-Test-Point",
+      "title": "Honor-Huawei-8X-2-Test-Point-tp-2",
+      "sha256": "42950d1f81fd783dfe786c4c17fb215b6b7f2a8a914e459ee7cfe729904a0c54",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\huawei\\chimera\\Huawei-Honor-8X-Test-Point-tp-2.webp"
+      ],
+      "aliases": [
+        "Huawei-Honor-8X-Test-Point-tp-2"
+      ]
+    },
+    {
+      "path": "test-points\\honor\\Honor-Huawei-8X-2-Test-Point-tp-3.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "honor",
+      "model_key": "HUAWEI8X2",
+      "title": "Honor-Huawei-8X-2-Test-Point-tp-3",
       "sha256": "4da302faa0c8036322bf7e8b2f3145241a1a0690b4baf770b4a80e1d4a4e758e",
       "width": 320,
       "height": 320,
@@ -21883,12 +21903,32 @@
       ]
     },
     {
-      "path": "test-points\\honor\\Honor-Huawei-8X-3-Test-Point.webp",
+      "path": "test-points\\honor\\Honor-Huawei-8X-2-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "honor",
+      "model_key": "HUAWEI8X2",
+      "title": "Honor-Huawei-8X-2-Test-Point",
+      "sha256": "23b832ce77fcb2018c9cbf23826dd608b66bc35abc6302f2b0fb70217daf520e",
+      "width": 760,
+      "height": 515,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\huawei\\chimera\\Huawei-Honor-8X-Test-Point.webp"
+      ],
+      "aliases": [
+        "Huawei-Honor-8X-Test-Point"
+      ]
+    },
+    {
+      "path": "test-points\\honor\\Honor-Huawei-8X-3-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "honor",
       "model_key": "HUAWEI8X3",
-      "title": "Honor-Huawei-8X-3-Test-Point",
+      "title": "Honor-Huawei-8X-3-Test-Point-tp-2",
       "sha256": "0f3260fb44c3515df2b8d7ff7ef86063d83c26e03e8d51d506bca9a6b49eac97",
       "width": 320,
       "height": 320,
@@ -21900,6 +21940,86 @@
       ],
       "aliases": [
         "Huawei-Honor-8X-Test-Point-tp-3"
+      ]
+    },
+    {
+      "path": "test-points\\honor\\Honor-Huawei-8X-3-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "honor",
+      "model_key": "HUAWEI8X3",
+      "title": "Honor-Huawei-8X-3-Test-Point",
+      "sha256": "c6877170a9a0ef13580d73251a701b5312ce7074412708085d5a1033b57fcfb2",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\huawei\\chimera\\Huawei-Honor-8X-Test-Point-tp-3.webp"
+      ],
+      "aliases": [
+        "Huawei-Honor-8X-Test-Point-tp-3"
+      ]
+    },
+    {
+      "path": "test-points\\honor\\Honor-Huawei-8X-4-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "honor",
+      "model_key": "HUAWEI8X4",
+      "title": "Honor-Huawei-8X-4-Test-Point",
+      "sha256": "8ecdf0a3a094bd5cab6745ed889b2eb2e87eed40ae4b2c1eb16e79c8f87c0f74",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\huawei\\chimera\\Huawei-Honor-8X-Test-Point-tp-4.webp"
+      ],
+      "aliases": [
+        "Huawei-Honor-8X-Test-Point-tp-4"
+      ]
+    },
+    {
+      "path": "test-points\\honor\\Honor-Huawei-8X-5-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "honor",
+      "model_key": "HUAWEI8X5",
+      "title": "Honor-Huawei-8X-5-Test-Point",
+      "sha256": "e285f0d6d860aabe9e45462ce18343361709fe884531a01f827670c07511e663",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\huawei\\chimera\\Huawei-Honor-8X-Test-Point-tp-5.webp"
+      ],
+      "aliases": [
+        "Huawei-Honor-8X-Test-Point-tp-5"
+      ]
+    },
+    {
+      "path": "test-points\\honor\\Honor-Huawei-8X-6-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "honor",
+      "model_key": "HUAWEI8X6",
+      "title": "Honor-Huawei-8X-6-Test-Point",
+      "sha256": "9a4a596fd2331710c023fb169983e7ff98b9d1b3f7bed5fa21e0dde424fc53a9",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\huawei\\chimera\\Huawei-Honor-8X-Test-Point-tp-6.webp"
+      ],
+      "aliases": [
+        "Huawei-Honor-8X-Test-Point-tp-6"
       ]
     },
     {
@@ -21929,9 +22049,9 @@
       "brand": "honor",
       "model_key": "HUAWEI8X",
       "title": "Honor-Huawei-8X-Test-Point-tp-2",
-      "sha256": "23b832ce77fcb2018c9cbf23826dd608b66bc35abc6302f2b0fb70217daf520e",
-      "width": 760,
-      "height": 515,
+      "sha256": "d9951a89c0a7202c5d3dc6e92ca49f2c8c681a0e01a74e23f78ba2fe43ba9901",
+      "width": 320,
+      "height": 320,
       "sources": [
         "legacy"
       ],
@@ -26983,12 +27103,12 @@
       ]
     },
     {
-      "path": "test-points\\huawei\\Huawei-Mate-20-2-Test-Point-tp-2.webp",
+      "path": "test-points\\huawei\\Huawei-Mate-20-2-2-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "huawei",
-      "model_key": "MATE202",
-      "title": "Huawei-Mate-20-2-Test-Point-tp-2",
+      "model_key": "MATE2022",
+      "title": "Huawei-Mate-20-2-2-Test-Point",
       "sha256": "0d44e282b9d194f34ab7f6816b39adf10f2f136290769f21a228bdf94bf9f6eb",
       "width": 760,
       "height": 543,
@@ -27083,12 +27203,12 @@
       ]
     },
     {
-      "path": "test-points\\huawei\\Huawei-Mate-20-Pro-2-Test-Point-tp-2.webp",
+      "path": "test-points\\huawei\\Huawei-Mate-20-Pro-2-2-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "huawei",
-      "model_key": "MATE20PRO2",
-      "title": "Huawei-Mate-20-Pro-2-Test-Point-tp-2",
+      "model_key": "MATE20PRO22",
+      "title": "Huawei-Mate-20-Pro-2-2-Test-Point",
       "sha256": "69d264354ac93571e29d7c4b8d5fdbf70eed587d9e94cfd209df765cc94c5681",
       "width": 760,
       "height": 514,
@@ -29183,12 +29303,12 @@
       ]
     },
     {
-      "path": "test-points\\huawei\\Huawei-Nova-2-Dual-2-Test-Point.webp",
+      "path": "test-points\\huawei\\Huawei-Nova-2-Dual-2-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "huawei",
       "model_key": "NOVA2DUAL2",
-      "title": "Huawei-Nova-2-Dual-2-Test-Point",
+      "title": "Huawei-Nova-2-Dual-2-Test-Point-tp-2",
       "sha256": "a735e0c023eadaebe148dd80226b9eed3f0471e60e5464d5773dde61f690aa0f",
       "width": 320,
       "height": 320,
@@ -29200,6 +29320,46 @@
       ],
       "aliases": [
         "Huawei-Nova-2-Dual-Test-Point-tp-2"
+      ]
+    },
+    {
+      "path": "test-points\\huawei\\Huawei-Nova-2-Dual-2-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "huawei",
+      "model_key": "NOVA2DUAL2",
+      "title": "Huawei-Nova-2-Dual-2-Test-Point",
+      "sha256": "73a05c5093945e19de44f1348f87b1cb8bff6693c446ddfe31d7393c0e491218",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\huawei\\chimera\\Huawei-Nova-2-Dual-Test-Point-tp-2.webp"
+      ],
+      "aliases": [
+        "Huawei-Nova-2-Dual-Test-Point-tp-2"
+      ]
+    },
+    {
+      "path": "test-points\\huawei\\Huawei-Nova-2-Dual-3-Test-Point-tp-2.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "huawei",
+      "model_key": "NOVA2DUAL3",
+      "title": "Huawei-Nova-2-Dual-3-Test-Point-tp-2",
+      "sha256": "f485251db1f97565c3173291f56ef6bc1f3b8b0c515844f205b6d7244448e67b",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\huawei\\chimera\\Huawei-Nova-2-Dual-Test-Point-tp-3.webp"
+      ],
+      "aliases": [
+        "Huawei-Nova-2-Dual-Test-Point-tp-3"
       ]
     },
     {
@@ -29220,6 +29380,86 @@
       ],
       "aliases": [
         "Huawei-Nova-2-Dual-Test-Point-tp-3"
+      ]
+    },
+    {
+      "path": "test-points\\huawei\\Huawei-Nova-2-Dual-4-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "huawei",
+      "model_key": "NOVA2DUAL4",
+      "title": "Huawei-Nova-2-Dual-4-Test-Point",
+      "sha256": "cf1505c96d9ecaffcc80bfbd145a9ee4919e46ff73ffbc0c175848e7ec381443",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\huawei\\chimera\\Huawei-Nova-2-Dual-Test-Point-tp-4.webp"
+      ],
+      "aliases": [
+        "Huawei-Nova-2-Dual-Test-Point-tp-4"
+      ]
+    },
+    {
+      "path": "test-points\\huawei\\Huawei-Nova-2-Dual-5-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "huawei",
+      "model_key": "NOVA2DUAL5",
+      "title": "Huawei-Nova-2-Dual-5-Test-Point",
+      "sha256": "0c89f83edd1af60939c60a2b27face8af8a895c88592fab6df4a5875635d84eb",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\huawei\\chimera\\Huawei-Nova-2-Dual-Test-Point-tp-5.webp"
+      ],
+      "aliases": [
+        "Huawei-Nova-2-Dual-Test-Point-tp-5"
+      ]
+    },
+    {
+      "path": "test-points\\huawei\\Huawei-Nova-2-Dual-6-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "huawei",
+      "model_key": "NOVA2DUAL6",
+      "title": "Huawei-Nova-2-Dual-6-Test-Point",
+      "sha256": "3c5d9fb33a7db4c8f03d1052b3ef7d8803c6d51f5f49e59f91dfb76bc52bb3a2",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\huawei\\chimera\\Huawei-Nova-2-Dual-Test-Point-tp-6.webp"
+      ],
+      "aliases": [
+        "Huawei-Nova-2-Dual-Test-Point-tp-6"
+      ]
+    },
+    {
+      "path": "test-points\\huawei\\Huawei-Nova-2-Dual-Test-Point-tp-2.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "huawei",
+      "model_key": "NOVA2DUAL",
+      "title": "Huawei-Nova-2-Dual-Test-Point-tp-2",
+      "sha256": "08041bc7189fd751872463dc80275771a52ef336b69288bfcba1508b64b2c54a",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\huawei\\chimera\\Huawei-Nova-2-Dual-Test-Point.webp"
+      ],
+      "aliases": [
+        "Huawei-Nova-2-Dual-Test-Point"
       ]
     },
     {
@@ -29283,13 +29523,33 @@
       ]
     },
     {
+      "path": "test-points\\huawei\\Huawei-Nova-2-Test-Point-tp-2.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "huawei",
+      "model_key": "NOVA2",
+      "title": "Huawei-Nova-2-Test-Point-tp-2",
+      "sha256": "86ded71673462498a75c0154d3433a04b7a1aaf4a74cc29ec429f6657a1d0cdf",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\huawei\\chimera\\Huawei-Nova-Test-Point-tp-2.webp"
+      ],
+      "aliases": [
+        "Huawei-Nova-Test-Point-tp-2"
+      ]
+    },
+    {
       "path": "test-points\\huawei\\Huawei-Nova-2-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "huawei",
       "model_key": "NOVA2",
       "title": "Huawei-Nova-2-Test-Point",
-      "sha256": "86ded71673462498a75c0154d3433a04b7a1aaf4a74cc29ec429f6657a1d0cdf",
+      "sha256": "b1a5d10cd9ebf7b5ea9433d13e787266cafe4c7d03f05d4ace71a22fbb502e24",
       "width": 320,
       "height": 320,
       "sources": [
@@ -29363,6 +29623,26 @@
       ]
     },
     {
+      "path": "test-points\\huawei\\Huawei-Nova-3-2-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "huawei",
+      "model_key": "NOVA32",
+      "title": "Huawei-Nova-3-2-Test-Point",
+      "sha256": "29bbca78bc8084a58617b7ec93e7072877be5c095e4c4588c6e10b276f98297d",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\huawei\\chimera\\Huawei-Nova-Test-Point-tp-3.webp"
+      ],
+      "aliases": [
+        "Huawei-Nova-Test-Point-tp-3"
+      ]
+    },
+    {
       "path": "test-points\\huawei\\Huawei-Nova-3-PAR-AL00-2-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
@@ -29409,7 +29689,7 @@
       "brand": "huawei",
       "model_key": "NOVA3",
       "title": "Huawei-Nova-3-Test-Point-tp-2",
-      "sha256": "29bbca78bc8084a58617b7ec93e7072877be5c095e4c4588c6e10b276f98297d",
+      "sha256": "cc827336fe55125b879be410e9c8b182d72aea5fca76983956a384a5e533f690",
       "width": 320,
       "height": 320,
       "sources": [
@@ -29523,6 +29803,26 @@
       ]
     },
     {
+      "path": "test-points\\huawei\\Huawei-Nova-4-Test-Point-tp-2.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "huawei",
+      "model_key": "NOVA4",
+      "title": "Huawei-Nova-4-Test-Point-tp-2",
+      "sha256": "99ead7c2cc6582aa29b52b5f3f80fc42996639db0d28247ce3d4639b56cd61b0",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\huawei\\chimera\\Huawei-Nova-Test-Point-tp-4.webp"
+      ],
+      "aliases": [
+        "Huawei-Nova-Test-Point-tp-4"
+      ]
+    },
+    {
       "path": "test-points\\huawei\\Huawei-Nova-4-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
@@ -29620,6 +29920,26 @@
       ],
       "aliases": [
         "Huawei-Nova-5-SEA-Test-Point"
+      ]
+    },
+    {
+      "path": "test-points\\huawei\\Huawei-Nova-5-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "huawei",
+      "model_key": "NOVA5",
+      "title": "Huawei-Nova-5-Test-Point",
+      "sha256": "d94eb3633fd3bcc2cd7ee1a17d1144b2bed6c6d2ad764d9c2928b25b60012631",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\huawei\\chimera\\Huawei-Nova-Test-Point-tp-5.webp"
+      ],
+      "aliases": [
+        "Huawei-Nova-Test-Point-tp-5"
       ]
     },
     {
@@ -29840,6 +30160,26 @@
       ],
       "aliases": [
         "Huawei-nova-6-SE-Test-Point"
+      ]
+    },
+    {
+      "path": "test-points\\huawei\\Huawei-Nova-6-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "huawei",
+      "model_key": "NOVA6",
+      "title": "Huawei-Nova-6-Test-Point",
+      "sha256": "f4d71a190cab96f55e868104188943250ba9279d7ce7c926bcb5287f953ab622",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\huawei\\chimera\\Huawei-Nova-Test-Point-tp-6.webp"
+      ],
+      "aliases": [
+        "Huawei-Nova-Test-Point-tp-6"
       ]
     },
     {
@@ -30220,6 +30560,26 @@
       ],
       "aliases": [
         "Huawei-Nova-Plus-Test-Point"
+      ]
+    },
+    {
+      "path": "test-points\\huawei\\Huawei-Nova-Test-Point-tp-2.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "huawei",
+      "model_key": "NOVA",
+      "title": "Huawei-Nova-Test-Point-tp-2",
+      "sha256": "39c6465c36279ef2c0d58b645e288d78c6a12ced2883c4b7061825a84db271c4",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\huawei\\chimera\\Huawei-Nova-Test-Point.webp"
+      ],
+      "aliases": [
+        "Huawei-Nova-Test-Point"
       ]
     },
     {
@@ -31083,12 +31443,12 @@
       ]
     },
     {
-      "path": "test-points\\huawei\\Huawei-P30-Lite-2-Test-Point-tp-2.webp",
+      "path": "test-points\\huawei\\Huawei-P30-Lite-2-2-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "huawei",
-      "model_key": "P30LITE2",
-      "title": "Huawei-P30-Lite-2-Test-Point-tp-2",
+      "model_key": "P30LITE22",
+      "title": "Huawei-P30-Lite-2-2-Test-Point",
       "sha256": "091598e0619657b45212e5a8a58ae8c4b1b438a2f160cfa0551a688e13430c7a",
       "width": 760,
       "height": 516,
@@ -33203,12 +33563,12 @@
       ]
     },
     {
-      "path": "test-points\\huawei\\Huawei-Y5P-2-Test-Point-tp-2.webp",
+      "path": "test-points\\huawei\\Huawei-Y5P-2-2-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "huawei",
-      "model_key": "Y5P2",
-      "title": "Huawei-Y5P-2-Test-Point-tp-2",
+      "model_key": "Y5P22",
+      "title": "Huawei-Y5P-2-2-Test-Point",
       "sha256": "cfa46feaa1144f647221ff19efc7a549c533d24f79f98d2e48cd17926b155a2e",
       "width": 819,
       "height": 460,
@@ -35383,12 +35743,12 @@
       ]
     },
     {
-      "path": "test-points\\lenovo\\Lenovo-Pad-Pro-12.7-2-Test-Point.webp",
+      "path": "test-points\\lenovo\\Lenovo-Pad-Pro-12.7-2-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "lenovo",
       "model_key": "PADPRO1272",
-      "title": "Lenovo-Pad-Pro-12.7-2-Test-Point",
+      "title": "Lenovo-Pad-Pro-12.7-2-Test-Point-tp-2",
       "sha256": "212c7ad7aba0a5dc92f1a9ec0b5a23ec69dc51e151039209565edd669b9356fa",
       "width": 320,
       "height": 320,
@@ -35403,12 +35763,32 @@
       ]
     },
     {
-      "path": "test-points\\lenovo\\Lenovo-Pad-Pro-12.7-3-Test-Point.webp",
+      "path": "test-points\\lenovo\\Lenovo-Pad-Pro-12.7-2-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "lenovo",
+      "model_key": "PADPRO1272",
+      "title": "Lenovo-Pad-Pro-12.7-2-Test-Point",
+      "sha256": "a01ba1e7407934ca5891af2012e3b5b82d36abeaf7e93fe832ef37a541c9e3b2",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\lenovo\\chimera\\Lenovo-Pad-Pro-12.7-Test-Point-tp-2.webp"
+      ],
+      "aliases": [
+        "Lenovo-Pad-Pro-12.7-Test-Point-tp-2"
+      ]
+    },
+    {
+      "path": "test-points\\lenovo\\Lenovo-Pad-Pro-12.7-3-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "lenovo",
       "model_key": "PADPRO1273",
-      "title": "Lenovo-Pad-Pro-12.7-3-Test-Point",
+      "title": "Lenovo-Pad-Pro-12.7-3-Test-Point-tp-2",
       "sha256": "0d7c405a68fdf2404d6db01426cc3bdfacfe9e6cf2b53a7bf30deb2411b641ac",
       "width": 320,
       "height": 320,
@@ -35420,6 +35800,66 @@
       ],
       "aliases": [
         "Lenovo-Pad-Pro-12.7-Test-Point-tp-3"
+      ]
+    },
+    {
+      "path": "test-points\\lenovo\\Lenovo-Pad-Pro-12.7-3-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "lenovo",
+      "model_key": "PADPRO1273",
+      "title": "Lenovo-Pad-Pro-12.7-3-Test-Point",
+      "sha256": "a8b973bba2d651035e1df8e9c0a204f992eaaeb62d0e1da02003a7fcfb45a2fb",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\lenovo\\chimera\\Lenovo-Pad-Pro-12.7-Test-Point-tp-3.webp"
+      ],
+      "aliases": [
+        "Lenovo-Pad-Pro-12.7-Test-Point-tp-3"
+      ]
+    },
+    {
+      "path": "test-points\\lenovo\\Lenovo-Pad-Pro-12.7-4-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "lenovo",
+      "model_key": "PADPRO1274",
+      "title": "Lenovo-Pad-Pro-12.7-4-Test-Point",
+      "sha256": "09ec39141ce48a0954fa32fabbd7cbb112ddfab970405ed61baefa097c879514",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\lenovo\\chimera\\Lenovo-Pad-Pro-12.7-Test-Point-tp-4.webp"
+      ],
+      "aliases": [
+        "Lenovo-Pad-Pro-12.7-Test-Point-tp-4"
+      ]
+    },
+    {
+      "path": "test-points\\lenovo\\Lenovo-Pad-Pro-12.7-Test-Point-tp-2.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "lenovo",
+      "model_key": "PADPRO127",
+      "title": "Lenovo-Pad-Pro-12.7-Test-Point-tp-2",
+      "sha256": "6392a94ceb7429cfb9e3fe25122c0cb8e8f8541b2fd5fed19190a92557be66b4",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\lenovo\\chimera\\Lenovo-Pad-Pro-12.7-Test-Point.webp"
+      ],
+      "aliases": [
+        "Lenovo-Pad-Pro-12.7-Test-Point"
       ]
     },
     {
@@ -35643,6 +36083,26 @@
       ]
     },
     {
+      "path": "test-points\\lenovo\\Lenovo-Tab-P11-2-Test-Point-tp-2.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "lenovo",
+      "model_key": "TABP112",
+      "title": "Lenovo-Tab-P11-2-Test-Point-tp-2",
+      "sha256": "4502d1f570b5bf4ce5353ecfeddfb2452345ad72891459456b16dcfc66c7ae10",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\lenovo\\chimera\\Lenovo-Tab-P11-Test-Point-tp-2.webp"
+      ],
+      "aliases": [
+        "Lenovo-Tab-P11-Test-Point-tp-2"
+      ]
+    },
+    {
       "path": "test-points\\lenovo\\Lenovo-Tab-P11-2-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
@@ -35663,12 +36123,12 @@
       ]
     },
     {
-      "path": "test-points\\lenovo\\Lenovo-Tab-P11-3-Test-Point.webp",
+      "path": "test-points\\lenovo\\Lenovo-Tab-P11-3-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "lenovo",
       "model_key": "TABP113",
-      "title": "Lenovo-Tab-P11-3-Test-Point",
+      "title": "Lenovo-Tab-P11-3-Test-Point-tp-2",
       "sha256": "ba2205186d6b7c3506a425ec7d7c9e0694da998bb04c00d9045ececc5120fbff",
       "width": 320,
       "height": 320,
@@ -35680,6 +36140,106 @@
       ],
       "aliases": [
         "Lenovo-Tab-P11-Test-Point-tp-3"
+      ]
+    },
+    {
+      "path": "test-points\\lenovo\\Lenovo-Tab-P11-3-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "lenovo",
+      "model_key": "TABP113",
+      "title": "Lenovo-Tab-P11-3-Test-Point",
+      "sha256": "91da750bc25f9730d304061a369a932f71e70418c4c9783076784ed25de99758",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\lenovo\\chimera\\Lenovo-Tab-P11-Test-Point-tp-3.webp"
+      ],
+      "aliases": [
+        "Lenovo-Tab-P11-Test-Point-tp-3"
+      ]
+    },
+    {
+      "path": "test-points\\lenovo\\Lenovo-Tab-P11-4-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "lenovo",
+      "model_key": "TABP114",
+      "title": "Lenovo-Tab-P11-4-Test-Point",
+      "sha256": "9762f1357b90ba16e5108037b4d4c6280029b7aed939c81d7237e479a4976534",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\lenovo\\chimera\\Lenovo-Tab-P11-Test-Point-tp-4.webp"
+      ],
+      "aliases": [
+        "Lenovo-Tab-P11-Test-Point-tp-4"
+      ]
+    },
+    {
+      "path": "test-points\\lenovo\\Lenovo-Tab-P11-5-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "lenovo",
+      "model_key": "TABP115",
+      "title": "Lenovo-Tab-P11-5-Test-Point",
+      "sha256": "61dcc2e9d5a28f80d2250cf70f44c00261d5d3657038f2f1db83ab47689e74b6",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\lenovo\\chimera\\Lenovo-Tab-P11-Test-Point-tp-5.webp"
+      ],
+      "aliases": [
+        "Lenovo-Tab-P11-Test-Point-tp-5"
+      ]
+    },
+    {
+      "path": "test-points\\lenovo\\Lenovo-Tab-P11-6-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "lenovo",
+      "model_key": "TABP116",
+      "title": "Lenovo-Tab-P11-6-Test-Point",
+      "sha256": "dc304ded63bf95fd780346fcfeda77eab60a455b0c5513af4fff18da3b6440a3",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\lenovo\\chimera\\Lenovo-Tab-P11-Test-Point-tp-6.webp"
+      ],
+      "aliases": [
+        "Lenovo-Tab-P11-Test-Point-tp-6"
+      ]
+    },
+    {
+      "path": "test-points\\lenovo\\Lenovo-Tab-P11-Test-Point-tp-2.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "lenovo",
+      "model_key": "TABP11",
+      "title": "Lenovo-Tab-P11-Test-Point-tp-2",
+      "sha256": "dc3778859c8ca4b05b3a4740d2278b68058e0f114a2abc59e976a90a1b93b7dd",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\lenovo\\chimera\\Lenovo-Tab-P11-Test-Point.webp"
+      ],
+      "aliases": [
+        "Lenovo-Tab-P11-Test-Point"
       ]
     },
     {
@@ -36143,6 +36703,26 @@
       ]
     },
     {
+      "path": "test-points\\lg\\LG-G6-2-2-Test-Point-tp-2.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "lg",
+      "model_key": "G622",
+      "title": "LG-G6-2-2-Test-Point-tp-2",
+      "sha256": "a2b9f3ca30768612b537c75bd53344398d6c8ffd7d4dcfde3d448a48eb52bcd3",
+      "width": 760,
+      "height": 504,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\lg\\chimera\\LG-G6-Test-Point.webp"
+      ],
+      "aliases": [
+        "LG-G6-Test-Point"
+      ]
+    },
+    {
       "path": "test-points\\lg\\LG-G6-2-2-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
@@ -36160,26 +36740,6 @@
       ],
       "aliases": [
         "LG-G6-Test-Point-tp-2"
-      ]
-    },
-    {
-      "path": "test-points\\lg\\LG-G6-2-Test-Point-tp-2.webp",
-      "kind": "test-points",
-      "protocol": null,
-      "brand": "lg",
-      "model_key": "G62",
-      "title": "LG-G6-2-Test-Point-tp-2",
-      "sha256": "a2b9f3ca30768612b537c75bd53344398d6c8ffd7d4dcfde3d448a48eb52bcd3",
-      "width": 760,
-      "height": 504,
-      "sources": [
-        "legacy"
-      ],
-      "original_paths": [
-        "test-points\\lg\\chimera\\LG-G6-Test-Point.webp"
-      ],
-      "aliases": [
-        "LG-G6-Test-Point"
       ]
     },
     {
@@ -37083,12 +37643,12 @@
       ]
     },
     {
-      "path": "test-points\\lg\\LG-V30+-2-Test-Point-tp-2.webp",
+      "path": "test-points\\lg\\LG-V30+-2-2-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "lg",
-      "model_key": "V302",
-      "title": "LG-V30+-2-Test-Point-tp-2",
+      "model_key": "V3022",
+      "title": "LG-V30+-2-2-Test-Point",
       "sha256": "b08d98e916ab0b959fa315e2584407b3715a6b9261997adb8b667ab92bccd457",
       "width": 760,
       "height": 514,
@@ -41443,12 +42003,12 @@
       ]
     },
     {
-      "path": "test-points\\nokia\\Nokia-G11-2-Test-Point-tp-2.webp",
+      "path": "test-points\\nokia\\Nokia-G11-2-2-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "nokia",
-      "model_key": "G112",
-      "title": "Nokia-G11-2-Test-Point-tp-2",
+      "model_key": "G1122",
+      "title": "Nokia-G11-2-2-Test-Point",
       "sha256": "bc05031e749663f3c1bc385d3617e87fc3bf12262d2a44c639f185db77cfd654",
       "width": 550,
       "height": 550,
@@ -42823,12 +43383,12 @@
       ]
     },
     {
-      "path": "test-points\\oppo\\Oppo-A71-2-Test-Point-tp-2.webp",
+      "path": "test-points\\oppo\\Oppo-A71-2-2-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "oppo",
-      "model_key": "A712",
-      "title": "Oppo-A71-2-Test-Point-tp-2",
+      "model_key": "A7122",
+      "title": "Oppo-A71-2-2-Test-Point",
       "sha256": "4ca8e786e55f549175a467eb477bbbf154f7d7bf54e714785623e9b5cc04779a",
       "width": 760,
       "height": 422,
@@ -43883,12 +44443,32 @@
       ]
     },
     {
-      "path": "test-points\\realme\\Realme-12-Pro-2-Test-Point.webp",
+      "path": "test-points\\realme\\Realme-12-Pro-2-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "realme",
       "model_key": "12PRO2",
-      "title": "Realme-12-Pro-2-Test-Point",
+      "title": "Realme-12-Pro-2-Test-Point-tp-2",
+      "sha256": "497b08a1ef5ef24b95cc180d17b6c213743bc966d6711b975f006e166e53c00c",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\realme\\chimera\\Realme-12-Pro-Test-Point-tp-2.webp"
+      ],
+      "aliases": [
+        "Realme-12-Pro-Test-Point-tp-2"
+      ]
+    },
+    {
+      "path": "test-points\\realme\\Realme-12-Pro-2-Test-Point-tp-3.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "realme",
+      "model_key": "12PRO2",
+      "title": "Realme-12-Pro-2-Test-Point-tp-3",
       "sha256": "c27a4d5ab5d2a7cfac32d21f2f7d5b21dd94c64e7c825c071920a597a45ea31a",
       "width": 320,
       "height": 320,
@@ -43903,13 +44483,53 @@
       ]
     },
     {
+      "path": "test-points\\realme\\Realme-12-Pro-2-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "realme",
+      "model_key": "12PRO2",
+      "title": "Realme-12-Pro-2-Test-Point",
+      "sha256": "66f69c0ce40a5738166c657b0c1d1b01c56137bcb9d3a927344e374d50344426",
+      "width": 760,
+      "height": 183,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\realme\\chimera\\Realme-12-Pro-Test-Point.webp"
+      ],
+      "aliases": [
+        "Realme-12-Pro-Test-Point"
+      ]
+    },
+    {
+      "path": "test-points\\realme\\Realme-12-Pro-3-Test-Point-tp-2.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "realme",
+      "model_key": "12PRO3",
+      "title": "Realme-12-Pro-3-Test-Point-tp-2",
+      "sha256": "90ab67c7500ac6fd9fc658642686aac23f1c552c89561163886e557859d8c0d0",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\realme\\chimera\\Realme-12-Pro-Test-Point-tp-3.webp"
+      ],
+      "aliases": [
+        "Realme-12-Pro-Test-Point-tp-3"
+      ]
+    },
+    {
       "path": "test-points\\realme\\Realme-12-Pro-3-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "realme",
       "model_key": "12PRO3",
       "title": "Realme-12-Pro-3-Test-Point",
-      "sha256": "90ab67c7500ac6fd9fc658642686aac23f1c552c89561163886e557859d8c0d0",
+      "sha256": "538e563dd90bddcbdfed50a781a06d3b7cb7181d75bf70e8e3939877692a00f7",
       "width": 320,
       "height": 320,
       "sources": [
@@ -43929,9 +44549,9 @@
       "brand": "realme",
       "model_key": "12PRO",
       "title": "Realme-12-Pro-Test-Point-tp-2",
-      "sha256": "66f69c0ce40a5738166c657b0c1d1b01c56137bcb9d3a927344e374d50344426",
-      "width": 760,
-      "height": 183,
+      "sha256": "412aaeb5e48b688b98a269ebdbb6056c012b96a725ef9344b88eec9b6b00ef38",
+      "width": 320,
+      "height": 320,
       "sources": [
         "legacy"
       ],
@@ -46203,12 +46823,12 @@
       ]
     },
     {
-      "path": "test-points\\samsung\\Samsung-Galaxy-A02s-2-Test-Point-tp-2.webp",
+      "path": "test-points\\samsung\\Samsung-Galaxy-A02s-2-2-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "samsung",
-      "model_key": "GALAXYA02S2",
-      "title": "Samsung-Galaxy-A02s-2-Test-Point-tp-2",
+      "model_key": "GALAXYA02S22",
+      "title": "Samsung-Galaxy-A02s-2-2-Test-Point",
       "sha256": "6ae76006ce7794b3f479d48715a34657677ac7ab9f26b4f4953edb7be7592cb3",
       "width": 760,
       "height": 495,
@@ -46443,12 +47063,12 @@
       ]
     },
     {
-      "path": "test-points\\samsung\\Samsung-Galaxy-A03s-2-Test-Point-tp-2.webp",
+      "path": "test-points\\samsung\\Samsung-Galaxy-A03s-2-2-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "samsung",
-      "model_key": "GALAXYA03S2",
-      "title": "Samsung-Galaxy-A03s-2-Test-Point-tp-2",
+      "model_key": "GALAXYA03S22",
+      "title": "Samsung-Galaxy-A03s-2-2-Test-Point",
       "sha256": "1b8c9f8778f1e46b60044bb40abb0aaa2fd33ef87a855a3b91fd89fe1d64e211",
       "width": 760,
       "height": 516,
@@ -47503,12 +48123,32 @@
       ]
     },
     {
-      "path": "test-points\\samsung\\Samsung-Galaxy-A25-5G-2-Test-Point.webp",
+      "path": "test-points\\samsung\\Samsung-Galaxy-A25-5G-2-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "samsung",
       "model_key": "GALAXYA255G2",
-      "title": "Samsung-Galaxy-A25-5G-2-Test-Point",
+      "title": "Samsung-Galaxy-A25-5G-2-Test-Point-tp-2",
+      "sha256": "5b365938cfc61a6b64d385fbdbc3f41d4335f17e504d86633467eeae19700b13",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\samsung\\chimera\\Samsung-Galaxy-A25-5G-Test-Point-tp-2.webp"
+      ],
+      "aliases": [
+        "Samsung-Galaxy-A25-5G-Test-Point-tp-2"
+      ]
+    },
+    {
+      "path": "test-points\\samsung\\Samsung-Galaxy-A25-5G-2-Test-Point-tp-3.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "samsung",
+      "model_key": "GALAXYA255G2",
+      "title": "Samsung-Galaxy-A25-5G-2-Test-Point-tp-3",
       "sha256": "a1436fc1e7ae6469752c04482171f197543ff1cbf88f00ac3ef3c8d84507595e",
       "width": 320,
       "height": 320,
@@ -47520,6 +48160,46 @@
       ],
       "aliases": [
         "Samsung-Galaxy-A25-5G-Test-Point-tp-2"
+      ]
+    },
+    {
+      "path": "test-points\\samsung\\Samsung-Galaxy-A25-5G-2-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "samsung",
+      "model_key": "GALAXYA255G2",
+      "title": "Samsung-Galaxy-A25-5G-2-Test-Point",
+      "sha256": "2ae2662eead6353ecfccda263de835a8d67d64a421365f6d56e523e16263319e",
+      "width": 760,
+      "height": 506,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\samsung\\chimera\\Samsung-Galaxy-A25-5G-Test-Point.webp"
+      ],
+      "aliases": [
+        "Samsung-Galaxy-A25-5G-Test-Point"
+      ]
+    },
+    {
+      "path": "test-points\\samsung\\Samsung-Galaxy-A25-5G-3-Test-Point-tp-2.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "samsung",
+      "model_key": "GALAXYA255G3",
+      "title": "Samsung-Galaxy-A25-5G-3-Test-Point-tp-2",
+      "sha256": "fb8cbd376df60e266f383b812d5ca61dbdffd95f7164441ceec67edeb5075a82",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\samsung\\chimera\\Samsung-Galaxy-A25-5G-Test-Point-tp-3.webp"
+      ],
+      "aliases": [
+        "Samsung-Galaxy-A25-5G-Test-Point-tp-3"
       ]
     },
     {
@@ -47543,15 +48223,55 @@
       ]
     },
     {
+      "path": "test-points\\samsung\\Samsung-Galaxy-A25-5G-4-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "samsung",
+      "model_key": "GALAXYA255G4",
+      "title": "Samsung-Galaxy-A25-5G-4-Test-Point",
+      "sha256": "1818b360f833d4bd94eac445758f2192fcd611604ed69ab1469e5f80d0c56493",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\samsung\\chimera\\Samsung-Galaxy-A25-5G-Test-Point-tp-4.webp"
+      ],
+      "aliases": [
+        "Samsung-Galaxy-A25-5G-Test-Point-tp-4"
+      ]
+    },
+    {
+      "path": "test-points\\samsung\\Samsung-Galaxy-A25-5G-5-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "samsung",
+      "model_key": "GALAXYA255G5",
+      "title": "Samsung-Galaxy-A25-5G-5-Test-Point",
+      "sha256": "ae71f26c31ed68ae5c6aae933377fe615d01e526da1f6ef9e0fc0d61405245ab",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\samsung\\chimera\\Samsung-Galaxy-A25-5G-Test-Point-tp-5.webp"
+      ],
+      "aliases": [
+        "Samsung-Galaxy-A25-5G-Test-Point-tp-5"
+      ]
+    },
+    {
       "path": "test-points\\samsung\\Samsung-Galaxy-A25-5G-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "samsung",
       "model_key": "GALAXYA255G",
       "title": "Samsung-Galaxy-A25-5G-Test-Point-tp-2",
-      "sha256": "2ae2662eead6353ecfccda263de835a8d67d64a421365f6d56e523e16263319e",
-      "width": 760,
-      "height": 506,
+      "sha256": "0064a54ca5790a49d0f30a657c1415adefd4128d0eb37ecedfc9956eef2d1aab",
+      "width": 320,
+      "height": 320,
       "sources": [
         "legacy"
       ],
@@ -49263,12 +49983,32 @@
       ]
     },
     {
-      "path": "test-points\\samsung\\Samsung-Galaxy-M14-5G-2-Test-Point.webp",
+      "path": "test-points\\samsung\\Samsung-Galaxy-M14-5G-2-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "samsung",
       "model_key": "GALAXYM145G2",
-      "title": "Samsung-Galaxy-M14-5G-2-Test-Point",
+      "title": "Samsung-Galaxy-M14-5G-2-Test-Point-tp-2",
+      "sha256": "6fac5c40018880d5d1c541c4d22593eb784f872673fb83118486867ed07a4392",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\samsung\\chimera\\Samsung-Galaxy-M14-5G-Test-Point-tp-2.webp"
+      ],
+      "aliases": [
+        "Samsung-Galaxy-M14-5G-Test-Point-tp-2"
+      ]
+    },
+    {
+      "path": "test-points\\samsung\\Samsung-Galaxy-M14-5G-2-Test-Point-tp-3.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "samsung",
+      "model_key": "GALAXYM145G2",
+      "title": "Samsung-Galaxy-M14-5G-2-Test-Point-tp-3",
       "sha256": "5271c640f5d66c8c2c194054084d7e7ac106e9a6be2ad07a043f98519414a94e",
       "width": 320,
       "height": 320,
@@ -49280,6 +50020,46 @@
       ],
       "aliases": [
         "Samsung-Galaxy-M14-5G-Test-Point-tp-2"
+      ]
+    },
+    {
+      "path": "test-points\\samsung\\Samsung-Galaxy-M14-5G-2-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "samsung",
+      "model_key": "GALAXYM145G2",
+      "title": "Samsung-Galaxy-M14-5G-2-Test-Point",
+      "sha256": "77877686bbbd1ec888a3906f2057d31d6602e5782efcf25b21c9c956041920e4",
+      "width": 760,
+      "height": 418,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\samsung\\chimera\\Samsung-Galaxy-M14-5G-Test-Point.webp"
+      ],
+      "aliases": [
+        "Samsung-Galaxy-M14-5G-Test-Point"
+      ]
+    },
+    {
+      "path": "test-points\\samsung\\Samsung-Galaxy-M14-5G-3-Test-Point-tp-2.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "samsung",
+      "model_key": "GALAXYM145G3",
+      "title": "Samsung-Galaxy-M14-5G-3-Test-Point-tp-2",
+      "sha256": "bb1bb39b3ff98cbbfb605b94b13c8a261d8af5814424eb97230e5383fc2e594d",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\samsung\\chimera\\Samsung-Galaxy-M14-5G-Test-Point-tp-3.webp"
+      ],
+      "aliases": [
+        "Samsung-Galaxy-M14-5G-Test-Point-tp-3"
       ]
     },
     {
@@ -49303,15 +50083,35 @@
       ]
     },
     {
+      "path": "test-points\\samsung\\Samsung-Galaxy-M14-5G-4-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "samsung",
+      "model_key": "GALAXYM145G4",
+      "title": "Samsung-Galaxy-M14-5G-4-Test-Point",
+      "sha256": "530208bef828392d44ff184e6ba028f927cf015ea2b5b920a5da5173378d5c84",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\samsung\\chimera\\Samsung-Galaxy-M14-5G-Test-Point-tp-4.webp"
+      ],
+      "aliases": [
+        "Samsung-Galaxy-M14-5G-Test-Point-tp-4"
+      ]
+    },
+    {
       "path": "test-points\\samsung\\Samsung-Galaxy-M14-5G-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "samsung",
       "model_key": "GALAXYM145G",
       "title": "Samsung-Galaxy-M14-5G-Test-Point-tp-2",
-      "sha256": "77877686bbbd1ec888a3906f2057d31d6602e5782efcf25b21c9c956041920e4",
-      "width": 760,
-      "height": 418,
+      "sha256": "af326b8dd7dbe67b16f85f01222e12a867f8b5630e6b7a98c6b9a5a34a3ad442",
+      "width": 320,
+      "height": 320,
       "sources": [
         "legacy"
       ],
@@ -49823,12 +50623,12 @@
       ]
     },
     {
-      "path": "test-points\\samsung\\Samsung-Galaxy-Note-10+-2-Test-Point-tp-2.webp",
+      "path": "test-points\\samsung\\Samsung-Galaxy-Note-10+-2-2-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "samsung",
-      "model_key": "GALAXYNOTE102",
-      "title": "Samsung-Galaxy-Note-10+-2-Test-Point-tp-2",
+      "model_key": "GALAXYNOTE1022",
+      "title": "Samsung-Galaxy-Note-10+-2-2-Test-Point",
       "sha256": "8e1d69bc8b59f0c72e2f2df7ee67dd423d90bd52717e9d9a5a5b203fed8a6aa1",
       "width": 760,
       "height": 517,
@@ -49903,12 +50703,12 @@
       ]
     },
     {
-      "path": "test-points\\samsung\\Samsung-Galaxy-Note-10-2-2-Test-Point.webp",
+      "path": "test-points\\samsung\\Samsung-Galaxy-Note-10-2-2-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "samsung",
       "model_key": "GALAXYNOTE1022",
-      "title": "Samsung-Galaxy-Note-10-2-2-Test-Point",
+      "title": "Samsung-Galaxy-Note-10-2-2-Test-Point-tp-2",
       "sha256": "749644952ec363155717cc4f6aa5f3eb807ce983420e7c04a83cc0fd47aeec1b",
       "width": 760,
       "height": 515,
@@ -50283,6 +51083,26 @@
       ]
     },
     {
+      "path": "test-points\\samsung\\Samsung-Galaxy-S20-5G-2-2-Test-Point-tp-2.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "samsung",
+      "model_key": "GALAXYS205G22",
+      "title": "Samsung-Galaxy-S20-5G-2-2-Test-Point-tp-2",
+      "sha256": "51f39df731470fba51cd39ac23ae98b896a4cbe00fadcc731c2e310a47e1d1be",
+      "width": 760,
+      "height": 513,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\samsung\\chimera\\Samsung-Galaxy-S20-5G-Test-Point.webp"
+      ],
+      "aliases": [
+        "Samsung-Galaxy-S20-5G-Test-Point"
+      ]
+    },
+    {
       "path": "test-points\\samsung\\Samsung-Galaxy-S20-5G-2-2-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
@@ -50300,26 +51120,6 @@
       ],
       "aliases": [
         "Samsung-Galaxy-S20-5G-Test-Point-tp-2"
-      ]
-    },
-    {
-      "path": "test-points\\samsung\\Samsung-Galaxy-S20-5G-2-Test-Point-tp-2.webp",
-      "kind": "test-points",
-      "protocol": null,
-      "brand": "samsung",
-      "model_key": "GALAXYS205G2",
-      "title": "Samsung-Galaxy-S20-5G-2-Test-Point-tp-2",
-      "sha256": "51f39df731470fba51cd39ac23ae98b896a4cbe00fadcc731c2e310a47e1d1be",
-      "width": 760,
-      "height": 513,
-      "sources": [
-        "legacy"
-      ],
-      "original_paths": [
-        "test-points\\samsung\\chimera\\Samsung-Galaxy-S20-5G-Test-Point.webp"
-      ],
-      "aliases": [
-        "Samsung-Galaxy-S20-5G-Test-Point"
       ]
     },
     {
@@ -51263,12 +52063,12 @@
       ]
     },
     {
-      "path": "test-points\\samsung\\Samsung-Galaxy-S9+-2-Test-Point-tp-2.webp",
+      "path": "test-points\\samsung\\Samsung-Galaxy-S9+-2-2-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "samsung",
-      "model_key": "GALAXYS92",
-      "title": "Samsung-Galaxy-S9+-2-Test-Point-tp-2",
+      "model_key": "GALAXYS922",
+      "title": "Samsung-Galaxy-S9+-2-2-Test-Point",
       "sha256": "7ba169543c3e6feefcca3acf0e854ffbd4d8040f0f9c0727b4b9c7e975e93681",
       "width": 760,
       "height": 415,
@@ -51403,6 +52203,26 @@
       ]
     },
     {
+      "path": "test-points\\samsung\\Samsung-Galaxy-Tab-A-8.0-2019-Wi-Fi-2-Test-Point-tp-2.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "samsung",
+      "model_key": "GALAXYTABA802019WIFI2",
+      "title": "Samsung-Galaxy-Tab-A-8.0-2019-Wi-Fi-2-Test-Point-tp-2",
+      "sha256": "f88c6a7cebe4ffdb28ae82c541c640aa6c2374e2e0f7996837161dc00568c7a9",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\samsung\\chimera\\Samsung-Galaxy-Tab-A-8.0-(2019)-Wi-Fi-Test-Point-tp-2.webp"
+      ],
+      "aliases": [
+        "Samsung-Galaxy-Tab-A-8.0-(2019)-Wi-Fi-Test-Point-tp-2"
+      ]
+    },
+    {
       "path": "test-points\\samsung\\Samsung-Galaxy-Tab-A-8.0-2019-Wi-Fi-2-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
@@ -51423,12 +52243,12 @@
       ]
     },
     {
-      "path": "test-points\\samsung\\Samsung-Galaxy-Tab-A-8.0-2019-Wi-Fi-3-Test-Point.webp",
+      "path": "test-points\\samsung\\Samsung-Galaxy-Tab-A-8.0-2019-Wi-Fi-3-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "samsung",
       "model_key": "GALAXYTABA802019WIFI3",
-      "title": "Samsung-Galaxy-Tab-A-8.0-2019-Wi-Fi-3-Test-Point",
+      "title": "Samsung-Galaxy-Tab-A-8.0-2019-Wi-Fi-3-Test-Point-tp-2",
       "sha256": "620a4c35d543b554eb6e268c8dd35976edc1162a6559c6fcee5bc04d861c8913",
       "width": 320,
       "height": 320,
@@ -51440,6 +52260,86 @@
       ],
       "aliases": [
         "Samsung-Galaxy-Tab-A-8.0-(2019)-Wi-Fi-Test-Point-tp-3"
+      ]
+    },
+    {
+      "path": "test-points\\samsung\\Samsung-Galaxy-Tab-A-8.0-2019-Wi-Fi-3-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "samsung",
+      "model_key": "GALAXYTABA802019WIFI3",
+      "title": "Samsung-Galaxy-Tab-A-8.0-2019-Wi-Fi-3-Test-Point",
+      "sha256": "db76551d8081bf1ff0e9401ae510b9c7cd383a73a0d75a371c7ee67948aa2384",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\samsung\\chimera\\Samsung-Galaxy-Tab-A-8.0-(2019)-Wi-Fi-Test-Point-tp-3.webp"
+      ],
+      "aliases": [
+        "Samsung-Galaxy-Tab-A-8.0-(2019)-Wi-Fi-Test-Point-tp-3"
+      ]
+    },
+    {
+      "path": "test-points\\samsung\\Samsung-Galaxy-Tab-A-8.0-2019-Wi-Fi-4-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "samsung",
+      "model_key": "GALAXYTABA802019WIFI4",
+      "title": "Samsung-Galaxy-Tab-A-8.0-2019-Wi-Fi-4-Test-Point",
+      "sha256": "4289508c22ade49018bdeb2d9fb7dda0d7ac6fa1c1f7d3df1405c5e8d29b384c",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\samsung\\chimera\\Samsung-Galaxy-Tab-A-8.0-(2019)-Wi-Fi-Test-Point-tp-4.webp"
+      ],
+      "aliases": [
+        "Samsung-Galaxy-Tab-A-8.0-(2019)-Wi-Fi-Test-Point-tp-4"
+      ]
+    },
+    {
+      "path": "test-points\\samsung\\Samsung-Galaxy-Tab-A-8.0-2019-Wi-Fi-5-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "samsung",
+      "model_key": "GALAXYTABA802019WIFI5",
+      "title": "Samsung-Galaxy-Tab-A-8.0-2019-Wi-Fi-5-Test-Point",
+      "sha256": "13086524d11e4fc31515c0ed06d83c7d7dbacef04998b4c6007d62a7c635bbb9",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\samsung\\chimera\\Samsung-Galaxy-Tab-A-8.0-(2019)-Wi-Fi-Test-Point-tp-5.webp"
+      ],
+      "aliases": [
+        "Samsung-Galaxy-Tab-A-8.0-(2019)-Wi-Fi-Test-Point-tp-5"
+      ]
+    },
+    {
+      "path": "test-points\\samsung\\Samsung-Galaxy-Tab-A-8.0-2019-Wi-Fi-Test-Point-tp-2.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "samsung",
+      "model_key": "GALAXYTABA802019WIFI",
+      "title": "Samsung-Galaxy-Tab-A-8.0-2019-Wi-Fi-Test-Point-tp-2",
+      "sha256": "a60a0bc5638bbc3a9f30571715ca431055406bc079923fa7b956adb478685a36",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\samsung\\chimera\\Samsung-Galaxy-Tab-A-8.0-(2019)-Wi-Fi-Test-Point.webp"
+      ],
+      "aliases": [
+        "Samsung-Galaxy-Tab-A-8.0-(2019)-Wi-Fi-Test-Point"
       ]
     },
     {
@@ -54863,12 +55763,12 @@
       ]
     },
     {
-      "path": "test-points\\vivo\\Vivo-V11-Pro-2-Test-Point-tp-2.webp",
+      "path": "test-points\\vivo\\Vivo-V11-Pro-2-2-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "vivo",
-      "model_key": "V11PRO2",
-      "title": "Vivo-V11-Pro-2-Test-Point-tp-2",
+      "model_key": "V11PRO22",
+      "title": "Vivo-V11-Pro-2-2-Test-Point",
       "sha256": "19c183d27319ff9167685584a4da78c9601860155a57311a15b74dacb4e5fdab",
       "width": 629,
       "height": 349,
@@ -55183,12 +56083,12 @@
       ]
     },
     {
-      "path": "test-points\\vivo\\Vivo-V20-2-Test-Point.webp",
+      "path": "test-points\\vivo\\Vivo-V20-2-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "vivo",
       "model_key": "V202",
-      "title": "Vivo-V20-2-Test-Point",
+      "title": "Vivo-V20-2-Test-Point-tp-2",
       "sha256": "8b98c096971290ca9bdc3862b8e59989508ae3399081b36e4565600720b3cec2",
       "width": 320,
       "height": 320,
@@ -55200,6 +56100,66 @@
       ],
       "aliases": [
         "Vivo-V20-Test-Point-tp-2"
+      ]
+    },
+    {
+      "path": "test-points\\vivo\\Vivo-V20-2-Test-Point-tp-3.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "vivo",
+      "model_key": "V202",
+      "title": "Vivo-V20-2-Test-Point-tp-3",
+      "sha256": "96a4bb0c70c3eb52d4d2da54684dfe2e575261fac26eec2d0bb888640167f6bd",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\vivo\\chimera\\Vivo-V20-Test-Point-tp-2.webp"
+      ],
+      "aliases": [
+        "Vivo-V20-Test-Point-tp-2"
+      ]
+    },
+    {
+      "path": "test-points\\vivo\\Vivo-V20-2-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "vivo",
+      "model_key": "V202",
+      "title": "Vivo-V20-2-Test-Point",
+      "sha256": "755622aa18d7e6d1ed77bbcf43e9b89de5437d662ee06c16868d09cde7891bbf",
+      "width": 760,
+      "height": 514,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\vivo\\chimera\\Vivo-V20-Test-Point.webp"
+      ],
+      "aliases": [
+        "Vivo-V20-Test-Point"
+      ]
+    },
+    {
+      "path": "test-points\\vivo\\Vivo-V20-3-Test-Point-tp-2.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "vivo",
+      "model_key": "V203",
+      "title": "Vivo-V20-3-Test-Point-tp-2",
+      "sha256": "60c624ece241d4463a7969d04834d86281630cb4abf50debad2df8262211ee30",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\vivo\\chimera\\Vivo-V20-Test-Point-tp-3.webp"
+      ],
+      "aliases": [
+        "Vivo-V20-Test-Point-tp-3"
       ]
     },
     {
@@ -55220,6 +56180,46 @@
       ],
       "aliases": [
         "Vivo-V20-Test-Point-tp-3"
+      ]
+    },
+    {
+      "path": "test-points\\vivo\\Vivo-V20-4-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "vivo",
+      "model_key": "V204",
+      "title": "Vivo-V20-4-Test-Point",
+      "sha256": "0d92809a17f8a4989bb6307eaa5f40278357856d6bb14acc8c44abc766439e0f",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\vivo\\chimera\\Vivo-V20-Test-Point-tp-4.webp"
+      ],
+      "aliases": [
+        "Vivo-V20-Test-Point-tp-4"
+      ]
+    },
+    {
+      "path": "test-points\\vivo\\Vivo-V20-5-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "vivo",
+      "model_key": "V205",
+      "title": "Vivo-V20-5-Test-Point",
+      "sha256": "0770cb4b82c0820432dcea84de0ea08149d8655b4f5419c73caea27072bdcddb",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\vivo\\chimera\\Vivo-V20-Test-Point-tp-5.webp"
+      ],
+      "aliases": [
+        "Vivo-V20-Test-Point-tp-5"
       ]
     },
     {
@@ -55289,9 +56289,9 @@
       "brand": "vivo",
       "model_key": "V20",
       "title": "Vivo-V20-Test-Point-tp-2",
-      "sha256": "755622aa18d7e6d1ed77bbcf43e9b89de5437d662ee06c16868d09cde7891bbf",
-      "width": 760,
-      "height": 514,
+      "sha256": "66b3756797447985b126d0b14e058e842824cd0ed294650fb6238046bd3db3fc",
+      "width": 320,
+      "height": 320,
       "sources": [
         "legacy"
       ],
@@ -56783,12 +57783,12 @@
       ]
     },
     {
-      "path": "test-points\\vivo\\Vivo-Xplay-3S-2-Test-Point.webp",
+      "path": "test-points\\vivo\\Vivo-Xplay-3S-2-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "vivo",
       "model_key": "XPLAY3S2",
-      "title": "Vivo-Xplay-3S-2-Test-Point",
+      "title": "Vivo-Xplay-3S-2-Test-Point-tp-2",
       "sha256": "82ab7415e47161485259052ba6f29dc610032078b4e3cd9c20f735b5d0a2dde3",
       "width": 320,
       "height": 320,
@@ -56803,12 +57803,32 @@
       ]
     },
     {
-      "path": "test-points\\vivo\\Vivo-Xplay-3S-3-Test-Point.webp",
+      "path": "test-points\\vivo\\Vivo-Xplay-3S-2-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "vivo",
+      "model_key": "XPLAY3S2",
+      "title": "Vivo-Xplay-3S-2-Test-Point",
+      "sha256": "35c860f8161b7d25129cf5961fd59742b4294ae2ecee62577ae44cd53c43f2ab",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\vivo\\chimera\\Vivo-Xplay-3S-Test-Point-tp-2.webp"
+      ],
+      "aliases": [
+        "Vivo-Xplay-3S-Test-Point-tp-2"
+      ]
+    },
+    {
+      "path": "test-points\\vivo\\Vivo-Xplay-3S-3-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "vivo",
       "model_key": "XPLAY3S3",
-      "title": "Vivo-Xplay-3S-3-Test-Point",
+      "title": "Vivo-Xplay-3S-3-Test-Point-tp-2",
       "sha256": "1e8771f12d24d8ee6dcd15d94a375eb23e669c7143b0479c27a32af13efc803b",
       "width": 320,
       "height": 320,
@@ -56820,6 +57840,46 @@
       ],
       "aliases": [
         "Vivo-Xplay-3S-Test-Point-tp-3"
+      ]
+    },
+    {
+      "path": "test-points\\vivo\\Vivo-Xplay-3S-3-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "vivo",
+      "model_key": "XPLAY3S3",
+      "title": "Vivo-Xplay-3S-3-Test-Point",
+      "sha256": "91eb2d3afced235d6c9a33a94df55505a27e9a44d44142e9f08ca3e7499f55fe",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\vivo\\chimera\\Vivo-Xplay-3S-Test-Point-tp-3.webp"
+      ],
+      "aliases": [
+        "Vivo-Xplay-3S-Test-Point-tp-3"
+      ]
+    },
+    {
+      "path": "test-points\\vivo\\Vivo-Xplay-3S-Test-Point-tp-2.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "vivo",
+      "model_key": "XPLAY3S",
+      "title": "Vivo-Xplay-3S-Test-Point-tp-2",
+      "sha256": "f17b1dc0c670658f0e1a7a1d9d9ad162e327a0ea56707272cbe130f1e43f148c",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\vivo\\chimera\\Vivo-Xplay-3S-Test-Point.webp"
+      ],
+      "aliases": [
+        "Vivo-Xplay-3S-Test-Point"
       ]
     },
     {
@@ -57703,12 +58763,12 @@
       ]
     },
     {
-      "path": "test-points\\vivo\\Vivo-Y21e-2-Test-Point.webp",
+      "path": "test-points\\vivo\\Vivo-Y21e-2-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "vivo",
       "model_key": "Y21E2",
-      "title": "Vivo-Y21e-2-Test-Point",
+      "title": "Vivo-Y21e-2-Test-Point-tp-2",
       "sha256": "f3341bfe00c7310a98974c6f543a8d73cdb1b5e86e25f56e3fec8002d35fe9eb",
       "width": 320,
       "height": 320,
@@ -57720,6 +58780,46 @@
       ],
       "aliases": [
         "Vivo-Y21e-Test-Point-tp-2"
+      ]
+    },
+    {
+      "path": "test-points\\vivo\\Vivo-Y21e-2-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "vivo",
+      "model_key": "Y21E2",
+      "title": "Vivo-Y21e-2-Test-Point",
+      "sha256": "425078ca3cecb304cf05c1d169b69b6a542ff5c56b9d8ddcfc815f4644be3180",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\vivo\\chimera\\Vivo-Y21e-Test-Point-tp-2.webp"
+      ],
+      "aliases": [
+        "Vivo-Y21e-Test-Point-tp-2"
+      ]
+    },
+    {
+      "path": "test-points\\vivo\\Vivo-Y21e-3-Test-Point-tp-2.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "vivo",
+      "model_key": "Y21E3",
+      "title": "Vivo-Y21e-3-Test-Point-tp-2",
+      "sha256": "9c1bd0951eefc4b4d14063e297d64e70dedd2363f5853985c347e8127319eb4c",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\vivo\\chimera\\Vivo-Y21e-Test-Point-tp-3.webp"
+      ],
+      "aliases": [
+        "Vivo-Y21e-Test-Point-tp-3"
       ]
     },
     {
@@ -57740,6 +58840,46 @@
       ],
       "aliases": [
         "Vivo-Y21e-Test-Point-tp-3"
+      ]
+    },
+    {
+      "path": "test-points\\vivo\\Vivo-Y21e-4-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "vivo",
+      "model_key": "Y21E4",
+      "title": "Vivo-Y21e-4-Test-Point",
+      "sha256": "f51ab34ef38d797c750846b13a20eeb671539cf62c54281e7f23d53b559a933b",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\vivo\\chimera\\Vivo-Y21e-Test-Point-tp-4.webp"
+      ],
+      "aliases": [
+        "Vivo-Y21e-Test-Point-tp-4"
+      ]
+    },
+    {
+      "path": "test-points\\vivo\\Vivo-Y21e-Test-Point-tp-2.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "vivo",
+      "model_key": "Y21E",
+      "title": "Vivo-Y21e-Test-Point-tp-2",
+      "sha256": "54694b55c418b5dbc41636923c26fd665992101a40eb3f0026939af7d7ea3e39",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\vivo\\chimera\\Vivo-Y21e-Test-Point.webp"
+      ],
+      "aliases": [
+        "Vivo-Y21e-Test-Point"
       ]
     },
     {
@@ -58743,12 +59883,12 @@
       ]
     },
     {
-      "path": "test-points\\vivo\\Vivo-Y71-2-Test-Point-tp-2.webp",
+      "path": "test-points\\vivo\\Vivo-Y71-2-2-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "vivo",
-      "model_key": "Y712",
-      "title": "Vivo-Y71-2-Test-Point-tp-2",
+      "model_key": "Y7122",
+      "title": "Vivo-Y71-2-2-Test-Point",
       "sha256": "ff0eff2b3664bea01a4993c82237fd92e15b1a49d72b04750b3bd84161f17de6",
       "width": 526,
       "height": 457,
@@ -59103,12 +60243,12 @@
       ]
     },
     {
-      "path": "test-points\\vivo\\Vivo-Y93-2-Test-Point-tp-2.webp",
+      "path": "test-points\\vivo\\Vivo-Y93-2-2-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "vivo",
-      "model_key": "Y932",
-      "title": "Vivo-Y93-2-Test-Point-tp-2",
+      "model_key": "Y9322",
+      "title": "Vivo-Y93-2-2-Test-Point",
       "sha256": "4f5b07dc03305b74a8e318b9df6c1966a9a7d2ce0f5c08714a23b57d6337961b",
       "width": 536,
       "height": 327,
@@ -59303,12 +60443,12 @@
       ]
     },
     {
-      "path": "test-points\\vivo\\Vivo-Z1i-2-Test-Point.webp",
+      "path": "test-points\\vivo\\Vivo-Z1i-2-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "vivo",
       "model_key": "Z1I2",
-      "title": "Vivo-Z1i-2-Test-Point",
+      "title": "Vivo-Z1i-2-Test-Point-tp-2",
       "sha256": "029b897ffd5b68349154e5ad44fe8073378312e2107fb18471f6a0b3c909e26e",
       "width": 320,
       "height": 320,
@@ -59323,12 +60463,32 @@
       ]
     },
     {
-      "path": "test-points\\vivo\\Vivo-Z1i-3-Test-Point.webp",
+      "path": "test-points\\vivo\\Vivo-Z1i-2-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "vivo",
+      "model_key": "Z1I2",
+      "title": "Vivo-Z1i-2-Test-Point",
+      "sha256": "e5bd9038de2f48e2e63141ce29e96b497ef8693a8db064241ac67c8559ae58f5",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\vivo\\chimera\\Vivo-Z1i-Test-Point-tp-2.webp"
+      ],
+      "aliases": [
+        "Vivo-Z1i-Test-Point-tp-2"
+      ]
+    },
+    {
+      "path": "test-points\\vivo\\Vivo-Z1i-3-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "vivo",
       "model_key": "Z1I3",
-      "title": "Vivo-Z1i-3-Test-Point",
+      "title": "Vivo-Z1i-3-Test-Point-tp-2",
       "sha256": "650657e6fbfa562c20b5584dc2d25172ccaa0b1fa9bbd3fa9a34a56d30067818",
       "width": 320,
       "height": 320,
@@ -59340,6 +60500,66 @@
       ],
       "aliases": [
         "Vivo-Z1i-Test-Point-tp-3"
+      ]
+    },
+    {
+      "path": "test-points\\vivo\\Vivo-Z1i-3-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "vivo",
+      "model_key": "Z1I3",
+      "title": "Vivo-Z1i-3-Test-Point",
+      "sha256": "05f62ced4bc5d5ca6354b22de0e08b0e2b7b95cc37a24ee8bb9271c07ca5715c",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\vivo\\chimera\\Vivo-Z1i-Test-Point-tp-3.webp"
+      ],
+      "aliases": [
+        "Vivo-Z1i-Test-Point-tp-3"
+      ]
+    },
+    {
+      "path": "test-points\\vivo\\Vivo-Z1i-4-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "vivo",
+      "model_key": "Z1I4",
+      "title": "Vivo-Z1i-4-Test-Point",
+      "sha256": "443c7557da61a4b99b8d93f9caa2fe4eaa5d69cd96db2e0dfabe01d57305a54a",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\vivo\\chimera\\Vivo-Z1i-Test-Point-tp-4.webp"
+      ],
+      "aliases": [
+        "Vivo-Z1i-Test-Point-tp-4"
+      ]
+    },
+    {
+      "path": "test-points\\vivo\\Vivo-Z1i-Test-Point-tp-2.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "vivo",
+      "model_key": "Z1I",
+      "title": "Vivo-Z1i-Test-Point-tp-2",
+      "sha256": "8509039fb2f71be96a9db01b2426b5a253d28697eed2e40b9bab72fbb4b451bf",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\vivo\\chimera\\Vivo-Z1i-Test-Point.webp"
+      ],
+      "aliases": [
+        "Vivo-Z1i-Test-Point"
       ]
     },
     {
@@ -60003,12 +61223,12 @@
       ]
     },
     {
-      "path": "test-points\\xiaomi\\Xiaomi-15-Ultra-2-Test-Point.webp",
+      "path": "test-points\\xiaomi\\Xiaomi-15-Ultra-2-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "xiaomi",
       "model_key": "15ULTRA2",
-      "title": "Xiaomi-15-Ultra-2-Test-Point",
+      "title": "Xiaomi-15-Ultra-2-Test-Point-tp-2",
       "sha256": "d833b70cf769a090df36bfa6d1d541c545d614d06a57271ce5951dba78cf6efc",
       "width": 320,
       "height": 320,
@@ -60023,12 +61243,32 @@
       ]
     },
     {
-      "path": "test-points\\xiaomi\\Xiaomi-15-Ultra-3-Test-Point.webp",
+      "path": "test-points\\xiaomi\\Xiaomi-15-Ultra-2-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "xiaomi",
+      "model_key": "15ULTRA2",
+      "title": "Xiaomi-15-Ultra-2-Test-Point",
+      "sha256": "5734ed8a68f239c3c23ad3433747e58207348b9077e36dfcafb7c40d0f0e3424",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\xiaomi\\chimera\\Xiaomi-15-Ultra-Test-Point-tp-2.webp"
+      ],
+      "aliases": [
+        "Xiaomi-15-Ultra-Test-Point-tp-2"
+      ]
+    },
+    {
+      "path": "test-points\\xiaomi\\Xiaomi-15-Ultra-3-Test-Point-tp-2.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "xiaomi",
       "model_key": "15ULTRA3",
-      "title": "Xiaomi-15-Ultra-3-Test-Point",
+      "title": "Xiaomi-15-Ultra-3-Test-Point-tp-2",
       "sha256": "5099060ae6eeddaa73935aea90adc1722f28711b9e51cf3ef848762a2337ea3d",
       "width": 320,
       "height": 320,
@@ -60040,6 +61280,86 @@
       ],
       "aliases": [
         "Xiaomi-15-Ultra-Test-Point-tp-3"
+      ]
+    },
+    {
+      "path": "test-points\\xiaomi\\Xiaomi-15-Ultra-3-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "xiaomi",
+      "model_key": "15ULTRA3",
+      "title": "Xiaomi-15-Ultra-3-Test-Point",
+      "sha256": "a87ec670ed9dd72cccc8d28d2558995d084bab054713d487513001b2cdaf8a87",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\xiaomi\\chimera\\Xiaomi-15-Ultra-Test-Point-tp-3.webp"
+      ],
+      "aliases": [
+        "Xiaomi-15-Ultra-Test-Point-tp-3"
+      ]
+    },
+    {
+      "path": "test-points\\xiaomi\\Xiaomi-15-Ultra-4-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "xiaomi",
+      "model_key": "15ULTRA4",
+      "title": "Xiaomi-15-Ultra-4-Test-Point",
+      "sha256": "ed5d9a2cd9221e7e9e8f4d20a2c164f49ac28c3da67f1708c0bb83a3c3bd76b2",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\xiaomi\\chimera\\Xiaomi-15-Ultra-Test-Point-tp-4.webp"
+      ],
+      "aliases": [
+        "Xiaomi-15-Ultra-Test-Point-tp-4"
+      ]
+    },
+    {
+      "path": "test-points\\xiaomi\\Xiaomi-15-Ultra-5-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "xiaomi",
+      "model_key": "15ULTRA5",
+      "title": "Xiaomi-15-Ultra-5-Test-Point",
+      "sha256": "18426edb0f02a13491900103fb563ec07fb1d85978ee8bd6390bec10360710fc",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\xiaomi\\chimera\\Xiaomi-15-Ultra-Test-Point-tp-5.webp"
+      ],
+      "aliases": [
+        "Xiaomi-15-Ultra-Test-Point-tp-5"
+      ]
+    },
+    {
+      "path": "test-points\\xiaomi\\Xiaomi-15-Ultra-Test-Point-tp-2.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "xiaomi",
+      "model_key": "15ULTRA",
+      "title": "Xiaomi-15-Ultra-Test-Point-tp-2",
+      "sha256": "ce795ccafed7eed639a1f106cf222195348637dda820e1c6b3b36f0e5d617954",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\xiaomi\\chimera\\Xiaomi-15-Ultra-Test-Point.webp"
+      ],
+      "aliases": [
+        "Xiaomi-15-Ultra-Test-Point"
       ]
     },
     {
@@ -60803,12 +62123,12 @@
       ]
     },
     {
-      "path": "test-points\\xiaomi\\Xiaomi-Mi-4i-2-Test-Point-tp-2.webp",
+      "path": "test-points\\xiaomi\\Xiaomi-Mi-4i-2-2-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "xiaomi",
-      "model_key": "MI4I2",
-      "title": "Xiaomi-Mi-4i-2-Test-Point-tp-2",
+      "model_key": "MI4I22",
+      "title": "Xiaomi-Mi-4i-2-2-Test-Point",
       "sha256": "19a2254efe65c8dccd54ab65415782786f39c76b8c6af567af5b0099aac0e6a1",
       "width": 320,
       "height": 265,
@@ -60903,12 +62223,12 @@
       ]
     },
     {
-      "path": "test-points\\xiaomi\\Xiaomi-Mi-5-2-Test-Point-tp-2.webp",
+      "path": "test-points\\xiaomi\\Xiaomi-Mi-5-2-2-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "xiaomi",
-      "model_key": "MI52",
-      "title": "Xiaomi-Mi-5-2-Test-Point-tp-2",
+      "model_key": "MI522",
+      "title": "Xiaomi-Mi-5-2-2-Test-Point",
       "sha256": "9d293b196fd0f9efa73d7482545fafc4fcd3cda3dccc21fb08f61ed8b6fc40fd",
       "width": 400,
       "height": 314,
@@ -61783,12 +63103,12 @@
       ]
     },
     {
-      "path": "test-points\\xiaomi\\Xiaomi-Mi-Max-2-2-Test-Point-tp-2.webp",
+      "path": "test-points\\xiaomi\\Xiaomi-Mi-Max-2-2-2-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "xiaomi",
-      "model_key": "MIMAX22",
-      "title": "Xiaomi-Mi-Max-2-2-Test-Point-tp-2",
+      "model_key": "MIMAX222",
+      "title": "Xiaomi-Mi-Max-2-2-2-Test-Point",
       "sha256": "0144e5c6ffafa2d44d7f72f4cfc66120562d9301d3f8bd8ceaae82c38b6ba14b",
       "width": 563,
       "height": 374,
@@ -61800,6 +63120,26 @@
       ],
       "aliases": [
         "Xiaomi-Mi-Max-2-Test-Point-tp-2"
+      ]
+    },
+    {
+      "path": "test-points\\xiaomi\\Xiaomi-Mi-Max-2-2-Test-Point-tp-2.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "xiaomi",
+      "model_key": "MIMAX22",
+      "title": "Xiaomi-Mi-Max-2-2-Test-Point-tp-2",
+      "sha256": "8d0ca769400f0c7928a8c31fc0e246e0cfe523837683c4b5cb3f3e4018d95504",
+      "width": 400,
+      "height": 257,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\xiaomi\\Xiaomi-Mi-Max-Test-Point.webp"
+      ],
+      "aliases": [
+        "Xiaomi-Mi-Max-Test-Point"
       ]
     },
     {
@@ -61840,26 +63180,6 @@
       ],
       "aliases": [
         "Xiaomi-Mi-Max-2-Oxygen-Test-Point"
-      ]
-    },
-    {
-      "path": "test-points\\xiaomi\\Xiaomi-Mi-Max-2-Test-Point-tp-2.webp",
-      "kind": "test-points",
-      "protocol": null,
-      "brand": "xiaomi",
-      "model_key": "MIMAX2",
-      "title": "Xiaomi-Mi-Max-2-Test-Point-tp-2",
-      "sha256": "8d0ca769400f0c7928a8c31fc0e246e0cfe523837683c4b5cb3f3e4018d95504",
-      "width": 400,
-      "height": 257,
-      "sources": [
-        "legacy"
-      ],
-      "original_paths": [
-        "test-points\\xiaomi\\Xiaomi-Mi-Max-Test-Point.webp"
-      ],
-      "aliases": [
-        "Xiaomi-Mi-Max-Test-Point"
       ]
     },
     {
@@ -61983,6 +63303,26 @@
       ]
     },
     {
+      "path": "test-points\\xiaomi\\Xiaomi-Mi-Mix-2-2-Test-Point-tp-2.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "xiaomi",
+      "model_key": "MIMIX22",
+      "title": "Xiaomi-Mi-Mix-2-2-Test-Point-tp-2",
+      "sha256": "1b93748a87e835e0ae54310efaebb543be61a0a806ce8c57ae97148ec9cd543d",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\xiaomi\\chimera\\Xiaomi-Mi-Mix-Test-Point-tp-2.webp"
+      ],
+      "aliases": [
+        "Xiaomi-Mi-Mix-Test-Point-tp-2"
+      ]
+    },
+    {
       "path": "test-points\\xiaomi\\Xiaomi-Mi-MIX-2-2-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
@@ -62029,7 +63369,27 @@
       "brand": "xiaomi",
       "model_key": "MIMIX2",
       "title": "Xiaomi-Mi-Mix-2-Test-Point-tp-2",
-      "sha256": "1b93748a87e835e0ae54310efaebb543be61a0a806ce8c57ae97148ec9cd543d",
+      "sha256": "73f0474858b3afd3b5d8054db8f2de22303b337bde90d283c57c7d0b41f2c347",
+      "width": 452,
+      "height": 242,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\xiaomi\\Xiaomi-Mi-Mix-Test-Point.webp"
+      ],
+      "aliases": [
+        "Xiaomi-Mi-Mix-Test-Point"
+      ]
+    },
+    {
+      "path": "test-points\\xiaomi\\Xiaomi-Mi-Mix-2-Test-Point-tp-3.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "xiaomi",
+      "model_key": "MIMIX2",
+      "title": "Xiaomi-Mi-Mix-2-Test-Point-tp-3",
+      "sha256": "ed89b48f01de37aa8e782977629d931209aeea18965f70fa722fd1193170b7b3",
       "width": 320,
       "height": 320,
       "sources": [
@@ -62123,6 +63483,26 @@
       ]
     },
     {
+      "path": "test-points\\xiaomi\\Xiaomi-Mi-Mix-3-Test-Point-tp-2.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "xiaomi",
+      "model_key": "MIMIX3",
+      "title": "Xiaomi-Mi-Mix-3-Test-Point-tp-2",
+      "sha256": "ae35cdab02a161dc79600e2cbd50e1f0c0ef31d85b5b147498a199f64b99c800",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\xiaomi\\chimera\\Xiaomi-Mi-Mix-Test-Point-tp-3.webp"
+      ],
+      "aliases": [
+        "Xiaomi-Mi-Mix-Test-Point-tp-3"
+      ]
+    },
+    {
       "path": "test-points\\xiaomi\\Xiaomi-Mi-Mix-3-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
@@ -62140,6 +63520,46 @@
       ],
       "aliases": [
         "Xiaomi-Mi-Mix-3-Test-Point"
+      ]
+    },
+    {
+      "path": "test-points\\xiaomi\\Xiaomi-Mi-Mix-4-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "xiaomi",
+      "model_key": "MIMIX4",
+      "title": "Xiaomi-Mi-Mix-4-Test-Point",
+      "sha256": "1b7995f59c79d0534b8e3bb088fdb080cb56371fcc2e7cfb8db81a5c983d99cc",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\xiaomi\\chimera\\Xiaomi-Mi-Mix-Test-Point-tp-4.webp"
+      ],
+      "aliases": [
+        "Xiaomi-Mi-Mix-Test-Point-tp-4"
+      ]
+    },
+    {
+      "path": "test-points\\xiaomi\\Xiaomi-Mi-Mix-5-Test-Point.webp",
+      "kind": "test-points",
+      "protocol": null,
+      "brand": "xiaomi",
+      "model_key": "MIMIX5",
+      "title": "Xiaomi-Mi-Mix-5-Test-Point",
+      "sha256": "9cc61e889ab11ab26264eee8be45cfe183a604949174908bb69b1114641c9d99",
+      "width": 320,
+      "height": 320,
+      "sources": [
+        "legacy"
+      ],
+      "original_paths": [
+        "test-points\\xiaomi\\chimera\\Xiaomi-Mi-Mix-Test-Point-tp-5.webp"
+      ],
+      "aliases": [
+        "Xiaomi-Mi-Mix-Test-Point-tp-5"
       ]
     },
     {
@@ -62169,14 +63589,14 @@
       "brand": "xiaomi",
       "model_key": "MIMIX",
       "title": "Xiaomi-Mi-Mix-Test-Point-tp-2",
-      "sha256": "73f0474858b3afd3b5d8054db8f2de22303b337bde90d283c57c7d0b41f2c347",
-      "width": 452,
-      "height": 242,
+      "sha256": "b0abf54b40acae184a3eb7aeb59c4d0fe54bb3ef95bda4ef866bf2bb6e117e57",
+      "width": 320,
+      "height": 320,
       "sources": [
         "legacy"
       ],
       "original_paths": [
-        "test-points\\xiaomi\\Xiaomi-Mi-Mix-Test-Point.webp"
+        "test-points\\xiaomi\\chimera\\Xiaomi-Mi-Mix-Test-Point.webp"
       ],
       "aliases": [
         "Xiaomi-Mi-Mix-Test-Point"
@@ -63623,12 +65043,12 @@
       ]
     },
     {
-      "path": "test-points\\xiaomi\\Xiaomi-Redmi-2-2-Test-Point-tp-2.webp",
+      "path": "test-points\\xiaomi\\Xiaomi-Redmi-2-2-2-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "xiaomi",
-      "model_key": "REDMI22",
-      "title": "Xiaomi-Redmi-2-2-Test-Point-tp-2",
+      "model_key": "REDMI222",
+      "title": "Xiaomi-Redmi-2-2-2-Test-Point",
       "sha256": "4694c9bdaef86eee3d8980d61affaf611cb1564db51eddadc742f4420602cbb4",
       "width": 480,
       "height": 327,
@@ -63723,12 +65143,12 @@
       ]
     },
     {
-      "path": "test-points\\xiaomi\\Xiaomi-Redmi-3-2-Test-Point-tp-2.webp",
+      "path": "test-points\\xiaomi\\Xiaomi-Redmi-3-2-2-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "xiaomi",
-      "model_key": "REDMI32",
-      "title": "Xiaomi-Redmi-3-2-Test-Point-tp-2",
+      "model_key": "REDMI322",
+      "title": "Xiaomi-Redmi-3-2-2-Test-Point",
       "sha256": "5fa1fdcbbe580a77df622627d0a174d87eea1f765a773000f2b28c05256d3dcf",
       "width": 533,
       "height": 427,
@@ -63863,12 +65283,12 @@
       ]
     },
     {
-      "path": "test-points\\xiaomi\\Xiaomi-Redmi-4-2-Test-Point-tp-2.webp",
+      "path": "test-points\\xiaomi\\Xiaomi-Redmi-4-2-2-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "xiaomi",
-      "model_key": "REDMI42",
-      "title": "Xiaomi-Redmi-4-2-Test-Point-tp-2",
+      "model_key": "REDMI422",
+      "title": "Xiaomi-Redmi-4-2-2-Test-Point",
       "sha256": "ac3750830e859ac7497bf0b89fb467c039fe1a00664861228d3b9dea5a8340bc",
       "width": 272,
       "height": 283,
@@ -64123,12 +65543,12 @@
       ]
     },
     {
-      "path": "test-points\\xiaomi\\Xiaomi-Redmi-5-Plus-2-Test-Point-tp-2.webp",
+      "path": "test-points\\xiaomi\\Xiaomi-Redmi-5-Plus-2-2-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "xiaomi",
-      "model_key": "REDMI5PLUS2",
-      "title": "Xiaomi-Redmi-5-Plus-2-Test-Point-tp-2",
+      "model_key": "REDMI5PLUS22",
+      "title": "Xiaomi-Redmi-5-Plus-2-2-Test-Point",
       "sha256": "04405c261ac1f70bcfa44dfae273a7a86bfa733143945b4bc46a2d475f0ae2e1",
       "width": 719,
       "height": 523,
@@ -64243,12 +65663,12 @@
       ]
     },
     {
-      "path": "test-points\\xiaomi\\Xiaomi-Redmi-5A-2-Test-Point-tp-2.webp",
+      "path": "test-points\\xiaomi\\Xiaomi-Redmi-5A-2-2-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "xiaomi",
-      "model_key": "REDMI5A2",
-      "title": "Xiaomi-Redmi-5A-2-Test-Point-tp-2",
+      "model_key": "REDMI5A22",
+      "title": "Xiaomi-Redmi-5A-2-2-Test-Point",
       "sha256": "172e374fd2ab72b1c5027ea9855a1d16c2c039c86d6c09540b274987dc5d164d",
       "width": 760,
       "height": 514,
@@ -65003,12 +66423,12 @@
       ]
     },
     {
-      "path": "test-points\\xiaomi\\Xiaomi-Redmi-K20-2-Test-Point-tp-2.webp",
+      "path": "test-points\\xiaomi\\Xiaomi-Redmi-K20-2-2-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "xiaomi",
-      "model_key": "REDMIK202",
-      "title": "Xiaomi-Redmi-K20-2-Test-Point-tp-2",
+      "model_key": "REDMIK2022",
+      "title": "Xiaomi-Redmi-K20-2-2-Test-Point",
       "sha256": "8f2dec9a9c64e2bc781becede9d57bc21eaa06c4926e135d98ac4e9e93480c5d",
       "width": 760,
       "height": 514,
@@ -66123,12 +67543,12 @@
       ]
     },
     {
-      "path": "test-points\\xiaomi\\Xiaomi-Redmi-Note-3-2-Test-Point-tp-2.webp",
+      "path": "test-points\\xiaomi\\Xiaomi-Redmi-Note-3-2-2-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "xiaomi",
-      "model_key": "REDMINOTE32",
-      "title": "Xiaomi-Redmi-Note-3-2-Test-Point-tp-2",
+      "model_key": "REDMINOTE322",
+      "title": "Xiaomi-Redmi-Note-3-2-2-Test-Point",
       "sha256": "290b795a9843fdee92b0dfae269819bf8f09973cd588d95390ebc5a76d998650",
       "width": 450,
       "height": 506,
@@ -66323,12 +67743,12 @@
       ]
     },
     {
-      "path": "test-points\\xiaomi\\Xiaomi-Redmi-Note-4X-2-Test-Point-tp-2.webp",
+      "path": "test-points\\xiaomi\\Xiaomi-Redmi-Note-4X-2-2-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "xiaomi",
-      "model_key": "REDMINOTE4X2",
-      "title": "Xiaomi-Redmi-Note-4X-2-Test-Point-tp-2",
+      "model_key": "REDMINOTE4X22",
+      "title": "Xiaomi-Redmi-Note-4X-2-2-Test-Point",
       "sha256": "c802a44759939c48fd4cdbdb9019b0bc3fa23d861847bd7849011662092613fa",
       "width": 378,
       "height": 294,
@@ -66683,12 +68103,12 @@
       ]
     },
     {
-      "path": "test-points\\xiaomi\\Xiaomi-Redmi-Note-8-2-Test-Point-tp-2.webp",
+      "path": "test-points\\xiaomi\\Xiaomi-Redmi-Note-8-2-2-Test-Point.webp",
       "kind": "test-points",
       "protocol": null,
       "brand": "xiaomi",
-      "model_key": "REDMINOTE82",
-      "title": "Xiaomi-Redmi-Note-8-2-Test-Point-tp-2",
+      "model_key": "REDMINOTE822",
+      "title": "Xiaomi-Redmi-Note-8-2-2-Test-Point",
       "sha256": "5ff0ccbfda8e3e00a64b646c5eb36759b03e6e0fe04f262d810bf82b55db36ec",
       "width": 760,
       "height": 516,
