@@ -23,11 +23,20 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Prove workflow started
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          printf 'started=%s\nsource=%s\n' "$(date -u +%Y-%m-%dT%H:%M:%SZ)" "$GITHUB_SHA" > clean-build-running.txt
+          git add clean-build-running.txt
+          git commit -m "clean: mark derivative build running"
+          git push origin HEAD:main
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-          cache: pip
 
       - name: Install cleanup dependencies
         run: python -m pip install --disable-pip-version-check opencv-python-headless numpy pillow
@@ -63,12 +72,8 @@ jobs:
       - name: Commit clean library
         shell: bash
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -- clean assets/clean-brand-ghost.webp
-          if git diff --cached --quiet; then
-            echo "Clean library already current."
-            exit 0
+          if ! git diff --cached --quiet; then
+            git commit -m "clean: add verified watermark-reduced test point library"
+            git push origin HEAD:main
           fi
-          git commit -m "clean: add verified watermark-reduced test point library"
-          git push origin HEAD:main
