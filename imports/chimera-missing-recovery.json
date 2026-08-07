@@ -1,0 +1,206 @@
+{
+  "schemaVersion": "testpoints-verse.chimera-missing-recovery.v1",
+  "completedAt": "2026-08-07T08:26:13.312Z",
+  "requested": 15,
+  "recovered": 15,
+  "duplicateExisting": 0,
+  "failed": 0,
+  "results": [
+    {
+      "brand": "huawei",
+      "model": "Huawei Nova",
+      "url": "https://chimeratool.com/en/test-points/1537-test-point-for-huawei-nova-models.html",
+      "status": "recovered",
+      "files": [
+        "test-points/huawei/chimera/Huawei-Nova-Test-Point.webp",
+        "test-points/huawei/chimera/Huawei-Nova-Test-Point-tp-2.webp",
+        "test-points/huawei/chimera/Huawei-Nova-Test-Point-tp-3.webp"
+      ],
+      "duplicates": [],
+      "errors": []
+    },
+    {
+      "brand": "huawei",
+      "model": "Huawei Honor 8X",
+      "url": "https://chimeratool.com/en/test-points/943-test-point-for-huawei-honor-8x-models.html",
+      "status": "recovered",
+      "files": [
+        "test-points/huawei/chimera/Huawei-Honor-8X-Test-Point.webp",
+        "test-points/huawei/chimera/Huawei-Honor-8X-Test-Point-tp-2.webp",
+        "test-points/huawei/chimera/Huawei-Honor-8X-Test-Point-tp-3.webp"
+      ],
+      "duplicates": [],
+      "errors": []
+    },
+    {
+      "brand": "huawei",
+      "model": "Huawei Nova 2 Dual",
+      "url": "https://chimeratool.com/en/test-points/1429-test-point-for-huawei-nova-2-dual-models.html",
+      "status": "recovered",
+      "files": [
+        "test-points/huawei/chimera/Huawei-Nova-2-Dual-Test-Point.webp",
+        "test-points/huawei/chimera/Huawei-Nova-2-Dual-Test-Point-tp-2.webp",
+        "test-points/huawei/chimera/Huawei-Nova-2-Dual-Test-Point-tp-3.webp"
+      ],
+      "duplicates": [],
+      "errors": []
+    },
+    {
+      "brand": "lenovo",
+      "model": "Lenovo Pad Pro 12.7",
+      "url": "https://chimeratool.com/en/test-points/1628-test-point-for-lenovo-pad-pro-127-models.html",
+      "status": "recovered",
+      "files": [
+        "test-points/lenovo/chimera/Lenovo-Pad-Pro-12.7-Test-Point.webp",
+        "test-points/lenovo/chimera/Lenovo-Pad-Pro-12.7-Test-Point-tp-2.webp",
+        "test-points/lenovo/chimera/Lenovo-Pad-Pro-12.7-Test-Point-tp-3.webp"
+      ],
+      "duplicates": [],
+      "errors": []
+    },
+    {
+      "brand": "lenovo",
+      "model": "Lenovo Tab P11",
+      "url": "https://chimeratool.com/en/test-points/1428-test-point-for-lenovo-tab-p11-models.html",
+      "status": "recovered",
+      "files": [
+        "test-points/lenovo/chimera/Lenovo-Tab-P11-Test-Point.webp",
+        "test-points/lenovo/chimera/Lenovo-Tab-P11-Test-Point-tp-2.webp",
+        "test-points/lenovo/chimera/Lenovo-Tab-P11-Test-Point-tp-3.webp"
+      ],
+      "duplicates": [],
+      "errors": []
+    },
+    {
+      "brand": "realme",
+      "model": "Realme 12 Pro",
+      "url": "https://chimeratool.com/en/test-points/1694-test-point-for-realme-12-pro-models.html",
+      "status": "recovered",
+      "files": [
+        "test-points/realme/chimera/Realme-12-Pro-Test-Point.webp",
+        "test-points/realme/chimera/Realme-12-Pro-Test-Point-tp-2.webp",
+        "test-points/realme/chimera/Realme-12-Pro-Test-Point-tp-3.webp"
+      ],
+      "duplicates": [],
+      "errors": []
+    },
+    {
+      "brand": "vivo",
+      "model": "Vivo Xplay 3S",
+      "url": "https://chimeratool.com/en/test-points/1673-test-point-for-vivo-xplay-3s-models.html",
+      "status": "recovered",
+      "files": [
+        "test-points/vivo/chimera/Vivo-Xplay-3S-Test-Point.webp",
+        "test-points/vivo/chimera/Vivo-Xplay-3S-Test-Point-tp-2.webp",
+        "test-points/vivo/chimera/Vivo-Xplay-3S-Test-Point-tp-3.webp"
+      ],
+      "duplicates": [],
+      "errors": []
+    },
+    {
+      "brand": "vivo",
+      "model": "Vivo Z1i",
+      "url": "https://chimeratool.com/en/test-points/1650-test-point-for-vivo-z1i-models.html",
+      "status": "recovered",
+      "files": [
+        "test-points/vivo/chimera/Vivo-Z1i-Test-Point.webp",
+        "test-points/vivo/chimera/Vivo-Z1i-Test-Point-tp-2.webp",
+        "test-points/vivo/chimera/Vivo-Z1i-Test-Point-tp-3.webp"
+      ],
+      "duplicates": [],
+      "errors": []
+    },
+    {
+      "brand": "vivo",
+      "model": "Vivo V20",
+      "url": "https://chimeratool.com/en/test-points/256-test-point-for-vivo-v20-models.html",
+      "status": "recovered",
+      "files": [
+        "test-points/vivo/chimera/Vivo-V20-Test-Point.webp",
+        "test-points/vivo/chimera/Vivo-V20-Test-Point-tp-2.webp",
+        "test-points/vivo/chimera/Vivo-V20-Test-Point-tp-3.webp"
+      ],
+      "duplicates": [],
+      "errors": []
+    },
+    {
+      "brand": "vivo",
+      "model": "Vivo Y21e",
+      "url": "https://chimeratool.com/en/test-points/1592-test-point-for-vivo-y21e-models.html",
+      "status": "recovered",
+      "files": [
+        "test-points/vivo/chimera/Vivo-Y21e-Test-Point.webp",
+        "test-points/vivo/chimera/Vivo-Y21e-Test-Point-tp-2.webp",
+        "test-points/vivo/chimera/Vivo-Y21e-Test-Point-tp-3.webp"
+      ],
+      "duplicates": [
+        "test-points/vivo/chimera/Vivo-Xplay-3S-Test-Point-tp-3.webp"
+      ],
+      "errors": []
+    },
+    {
+      "brand": "samsung",
+      "model": "Samsung Galaxy M14 5G",
+      "url": "https://chimeratool.com/en/test-points/51-test-point-for-samsung-galaxy-m14-5g-models.html",
+      "status": "recovered",
+      "files": [
+        "test-points/samsung/chimera/Samsung-Galaxy-M14-5G-Test-Point.webp",
+        "test-points/samsung/chimera/Samsung-Galaxy-M14-5G-Test-Point-tp-2.webp",
+        "test-points/samsung/chimera/Samsung-Galaxy-M14-5G-Test-Point-tp-3.webp"
+      ],
+      "duplicates": [],
+      "errors": []
+    },
+    {
+      "brand": "samsung",
+      "model": "Samsung Galaxy Tab A 8.0 (2019) Wi-Fi",
+      "url": "https://chimeratool.com/en/test-points/779-test-point-for-samsung-galaxy-tab-a-80-2019-wifi-models.html",
+      "status": "recovered",
+      "files": [
+        "test-points/samsung/chimera/Samsung-Galaxy-Tab-A-8.0-(2019)-Wi-Fi-Test-Point.webp",
+        "test-points/samsung/chimera/Samsung-Galaxy-Tab-A-8.0-(2019)-Wi-Fi-Test-Point-tp-2.webp",
+        "test-points/samsung/chimera/Samsung-Galaxy-Tab-A-8.0-(2019)-Wi-Fi-Test-Point-tp-3.webp"
+      ],
+      "duplicates": [],
+      "errors": []
+    },
+    {
+      "brand": "samsung",
+      "model": "Samsung Galaxy A25 5G",
+      "url": "https://chimeratool.com/en/test-points/1553-test-point-for-samsung-galaxy-a25-5g-models.html",
+      "status": "recovered",
+      "files": [
+        "test-points/samsung/chimera/Samsung-Galaxy-A25-5G-Test-Point.webp",
+        "test-points/samsung/chimera/Samsung-Galaxy-A25-5G-Test-Point-tp-2.webp",
+        "test-points/samsung/chimera/Samsung-Galaxy-A25-5G-Test-Point-tp-3.webp"
+      ],
+      "duplicates": [],
+      "errors": []
+    },
+    {
+      "brand": "xiaomi",
+      "model": "Xiaomi Mi Mix",
+      "url": "https://chimeratool.com/en/test-points/356-test-point-for-xiaomi-mi-mix-models.html",
+      "status": "recovered",
+      "files": [
+        "test-points/xiaomi/chimera/Xiaomi-Mi-Mix-Test-Point.webp",
+        "test-points/xiaomi/chimera/Xiaomi-Mi-Mix-Test-Point-tp-2.webp"
+      ],
+      "duplicates": [],
+      "errors": []
+    },
+    {
+      "brand": "xiaomi",
+      "model": "Xiaomi 15 Ultra",
+      "url": "https://chimeratool.com/en/test-points/1551-test-point-for-xiaomi-15-ultra-models.html",
+      "status": "recovered",
+      "files": [
+        "test-points/xiaomi/chimera/Xiaomi-15-Ultra-Test-Point.webp",
+        "test-points/xiaomi/chimera/Xiaomi-15-Ultra-Test-Point-tp-2.webp",
+        "test-points/xiaomi/chimera/Xiaomi-15-Ultra-Test-Point-tp-3.webp"
+      ],
+      "duplicates": [],
+      "errors": []
+    }
+  ]
+}
